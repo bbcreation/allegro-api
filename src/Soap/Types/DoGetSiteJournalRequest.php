@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetSiteJournalRequest
 {
@@ -42,7 +42,7 @@ class DoGetSiteJournalRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoGetSiteJournalRequest
+     * @return \bbcreation\AllegroApi\DoGetSiteJournalRequest
      */
     public function setSessionHandle($sessionHandle)
     {
@@ -60,7 +60,7 @@ class DoGetSiteJournalRequest
 
     /**
      * @param int $startingPoint
-     * @return \Ircykk\AllegroApi\DoGetSiteJournalRequest
+     * @return \bbcreation\AllegroApi\DoGetSiteJournalRequest
      */
     public function setStartingPoint($startingPoint)
     {
@@ -78,7 +78,7 @@ class DoGetSiteJournalRequest
 
     /**
      * @param int $infoType
-     * @return \Ircykk\AllegroApi\DoGetSiteJournalRequest
+     * @return \bbcreation\AllegroApi\DoGetSiteJournalRequest
      */
     public function setInfoType($infoType)
     {

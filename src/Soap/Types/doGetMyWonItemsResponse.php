@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetMyWonItemsResponse
 {
@@ -35,7 +35,7 @@ class doGetMyWonItemsResponse
 
     /**
      * @param int $wonItemsCounter
-     * @return \Ircykk\AllegroApi\doGetMyWonItemsResponse
+     * @return \bbcreation\AllegroApi\doGetMyWonItemsResponse
      */
     public function setWonItemsCounter($wonItemsCounter)
     {
@@ -53,7 +53,7 @@ class doGetMyWonItemsResponse
 
     /**
      * @param ArrayOfWonitemstruct $wonItemsList
-     * @return \Ircykk\AllegroApi\doGetMyWonItemsResponse
+     * @return \bbcreation\AllegroApi\doGetMyWonItemsResponse
      */
     public function setWonItemsList($wonItemsList)
     {

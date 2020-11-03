@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetItemsInfoResponse
 {
@@ -42,7 +42,7 @@ class doGetItemsInfoResponse
 
     /**
      * @param ArrayOfIteminfostruct $arrayItemListInfo
-     * @return \Ircykk\AllegroApi\doGetItemsInfoResponse
+     * @return \bbcreation\AllegroApi\doGetItemsInfoResponse
      */
     public function setArrayItemListInfo($arrayItemListInfo)
     {
@@ -60,7 +60,7 @@ class doGetItemsInfoResponse
 
     /**
      * @param ArrayOfLong $arrayItemsNotFound
-     * @return \Ircykk\AllegroApi\doGetItemsInfoResponse
+     * @return \bbcreation\AllegroApi\doGetItemsInfoResponse
      */
     public function setArrayItemsNotFound($arrayItemsNotFound)
     {
@@ -78,7 +78,7 @@ class doGetItemsInfoResponse
 
     /**
      * @param ArrayOfLong $arrayItemsAdminKilled
-     * @return \Ircykk\AllegroApi\doGetItemsInfoResponse
+     * @return \bbcreation\AllegroApi\doGetItemsInfoResponse
      */
     public function setArrayItemsAdminKilled($arrayItemsAdminKilled)
     {

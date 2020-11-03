@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class RangeDateValueStruct
 {
@@ -31,7 +31,7 @@ class RangeDateValueStruct
 
     /**
      * @param string $fvalueRangeDateMin
-     * @return \Ircykk\AllegroApi\RangeDateValueStruct
+     * @return \bbcreation\AllegroApi\RangeDateValueStruct
      */
     public function setFvalueRangeDateMin($fvalueRangeDateMin)
     {
@@ -49,7 +49,7 @@ class RangeDateValueStruct
 
     /**
      * @param string $fvalueRangeDateMax
-     * @return \Ircykk\AllegroApi\RangeDateValueStruct
+     * @return \bbcreation\AllegroApi\RangeDateValueStruct
      */
     public function setFvalueRangeDateMax($fvalueRangeDateMax)
     {

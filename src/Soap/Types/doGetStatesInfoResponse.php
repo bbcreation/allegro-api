@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetStatesInfoResponse
 {
@@ -28,7 +28,7 @@ class doGetStatesInfoResponse
 
     /**
      * @param ArrayOfStateinfostruct $statesInfoArray
-     * @return \Ircykk\AllegroApi\doGetStatesInfoResponse
+     * @return \bbcreation\AllegroApi\doGetStatesInfoResponse
      */
     public function setStatesInfoArray($statesInfoArray)
     {

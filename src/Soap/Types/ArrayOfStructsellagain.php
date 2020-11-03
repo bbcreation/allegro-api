@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfStructsellagain implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfStructsellagain implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param StructSellAgain[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfStructsellagain
+     * @return \bbcreation\AllegroApi\ArrayOfStructsellagain
      */
     public function setItem(array $item = null)
     {

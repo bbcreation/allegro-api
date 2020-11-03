@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoRequestCancelBidRequest
 {
@@ -42,7 +42,7 @@ class DoRequestCancelBidRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoRequestCancelBidRequest
+     * @return \bbcreation\AllegroApi\DoRequestCancelBidRequest
      */
     public function setSessionHandle($sessionHandle)
     {
@@ -60,7 +60,7 @@ class DoRequestCancelBidRequest
 
     /**
      * @param int $requestItemId
-     * @return \Ircykk\AllegroApi\DoRequestCancelBidRequest
+     * @return \bbcreation\AllegroApi\DoRequestCancelBidRequest
      */
     public function setRequestItemId($requestItemId)
     {
@@ -78,7 +78,7 @@ class DoRequestCancelBidRequest
 
     /**
      * @param string $requestCancelReason
-     * @return \Ircykk\AllegroApi\DoRequestCancelBidRequest
+     * @return \bbcreation\AllegroApi\DoRequestCancelBidRequest
      */
     public function setRequestCancelReason($requestCancelReason)
     {

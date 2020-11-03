@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArchiveRefundsListTypeStruct
 {
@@ -42,7 +42,7 @@ class ArchiveRefundsListTypeStruct
 
     /**
      * @param int $refundId
-     * @return \Ircykk\AllegroApi\ArchiveRefundsListTypeStruct
+     * @return \bbcreation\AllegroApi\ArchiveRefundsListTypeStruct
      */
     public function setRefundId($refundId)
     {
@@ -60,7 +60,7 @@ class ArchiveRefundsListTypeStruct
 
     /**
      * @param int $buyerId
-     * @return \Ircykk\AllegroApi\ArchiveRefundsListTypeStruct
+     * @return \bbcreation\AllegroApi\ArchiveRefundsListTypeStruct
      */
     public function setBuyerId($buyerId)
     {
@@ -78,7 +78,7 @@ class ArchiveRefundsListTypeStruct
 
     /**
      * @param string $buyerLogin
-     * @return \Ircykk\AllegroApi\ArchiveRefundsListTypeStruct
+     * @return \bbcreation\AllegroApi\ArchiveRefundsListTypeStruct
      */
     public function setBuyerLogin($buyerLogin)
     {

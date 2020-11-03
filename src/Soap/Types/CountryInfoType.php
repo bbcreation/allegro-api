@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class CountryInfoType
 {
@@ -35,7 +35,7 @@ class CountryInfoType
 
     /**
      * @param int $countryId
-     * @return \Ircykk\AllegroApi\CountryInfoType
+     * @return \bbcreation\AllegroApi\CountryInfoType
      */
     public function setCountryId($countryId)
     {
@@ -53,7 +53,7 @@ class CountryInfoType
 
     /**
      * @param string $countryName
-     * @return \Ircykk\AllegroApi\CountryInfoType
+     * @return \bbcreation\AllegroApi\CountryInfoType
      */
     public function setCountryName($countryName)
     {

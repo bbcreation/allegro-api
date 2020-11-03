@@ -5,7 +5,7 @@
  * First "refresh_token" is valid for 365 days so every one year we must re-authenticate our client.
  */
 
-use Ircykk\AllegroApi\Client;
+use bbcreation\AllegroApi\Client;
 
 include_once __DIR__.'/credentials.php';
 include_once __DIR__.'/token.php';

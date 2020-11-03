@@ -1,13 +1,13 @@
 <?php
 
-namespace Ircykk\AllegroApi\Auth;
+namespace bbcreation\AllegroApi\Auth;
 
 use Http\Client\HttpClient;
 
 /**
  * Interface AuthInterface.
  *
- * @package Ircykk\AllegroApi\Auth
+ * @package bbcreation\AllegroApi\Auth
  */
 interface AuthInterface
 {

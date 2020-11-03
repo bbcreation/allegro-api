@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfSellformtype implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfSellformtype implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param SellFormType[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfSellformtype
+     * @return \bbcreation\AllegroApi\ArrayOfSellformtype
      */
     public function setItem(array $item = null)
     {

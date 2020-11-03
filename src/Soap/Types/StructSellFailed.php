@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class StructSellFailed
 {
@@ -42,7 +42,7 @@ class StructSellFailed
 
     /**
      * @param int $sellItemId
-     * @return \Ircykk\AllegroApi\StructSellFailed
+     * @return \bbcreation\AllegroApi\StructSellFailed
      */
     public function setSellItemId($sellItemId)
     {
@@ -60,7 +60,7 @@ class StructSellFailed
 
     /**
      * @param string $sellFaultCode
-     * @return \Ircykk\AllegroApi\StructSellFailed
+     * @return \bbcreation\AllegroApi\StructSellFailed
      */
     public function setSellFaultCode($sellFaultCode)
     {
@@ -78,7 +78,7 @@ class StructSellFailed
 
     /**
      * @param string $sellFaultString
-     * @return \Ircykk\AllegroApi\StructSellFailed
+     * @return \bbcreation\AllegroApi\StructSellFailed
      */
     public function setSellFaultString($sellFaultString)
     {

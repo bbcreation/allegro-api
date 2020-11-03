@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class RangeValueType
 {
@@ -31,7 +31,7 @@ class RangeValueType
 
     /**
      * @param string $rangeValueMin
-     * @return \Ircykk\AllegroApi\RangeValueType
+     * @return \bbcreation\AllegroApi\RangeValueType
      */
     public function setRangeValueMin($rangeValueMin)
     {
@@ -49,7 +49,7 @@ class RangeValueType
 
     /**
      * @param string $rangeValueMax
-     * @return \Ircykk\AllegroApi\RangeValueType
+     * @return \bbcreation\AllegroApi\RangeValueType
      */
     public function setRangeValueMax($rangeValueMax)
     {

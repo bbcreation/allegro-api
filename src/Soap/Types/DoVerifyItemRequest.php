@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoVerifyItemRequest
 {
@@ -35,7 +35,7 @@ class DoVerifyItemRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoVerifyItemRequest
+     * @return \bbcreation\AllegroApi\DoVerifyItemRequest
      */
     public function setSessionHandle($sessionHandle)
     {
@@ -53,7 +53,7 @@ class DoVerifyItemRequest
 
     /**
      * @param int $localId
-     * @return \Ircykk\AllegroApi\DoVerifyItemRequest
+     * @return \bbcreation\AllegroApi\DoVerifyItemRequest
      */
     public function setLocalId($localId)
     {

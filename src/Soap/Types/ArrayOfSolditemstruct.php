@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfSolditemstruct implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfSolditemstruct implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param SoldItemStruct[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfSolditemstruct
+     * @return \bbcreation\AllegroApi\ArrayOfSolditemstruct
      */
     public function setItem(array $item = null)
     {

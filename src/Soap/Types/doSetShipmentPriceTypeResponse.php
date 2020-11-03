@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doSetShipmentPriceTypeResponse
 {
@@ -28,7 +28,7 @@ class doSetShipmentPriceTypeResponse
 
     /**
      * @param int $operationResult
-     * @return \Ircykk\AllegroApi\doSetShipmentPriceTypeResponse
+     * @return \bbcreation\AllegroApi\doSetShipmentPriceTypeResponse
      */
     public function setOperationResult($operationResult)
     {

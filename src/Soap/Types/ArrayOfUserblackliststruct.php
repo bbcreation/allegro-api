@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfUserblackliststruct implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfUserblackliststruct implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param UserBlackListStruct[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfUserblackliststruct
+     * @return \bbcreation\AllegroApi\ArrayOfUserblackliststruct
      */
     public function setItem(array $item = null)
     {

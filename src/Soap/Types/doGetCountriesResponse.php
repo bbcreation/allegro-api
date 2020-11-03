@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetCountriesResponse
 {
@@ -28,7 +28,7 @@ class doGetCountriesResponse
 
     /**
      * @param ArrayOfCountryinfotype $countryArray
-     * @return \Ircykk\AllegroApi\doGetCountriesResponse
+     * @return \bbcreation\AllegroApi\doGetCountriesResponse
      */
     public function setCountryArray($countryArray)
     {

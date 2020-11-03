@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoSendEmailToUserRequest
 {
@@ -63,7 +63,7 @@ class DoSendEmailToUserRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoSendEmailToUserRequest
+     * @return \bbcreation\AllegroApi\DoSendEmailToUserRequest
      */
     public function setSessionHandle($sessionHandle)
     {
@@ -81,7 +81,7 @@ class DoSendEmailToUserRequest
 
     /**
      * @param int $mailToUserItemId
-     * @return \Ircykk\AllegroApi\DoSendEmailToUserRequest
+     * @return \bbcreation\AllegroApi\DoSendEmailToUserRequest
      */
     public function setMailToUserItemId($mailToUserItemId)
     {
@@ -99,7 +99,7 @@ class DoSendEmailToUserRequest
 
     /**
      * @param int $mailToUserReceiverId
-     * @return \Ircykk\AllegroApi\DoSendEmailToUserRequest
+     * @return \bbcreation\AllegroApi\DoSendEmailToUserRequest
      */
     public function setMailToUserReceiverId($mailToUserReceiverId)
     {
@@ -117,7 +117,7 @@ class DoSendEmailToUserRequest
 
     /**
      * @param int $mailToUserSubjectId
-     * @return \Ircykk\AllegroApi\DoSendEmailToUserRequest
+     * @return \bbcreation\AllegroApi\DoSendEmailToUserRequest
      */
     public function setMailToUserSubjectId($mailToUserSubjectId)
     {
@@ -135,7 +135,7 @@ class DoSendEmailToUserRequest
 
     /**
      * @param int $mailToUserOption
-     * @return \Ircykk\AllegroApi\DoSendEmailToUserRequest
+     * @return \bbcreation\AllegroApi\DoSendEmailToUserRequest
      */
     public function setMailToUserOption($mailToUserOption)
     {
@@ -153,7 +153,7 @@ class DoSendEmailToUserRequest
 
     /**
      * @param string $mailToUserMessage
-     * @return \Ircykk\AllegroApi\DoSendEmailToUserRequest
+     * @return \bbcreation\AllegroApi\DoSendEmailToUserRequest
      */
     public function setMailToUserMessage($mailToUserMessage)
     {

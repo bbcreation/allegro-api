@@ -1,13 +1,13 @@
 <?php
 
-namespace Ircykk\AllegroApi\SoapClient;
+namespace bbcreation\AllegroApi\SoapClient;
 
-use Ircykk\AllegroApi\SoapClient;
+use bbcreation\AllegroApi\SoapClient;
 
 /**
  * Class SoapClientBuilder.
  *
- * @package Ircykk\AllegroApi\SoapClient
+ * @package bbcreation\AllegroApi\SoapClient
  */
 class SoapClientBuilder
 {

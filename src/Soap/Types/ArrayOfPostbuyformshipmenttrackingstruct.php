@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfPostbuyformshipmenttrackingstruct implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfPostbuyformshipmenttrackingstruct implements \ArrayAccess, \Iterato
 
     /**
      * @param PostBuyFormShipmentTrackingStruct[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfPostbuyformshipmenttrackingstruct
+     * @return \bbcreation\AllegroApi\ArrayOfPostbuyformshipmenttrackingstruct
      */
     public function setItem(array $item = null)
     {

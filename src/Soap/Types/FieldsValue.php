@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class FieldsValue
 {
@@ -73,7 +73,7 @@ class FieldsValue
 
     /**
      * @param int $fid
-     * @return \Ircykk\AllegroApi\FieldsValue
+     * @return \bbcreation\AllegroApi\FieldsValue
      */
     public function setFid($fid)
     {
@@ -91,7 +91,7 @@ class FieldsValue
 
     /**
      * @param string $fvalueString
-     * @return \Ircykk\AllegroApi\FieldsValue
+     * @return \bbcreation\AllegroApi\FieldsValue
      */
     public function setFvalueString($fvalueString)
     {
@@ -109,7 +109,7 @@ class FieldsValue
 
     /**
      * @param int $fvalueInt
-     * @return \Ircykk\AllegroApi\FieldsValue
+     * @return \bbcreation\AllegroApi\FieldsValue
      */
     public function setFvalueInt($fvalueInt)
     {
@@ -127,7 +127,7 @@ class FieldsValue
 
     /**
      * @param float $fvalueFloat
-     * @return \Ircykk\AllegroApi\FieldsValue
+     * @return \bbcreation\AllegroApi\FieldsValue
      */
     public function setFvalueFloat($fvalueFloat)
     {
@@ -145,7 +145,7 @@ class FieldsValue
 
     /**
      * @param base64Binary $fvalueImage
-     * @return \Ircykk\AllegroApi\FieldsValue
+     * @return \bbcreation\AllegroApi\FieldsValue
      */
     public function setFvalueImage($fvalueImage)
     {
@@ -163,7 +163,7 @@ class FieldsValue
 
     /**
      * @param int $fvalueDatetime
-     * @return \Ircykk\AllegroApi\FieldsValue
+     * @return \bbcreation\AllegroApi\FieldsValue
      */
     public function setFvalueDatetime($fvalueDatetime)
     {
@@ -181,7 +181,7 @@ class FieldsValue
 
     /**
      * @param string $fvalueDate
-     * @return \Ircykk\AllegroApi\FieldsValue
+     * @return \bbcreation\AllegroApi\FieldsValue
      */
     public function setFvalueDate($fvalueDate)
     {
@@ -199,7 +199,7 @@ class FieldsValue
 
     /**
      * @param RangeIntValueStruct $fvalueRangeInt
-     * @return \Ircykk\AllegroApi\FieldsValue
+     * @return \bbcreation\AllegroApi\FieldsValue
      */
     public function setFvalueRangeInt($fvalueRangeInt)
     {
@@ -217,7 +217,7 @@ class FieldsValue
 
     /**
      * @param RangeFloatValueStruct $fvalueRangeFloat
-     * @return \Ircykk\AllegroApi\FieldsValue
+     * @return \bbcreation\AllegroApi\FieldsValue
      */
     public function setFvalueRangeFloat($fvalueRangeFloat)
     {
@@ -235,7 +235,7 @@ class FieldsValue
 
     /**
      * @param RangeDateValueStruct $fvalueRangeDate
-     * @return \Ircykk\AllegroApi\FieldsValue
+     * @return \bbcreation\AllegroApi\FieldsValue
      */
     public function setFvalueRangeDate($fvalueRangeDate)
     {

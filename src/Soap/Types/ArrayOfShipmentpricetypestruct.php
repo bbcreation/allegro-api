@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfShipmentpricetypestruct implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfShipmentpricetypestruct implements \ArrayAccess, \Iterator, \Counta
 
     /**
      * @param ShipmentPriceTypeStruct[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfShipmentpricetypestruct
+     * @return \bbcreation\AllegroApi\ArrayOfShipmentpricetypestruct
      */
     public function setItem(array $item = null)
     {

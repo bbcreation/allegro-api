@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetFilledPostBuyFormsRequest
 {
@@ -56,7 +56,7 @@ class DoGetFilledPostBuyFormsRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoGetFilledPostBuyFormsRequest
+     * @return \bbcreation\AllegroApi\DoGetFilledPostBuyFormsRequest
      */
     public function setSessionId($sessionId)
     {
@@ -74,7 +74,7 @@ class DoGetFilledPostBuyFormsRequest
 
     /**
      * @param int $paymentType
-     * @return \Ircykk\AllegroApi\DoGetFilledPostBuyFormsRequest
+     * @return \bbcreation\AllegroApi\DoGetFilledPostBuyFormsRequest
      */
     public function setPaymentType($paymentType)
     {
@@ -92,7 +92,7 @@ class DoGetFilledPostBuyFormsRequest
 
     /**
      * @param int $userRole
-     * @return \Ircykk\AllegroApi\DoGetFilledPostBuyFormsRequest
+     * @return \bbcreation\AllegroApi\DoGetFilledPostBuyFormsRequest
      */
     public function setUserRole($userRole)
     {
@@ -110,7 +110,7 @@ class DoGetFilledPostBuyFormsRequest
 
     /**
      * @param int $fillingTimeFrom
-     * @return \Ircykk\AllegroApi\DoGetFilledPostBuyFormsRequest
+     * @return \bbcreation\AllegroApi\DoGetFilledPostBuyFormsRequest
      */
     public function setFillingTimeFrom($fillingTimeFrom)
     {
@@ -128,7 +128,7 @@ class DoGetFilledPostBuyFormsRequest
 
     /**
      * @param int $fillingTimeTo
-     * @return \Ircykk\AllegroApi\DoGetFilledPostBuyFormsRequest
+     * @return \bbcreation\AllegroApi\DoGetFilledPostBuyFormsRequest
      */
     public function setFillingTimeTo($fillingTimeTo)
     {

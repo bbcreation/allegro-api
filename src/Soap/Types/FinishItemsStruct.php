@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class FinishItemsStruct
 {
@@ -38,7 +38,7 @@ class FinishItemsStruct
 
     /**
      * @param int $finishItemId
-     * @return \Ircykk\AllegroApi\FinishItemsStruct
+     * @return \bbcreation\AllegroApi\FinishItemsStruct
      */
     public function setFinishItemId($finishItemId)
     {
@@ -56,7 +56,7 @@ class FinishItemsStruct
 
     /**
      * @param int $finishCancelAllBids
-     * @return \Ircykk\AllegroApi\FinishItemsStruct
+     * @return \bbcreation\AllegroApi\FinishItemsStruct
      */
     public function setFinishCancelAllBids($finishCancelAllBids)
     {
@@ -74,7 +74,7 @@ class FinishItemsStruct
 
     /**
      * @param string $finishCancelReason
-     * @return \Ircykk\AllegroApi\FinishItemsStruct
+     * @return \bbcreation\AllegroApi\FinishItemsStruct
      */
     public function setFinishCancelReason($finishCancelReason)
     {

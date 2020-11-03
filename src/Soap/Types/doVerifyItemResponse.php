@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doVerifyItemResponse
 {
@@ -42,7 +42,7 @@ class doVerifyItemResponse
 
     /**
      * @param int $itemId
-     * @return \Ircykk\AllegroApi\doVerifyItemResponse
+     * @return \bbcreation\AllegroApi\doVerifyItemResponse
      */
     public function setItemId($itemId)
     {
@@ -60,7 +60,7 @@ class doVerifyItemResponse
 
     /**
      * @param int $itemListed
-     * @return \Ircykk\AllegroApi\doVerifyItemResponse
+     * @return \bbcreation\AllegroApi\doVerifyItemResponse
      */
     public function setItemListed($itemListed)
     {
@@ -78,7 +78,7 @@ class doVerifyItemResponse
 
     /**
      * @param int $itemStartingTime
-     * @return \Ircykk\AllegroApi\doVerifyItemResponse
+     * @return \bbcreation\AllegroApi\doVerifyItemResponse
      */
     public function setItemStartingTime($itemStartingTime)
     {

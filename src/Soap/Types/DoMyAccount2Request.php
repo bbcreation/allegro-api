@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoMyAccount2Request
 {
@@ -56,7 +56,7 @@ class DoMyAccount2Request
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoMyAccount2Request
+     * @return \bbcreation\AllegroApi\DoMyAccount2Request
      */
     public function setSessionHandle($sessionHandle)
     {
@@ -74,7 +74,7 @@ class DoMyAccount2Request
 
     /**
      * @param string $accountType
-     * @return \Ircykk\AllegroApi\DoMyAccount2Request
+     * @return \bbcreation\AllegroApi\DoMyAccount2Request
      */
     public function setAccountType($accountType)
     {
@@ -92,7 +92,7 @@ class DoMyAccount2Request
 
     /**
      * @param int $offset
-     * @return \Ircykk\AllegroApi\DoMyAccount2Request
+     * @return \bbcreation\AllegroApi\DoMyAccount2Request
      */
     public function setOffset($offset)
     {
@@ -110,7 +110,7 @@ class DoMyAccount2Request
 
     /**
      * @param ArrayOfLong $itemsArray
-     * @return \Ircykk\AllegroApi\DoMyAccount2Request
+     * @return \bbcreation\AllegroApi\DoMyAccount2Request
      */
     public function setItemsArray($itemsArray)
     {
@@ -128,7 +128,7 @@ class DoMyAccount2Request
 
     /**
      * @param int $limit
-     * @return \Ircykk\AllegroApi\DoMyAccount2Request
+     * @return \bbcreation\AllegroApi\DoMyAccount2Request
      */
     public function setLimit($limit)
     {

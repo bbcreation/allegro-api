@@ -1,11 +1,11 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 /**
  * Class Credentials.
  *
- * @package Ircykk\AllegroApi
+ * @package bbcreation\AllegroApi
  */
 class Credentials implements CredentialsInterface
 {

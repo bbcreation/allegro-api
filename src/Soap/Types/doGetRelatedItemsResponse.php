@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetRelatedItemsResponse
 {
@@ -28,7 +28,7 @@ class doGetRelatedItemsResponse
 
     /**
      * @param RelatedItemsStruct $relatedItems
-     * @return \Ircykk\AllegroApi\doGetRelatedItemsResponse
+     * @return \bbcreation\AllegroApi\doGetRelatedItemsResponse
      */
     public function setRelatedItems($relatedItems)
     {

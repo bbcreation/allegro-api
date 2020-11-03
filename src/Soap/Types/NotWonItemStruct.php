@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class NotWonItemStruct
 {
@@ -145,7 +145,7 @@ class NotWonItemStruct
 
     /**
      * @param int $itemId
-     * @return \Ircykk\AllegroApi\NotWonItemStruct
+     * @return \bbcreation\AllegroApi\NotWonItemStruct
      */
     public function setItemId($itemId)
     {
@@ -163,7 +163,7 @@ class NotWonItemStruct
 
     /**
      * @param string $itemTitle
-     * @return \Ircykk\AllegroApi\NotWonItemStruct
+     * @return \bbcreation\AllegroApi\NotWonItemStruct
      */
     public function setItemTitle($itemTitle)
     {
@@ -181,7 +181,7 @@ class NotWonItemStruct
 
     /**
      * @param string $itemThumbnailUrl
-     * @return \Ircykk\AllegroApi\NotWonItemStruct
+     * @return \bbcreation\AllegroApi\NotWonItemStruct
      */
     public function setItemThumbnailUrl($itemThumbnailUrl)
     {
@@ -199,7 +199,7 @@ class NotWonItemStruct
 
     /**
      * @param ArrayOfItempricestruct $itemPrice
-     * @return \Ircykk\AllegroApi\NotWonItemStruct
+     * @return \bbcreation\AllegroApi\NotWonItemStruct
      */
     public function setItemPrice($itemPrice)
     {
@@ -217,7 +217,7 @@ class NotWonItemStruct
 
     /**
      * @param int $itemLeftQuantity
-     * @return \Ircykk\AllegroApi\NotWonItemStruct
+     * @return \bbcreation\AllegroApi\NotWonItemStruct
      */
     public function setItemLeftQuantity($itemLeftQuantity)
     {
@@ -235,7 +235,7 @@ class NotWonItemStruct
 
     /**
      * @param int $itemQuantityType
-     * @return \Ircykk\AllegroApi\NotWonItemStruct
+     * @return \bbcreation\AllegroApi\NotWonItemStruct
      */
     public function setItemQuantityType($itemQuantityType)
     {
@@ -253,7 +253,7 @@ class NotWonItemStruct
 
     /**
      * @param int $itemEndTime
-     * @return \Ircykk\AllegroApi\NotWonItemStruct
+     * @return \bbcreation\AllegroApi\NotWonItemStruct
      */
     public function setItemEndTime($itemEndTime)
     {
@@ -271,7 +271,7 @@ class NotWonItemStruct
 
     /**
      * @param string $itemEndTimeLeft
-     * @return \Ircykk\AllegroApi\NotWonItemStruct
+     * @return \bbcreation\AllegroApi\NotWonItemStruct
      */
     public function setItemEndTimeLeft($itemEndTimeLeft)
     {
@@ -289,7 +289,7 @@ class NotWonItemStruct
 
     /**
      * @param UserInfoStruct $itemSeller
-     * @return \Ircykk\AllegroApi\NotWonItemStruct
+     * @return \bbcreation\AllegroApi\NotWonItemStruct
      */
     public function setItemSeller($itemSeller)
     {
@@ -307,7 +307,7 @@ class NotWonItemStruct
 
     /**
      * @param int $itemBiddersCounter
-     * @return \Ircykk\AllegroApi\NotWonItemStruct
+     * @return \bbcreation\AllegroApi\NotWonItemStruct
      */
     public function setItemBiddersCounter($itemBiddersCounter)
     {
@@ -325,7 +325,7 @@ class NotWonItemStruct
 
     /**
      * @param UserInfoStruct $itemHighestBidder
-     * @return \Ircykk\AllegroApi\NotWonItemStruct
+     * @return \bbcreation\AllegroApi\NotWonItemStruct
      */
     public function setItemHighestBidder($itemHighestBidder)
     {
@@ -343,7 +343,7 @@ class NotWonItemStruct
 
     /**
      * @param int $itemCategoryId
-     * @return \Ircykk\AllegroApi\NotWonItemStruct
+     * @return \bbcreation\AllegroApi\NotWonItemStruct
      */
     public function setItemCategoryId($itemCategoryId)
     {
@@ -361,7 +361,7 @@ class NotWonItemStruct
 
     /**
      * @param int $itemViewsCounter
-     * @return \Ircykk\AllegroApi\NotWonItemStruct
+     * @return \bbcreation\AllegroApi\NotWonItemStruct
      */
     public function setItemViewsCounter($itemViewsCounter)
     {
@@ -379,7 +379,7 @@ class NotWonItemStruct
 
     /**
      * @param string $itemNote
-     * @return \Ircykk\AllegroApi\NotWonItemStruct
+     * @return \bbcreation\AllegroApi\NotWonItemStruct
      */
     public function setItemNote($itemNote)
     {
@@ -397,7 +397,7 @@ class NotWonItemStruct
 
     /**
      * @param int $itemSpecialInfo
-     * @return \Ircykk\AllegroApi\NotWonItemStruct
+     * @return \bbcreation\AllegroApi\NotWonItemStruct
      */
     public function setItemSpecialInfo($itemSpecialInfo)
     {
@@ -415,7 +415,7 @@ class NotWonItemStruct
 
     /**
      * @param int $itemShopInfo
-     * @return \Ircykk\AllegroApi\NotWonItemStruct
+     * @return \bbcreation\AllegroApi\NotWonItemStruct
      */
     public function setItemShopInfo($itemShopInfo)
     {
@@ -433,7 +433,7 @@ class NotWonItemStruct
 
     /**
      * @param int $itemProductInfo
-     * @return \Ircykk\AllegroApi\NotWonItemStruct
+     * @return \bbcreation\AllegroApi\NotWonItemStruct
      */
     public function setItemProductInfo($itemProductInfo)
     {
@@ -451,7 +451,7 @@ class NotWonItemStruct
 
     /**
      * @param int $itemPayuInfo
-     * @return \Ircykk\AllegroApi\NotWonItemStruct
+     * @return \bbcreation\AllegroApi\NotWonItemStruct
      */
     public function setItemPayuInfo($itemPayuInfo)
     {

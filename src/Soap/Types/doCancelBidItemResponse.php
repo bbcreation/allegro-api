@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doCancelBidItemResponse
 {
@@ -42,7 +42,7 @@ class doCancelBidItemResponse
 
     /**
      * @param int $cancelBidValue
-     * @return \Ircykk\AllegroApi\doCancelBidItemResponse
+     * @return \bbcreation\AllegroApi\doCancelBidItemResponse
      */
     public function setCancelBidValue($cancelBidValue)
     {
@@ -60,7 +60,7 @@ class doCancelBidItemResponse
 
     /**
      * @param ArrayOfInt $cancelledBids
-     * @return \Ircykk\AllegroApi\doCancelBidItemResponse
+     * @return \bbcreation\AllegroApi\doCancelBidItemResponse
      */
     public function setCancelledBids($cancelledBids)
     {
@@ -78,7 +78,7 @@ class doCancelBidItemResponse
 
     /**
      * @param ArrayOfInt $notCancelledBids
-     * @return \Ircykk\AllegroApi\doCancelBidItemResponse
+     * @return \bbcreation\AllegroApi\doCancelBidItemResponse
      */
     public function setNotCancelledBids($notCancelledBids)
     {

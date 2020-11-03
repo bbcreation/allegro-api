@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoChangePriceItemRequest
 {
@@ -63,7 +63,7 @@ class DoChangePriceItemRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoChangePriceItemRequest
+     * @return \bbcreation\AllegroApi\DoChangePriceItemRequest
      */
     public function setSessionHandle($sessionHandle)
     {
@@ -81,7 +81,7 @@ class DoChangePriceItemRequest
 
     /**
      * @param int $itemId
-     * @return \Ircykk\AllegroApi\DoChangePriceItemRequest
+     * @return \bbcreation\AllegroApi\DoChangePriceItemRequest
      */
     public function setItemId($itemId)
     {
@@ -99,7 +99,7 @@ class DoChangePriceItemRequest
 
     /**
      * @param float $newStartingPrice
-     * @return \Ircykk\AllegroApi\DoChangePriceItemRequest
+     * @return \bbcreation\AllegroApi\DoChangePriceItemRequest
      */
     public function setNewStartingPrice($newStartingPrice)
     {
@@ -117,7 +117,7 @@ class DoChangePriceItemRequest
 
     /**
      * @param float $newReservePrice
-     * @return \Ircykk\AllegroApi\DoChangePriceItemRequest
+     * @return \bbcreation\AllegroApi\DoChangePriceItemRequest
      */
     public function setNewReservePrice($newReservePrice)
     {
@@ -135,7 +135,7 @@ class DoChangePriceItemRequest
 
     /**
      * @param float $newBuyNowPrice
-     * @return \Ircykk\AllegroApi\DoChangePriceItemRequest
+     * @return \bbcreation\AllegroApi\DoChangePriceItemRequest
      */
     public function setNewBuyNowPrice($newBuyNowPrice)
     {
@@ -153,7 +153,7 @@ class DoChangePriceItemRequest
 
     /**
      * @param float $newAdvertisementPrice
-     * @return \Ircykk\AllegroApi\DoChangePriceItemRequest
+     * @return \bbcreation\AllegroApi\DoChangePriceItemRequest
      */
     public function setNewAdvertisementPrice($newAdvertisementPrice)
     {

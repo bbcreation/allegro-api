@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetMyPaymentsRequest
 {
@@ -77,7 +77,7 @@ class DoGetMyPaymentsRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoGetMyPaymentsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyPaymentsRequest
      */
     public function setSessionId($sessionId)
     {
@@ -95,7 +95,7 @@ class DoGetMyPaymentsRequest
 
     /**
      * @param int $sellerId
-     * @return \Ircykk\AllegroApi\DoGetMyPaymentsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyPaymentsRequest
      */
     public function setSellerId($sellerId)
     {
@@ -113,7 +113,7 @@ class DoGetMyPaymentsRequest
 
     /**
      * @param int $itemId
-     * @return \Ircykk\AllegroApi\DoGetMyPaymentsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyPaymentsRequest
      */
     public function setItemId($itemId)
     {
@@ -131,7 +131,7 @@ class DoGetMyPaymentsRequest
 
     /**
      * @param int $paymentTimeFrom
-     * @return \Ircykk\AllegroApi\DoGetMyPaymentsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyPaymentsRequest
      */
     public function setPaymentTimeFrom($paymentTimeFrom)
     {
@@ -149,7 +149,7 @@ class DoGetMyPaymentsRequest
 
     /**
      * @param int $paymentTimeTo
-     * @return \Ircykk\AllegroApi\DoGetMyPaymentsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyPaymentsRequest
      */
     public function setPaymentTimeTo($paymentTimeTo)
     {
@@ -167,7 +167,7 @@ class DoGetMyPaymentsRequest
 
     /**
      * @param int $pageSize
-     * @return \Ircykk\AllegroApi\DoGetMyPaymentsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyPaymentsRequest
      */
     public function setPageSize($pageSize)
     {
@@ -185,7 +185,7 @@ class DoGetMyPaymentsRequest
 
     /**
      * @param int $pageNumber
-     * @return \Ircykk\AllegroApi\DoGetMyPaymentsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyPaymentsRequest
      */
     public function setPageNumber($pageNumber)
     {
@@ -203,7 +203,7 @@ class DoGetMyPaymentsRequest
 
     /**
      * @param int $strictedSearch
-     * @return \Ircykk\AllegroApi\DoGetMyPaymentsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyPaymentsRequest
      */
     public function setStrictedSearch($strictedSearch)
     {

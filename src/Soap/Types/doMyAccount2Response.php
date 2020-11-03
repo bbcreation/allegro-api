@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doMyAccount2Response
 {
@@ -28,7 +28,7 @@ class doMyAccount2Response
 
     /**
      * @param ArrayOfMyaccountstruct2 $myaccountList
-     * @return \Ircykk\AllegroApi\doMyAccount2Response
+     * @return \bbcreation\AllegroApi\doMyAccount2Response
      */
     public function setMyaccountList($myaccountList)
     {

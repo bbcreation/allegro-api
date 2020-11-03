@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoSellSomeAgainInShopRequest
 {
@@ -77,7 +77,7 @@ class DoSellSomeAgainInShopRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoSellSomeAgainInShopRequest
+     * @return \bbcreation\AllegroApi\DoSellSomeAgainInShopRequest
      */
     public function setSessionHandle($sessionHandle)
     {
@@ -95,7 +95,7 @@ class DoSellSomeAgainInShopRequest
 
     /**
      * @param ArrayOfLong $sellItemsArray
-     * @return \Ircykk\AllegroApi\DoSellSomeAgainInShopRequest
+     * @return \bbcreation\AllegroApi\DoSellSomeAgainInShopRequest
      */
     public function setSellItemsArray($sellItemsArray)
     {
@@ -113,7 +113,7 @@ class DoSellSomeAgainInShopRequest
 
     /**
      * @param int $sellStartingTime
-     * @return \Ircykk\AllegroApi\DoSellSomeAgainInShopRequest
+     * @return \bbcreation\AllegroApi\DoSellSomeAgainInShopRequest
      */
     public function setSellStartingTime($sellStartingTime)
     {
@@ -131,7 +131,7 @@ class DoSellSomeAgainInShopRequest
 
     /**
      * @param int $sellShopDuration
-     * @return \Ircykk\AllegroApi\DoSellSomeAgainInShopRequest
+     * @return \bbcreation\AllegroApi\DoSellSomeAgainInShopRequest
      */
     public function setSellShopDuration($sellShopDuration)
     {
@@ -149,7 +149,7 @@ class DoSellSomeAgainInShopRequest
 
     /**
      * @param int $sellShopOptions
-     * @return \Ircykk\AllegroApi\DoSellSomeAgainInShopRequest
+     * @return \bbcreation\AllegroApi\DoSellSomeAgainInShopRequest
      */
     public function setSellShopOptions($sellShopOptions)
     {
@@ -167,7 +167,7 @@ class DoSellSomeAgainInShopRequest
 
     /**
      * @param int $sellProlongOptions
-     * @return \Ircykk\AllegroApi\DoSellSomeAgainInShopRequest
+     * @return \bbcreation\AllegroApi\DoSellSomeAgainInShopRequest
      */
     public function setSellProlongOptions($sellProlongOptions)
     {
@@ -185,7 +185,7 @@ class DoSellSomeAgainInShopRequest
 
     /**
      * @param int $sellShopCategory
-     * @return \Ircykk\AllegroApi\DoSellSomeAgainInShopRequest
+     * @return \bbcreation\AllegroApi\DoSellSomeAgainInShopRequest
      */
     public function setSellShopCategory($sellShopCategory)
     {
@@ -203,7 +203,7 @@ class DoSellSomeAgainInShopRequest
 
     /**
      * @param ArrayOfInt $localIds
-     * @return \Ircykk\AllegroApi\DoSellSomeAgainInShopRequest
+     * @return \bbcreation\AllegroApi\DoSellSomeAgainInShopRequest
      */
     public function setLocalIds($localIds)
     {

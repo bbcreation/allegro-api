@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoNewAuctionExtRequest
 {
@@ -84,7 +84,7 @@ class DoNewAuctionExtRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoNewAuctionExtRequest
+     * @return \bbcreation\AllegroApi\DoNewAuctionExtRequest
      */
     public function setSessionHandle($sessionHandle)
     {
@@ -102,7 +102,7 @@ class DoNewAuctionExtRequest
 
     /**
      * @param ArrayOfFieldsvalue $fields
-     * @return \Ircykk\AllegroApi\DoNewAuctionExtRequest
+     * @return \bbcreation\AllegroApi\DoNewAuctionExtRequest
      */
     public function setFields($fields)
     {
@@ -120,7 +120,7 @@ class DoNewAuctionExtRequest
 
     /**
      * @param int $itemTemplateId
-     * @return \Ircykk\AllegroApi\DoNewAuctionExtRequest
+     * @return \bbcreation\AllegroApi\DoNewAuctionExtRequest
      */
     public function setItemTemplateId($itemTemplateId)
     {
@@ -138,7 +138,7 @@ class DoNewAuctionExtRequest
 
     /**
      * @param int $localId
-     * @return \Ircykk\AllegroApi\DoNewAuctionExtRequest
+     * @return \bbcreation\AllegroApi\DoNewAuctionExtRequest
      */
     public function setLocalId($localId)
     {
@@ -156,7 +156,7 @@ class DoNewAuctionExtRequest
 
     /**
      * @param ItemTemplateCreateStruct $itemTemplateCreate
-     * @return \Ircykk\AllegroApi\DoNewAuctionExtRequest
+     * @return \bbcreation\AllegroApi\DoNewAuctionExtRequest
      */
     public function setItemTemplateCreate($itemTemplateCreate)
     {
@@ -174,7 +174,7 @@ class DoNewAuctionExtRequest
 
     /**
      * @param ArrayOfVariantstruct $variants
-     * @return \Ircykk\AllegroApi\DoNewAuctionExtRequest
+     * @return \bbcreation\AllegroApi\DoNewAuctionExtRequest
      */
     public function setVariants($variants)
     {
@@ -192,7 +192,7 @@ class DoNewAuctionExtRequest
 
     /**
      * @param ArrayOfTagnamestruct $tags
-     * @return \Ircykk\AllegroApi\DoNewAuctionExtRequest
+     * @return \bbcreation\AllegroApi\DoNewAuctionExtRequest
      */
     public function setTags($tags)
     {
@@ -210,7 +210,7 @@ class DoNewAuctionExtRequest
 
     /**
      * @param AfterSalesServiceConditionsStruct $afterSalesServiceConditions
-     * @return \Ircykk\AllegroApi\DoNewAuctionExtRequest
+     * @return \bbcreation\AllegroApi\DoNewAuctionExtRequest
      */
     public function setAfterSalesServiceConditions($afterSalesServiceConditions)
     {
@@ -228,7 +228,7 @@ class DoNewAuctionExtRequest
 
     /**
      * @param string $additionalServicesGroup
-     * @return \Ircykk\AllegroApi\DoNewAuctionExtRequest
+     * @return \bbcreation\AllegroApi\DoNewAuctionExtRequest
      */
     public function setAdditionalServicesGroup($additionalServicesGroup)
     {

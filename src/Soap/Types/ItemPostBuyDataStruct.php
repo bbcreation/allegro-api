@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ItemPostBuyDataStruct
 {
@@ -33,7 +33,7 @@ class ItemPostBuyDataStruct
 
     /**
      * @param int $itemId
-     * @return \Ircykk\AllegroApi\ItemPostBuyDataStruct
+     * @return \bbcreation\AllegroApi\ItemPostBuyDataStruct
      */
     public function setItemId($itemId)
     {
@@ -51,7 +51,7 @@ class ItemPostBuyDataStruct
 
     /**
      * @param ArrayOfUserpostbuydatastruct $usersPostBuyData
-     * @return \Ircykk\AllegroApi\ItemPostBuyDataStruct
+     * @return \bbcreation\AllegroApi\ItemPostBuyDataStruct
      */
     public function setUsersPostBuyData($usersPostBuyData)
     {

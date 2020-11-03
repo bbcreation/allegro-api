@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class RelatedItemsShipmentDataStruct
 {
@@ -26,7 +26,7 @@ class RelatedItemsShipmentDataStruct
 
     /**
      * @param ArrayOfSellershipmentdatastruct $sellerShipmentData
-     * @return \Ircykk\AllegroApi\RelatedItemsShipmentDataStruct
+     * @return \bbcreation\AllegroApi\RelatedItemsShipmentDataStruct
      */
     public function setSellerShipmentData($sellerShipmentData)
     {

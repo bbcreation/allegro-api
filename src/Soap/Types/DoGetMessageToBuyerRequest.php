@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetMessageToBuyerRequest
 {
@@ -35,7 +35,7 @@ class DoGetMessageToBuyerRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoGetMessageToBuyerRequest
+     * @return \bbcreation\AllegroApi\DoGetMessageToBuyerRequest
      */
     public function setSessionId($sessionId)
     {
@@ -53,7 +53,7 @@ class DoGetMessageToBuyerRequest
 
     /**
      * @param int $itemId
-     * @return \Ircykk\AllegroApi\DoGetMessageToBuyerRequest
+     * @return \bbcreation\AllegroApi\DoGetMessageToBuyerRequest
      */
     public function setItemId($itemId)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class AddressInfoStruct
 {
@@ -35,7 +35,7 @@ class AddressInfoStruct
 
     /**
      * @param int $addressType
-     * @return \Ircykk\AllegroApi\AddressInfoStruct
+     * @return \bbcreation\AllegroApi\AddressInfoStruct
      */
     public function setAddressType($addressType)
     {
@@ -53,7 +53,7 @@ class AddressInfoStruct
 
     /**
      * @param AddressUserDataStruct $addressUserData
-     * @return \Ircykk\AllegroApi\AddressInfoStruct
+     * @return \bbcreation\AllegroApi\AddressInfoStruct
      */
     public function setAddressUserData($addressUserData)
     {

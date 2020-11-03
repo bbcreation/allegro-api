@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoBidItemRequest
 {
@@ -70,7 +70,7 @@ class DoBidItemRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoBidItemRequest
+     * @return \bbcreation\AllegroApi\DoBidItemRequest
      */
     public function setSessionHandle($sessionHandle)
     {
@@ -88,7 +88,7 @@ class DoBidItemRequest
 
     /**
      * @param int $bidItId
-     * @return \Ircykk\AllegroApi\DoBidItemRequest
+     * @return \bbcreation\AllegroApi\DoBidItemRequest
      */
     public function setBidItId($bidItId)
     {
@@ -106,7 +106,7 @@ class DoBidItemRequest
 
     /**
      * @param float $bidUserPrice
-     * @return \Ircykk\AllegroApi\DoBidItemRequest
+     * @return \bbcreation\AllegroApi\DoBidItemRequest
      */
     public function setBidUserPrice($bidUserPrice)
     {
@@ -124,7 +124,7 @@ class DoBidItemRequest
 
     /**
      * @param int $bidQuantity
-     * @return \Ircykk\AllegroApi\DoBidItemRequest
+     * @return \bbcreation\AllegroApi\DoBidItemRequest
      */
     public function setBidQuantity($bidQuantity)
     {
@@ -142,7 +142,7 @@ class DoBidItemRequest
 
     /**
      * @param int $bidBuyNow
-     * @return \Ircykk\AllegroApi\DoBidItemRequest
+     * @return \bbcreation\AllegroApi\DoBidItemRequest
      */
     public function setBidBuyNow($bidBuyNow)
     {
@@ -160,7 +160,7 @@ class DoBidItemRequest
 
     /**
      * @param PharmacyRecipientDataStruct $pharmacyRecipientData
-     * @return \Ircykk\AllegroApi\DoBidItemRequest
+     * @return \bbcreation\AllegroApi\DoBidItemRequest
      */
     public function setPharmacyRecipientData($pharmacyRecipientData)
     {
@@ -178,7 +178,7 @@ class DoBidItemRequest
 
     /**
      * @param string $variantId
-     * @return \Ircykk\AllegroApi\DoBidItemRequest
+     * @return \bbcreation\AllegroApi\DoBidItemRequest
      */
     public function setVariantId($variantId)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetCategoryPathResponse
 {
@@ -28,7 +28,7 @@ class doGetCategoryPathResponse
 
     /**
      * @param ArrayOfCategorydata $categoryPath
-     * @return \Ircykk\AllegroApi\doGetCategoryPathResponse
+     * @return \bbcreation\AllegroApi\doGetCategoryPathResponse
      */
     public function setCategoryPath($categoryPath)
     {

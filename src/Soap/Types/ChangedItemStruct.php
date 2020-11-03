@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ChangedItemStruct
 {
@@ -38,7 +38,7 @@ class ChangedItemStruct
 
     /**
      * @param int $itemId
-     * @return \Ircykk\AllegroApi\ChangedItemStruct
+     * @return \bbcreation\AllegroApi\ChangedItemStruct
      */
     public function setItemId($itemId)
     {
@@ -56,7 +56,7 @@ class ChangedItemStruct
 
     /**
      * @param ArrayOfFieldsvalue $itemFields
-     * @return \Ircykk\AllegroApi\ChangedItemStruct
+     * @return \bbcreation\AllegroApi\ChangedItemStruct
      */
     public function setItemFields($itemFields)
     {
@@ -74,7 +74,7 @@ class ChangedItemStruct
 
     /**
      * @param ArrayOfItemsurchargestruct $itemSurcharge
-     * @return \Ircykk\AllegroApi\ChangedItemStruct
+     * @return \bbcreation\AllegroApi\ChangedItemStruct
      */
     public function setItemSurcharge($itemSurcharge)
     {

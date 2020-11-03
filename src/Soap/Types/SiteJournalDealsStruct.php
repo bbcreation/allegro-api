@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class SiteJournalDealsStruct
 {
@@ -84,7 +84,7 @@ class SiteJournalDealsStruct
 
     /**
      * @param int $dealEventId
-     * @return \Ircykk\AllegroApi\SiteJournalDealsStruct
+     * @return \bbcreation\AllegroApi\SiteJournalDealsStruct
      */
     public function setDealEventId($dealEventId)
     {
@@ -102,7 +102,7 @@ class SiteJournalDealsStruct
 
     /**
      * @param int $dealEventType
-     * @return \Ircykk\AllegroApi\SiteJournalDealsStruct
+     * @return \bbcreation\AllegroApi\SiteJournalDealsStruct
      */
     public function setDealEventType($dealEventType)
     {
@@ -120,7 +120,7 @@ class SiteJournalDealsStruct
 
     /**
      * @param int $dealEventTime
-     * @return \Ircykk\AllegroApi\SiteJournalDealsStruct
+     * @return \bbcreation\AllegroApi\SiteJournalDealsStruct
      */
     public function setDealEventTime($dealEventTime)
     {
@@ -138,7 +138,7 @@ class SiteJournalDealsStruct
 
     /**
      * @param int $dealId
-     * @return \Ircykk\AllegroApi\SiteJournalDealsStruct
+     * @return \bbcreation\AllegroApi\SiteJournalDealsStruct
      */
     public function setDealId($dealId)
     {
@@ -156,7 +156,7 @@ class SiteJournalDealsStruct
 
     /**
      * @param int $dealTransactionId
-     * @return \Ircykk\AllegroApi\SiteJournalDealsStruct
+     * @return \bbcreation\AllegroApi\SiteJournalDealsStruct
      */
     public function setDealTransactionId($dealTransactionId)
     {
@@ -174,7 +174,7 @@ class SiteJournalDealsStruct
 
     /**
      * @param int $dealSellerId
-     * @return \Ircykk\AllegroApi\SiteJournalDealsStruct
+     * @return \bbcreation\AllegroApi\SiteJournalDealsStruct
      */
     public function setDealSellerId($dealSellerId)
     {
@@ -192,7 +192,7 @@ class SiteJournalDealsStruct
 
     /**
      * @param int $dealItemId
-     * @return \Ircykk\AllegroApi\SiteJournalDealsStruct
+     * @return \bbcreation\AllegroApi\SiteJournalDealsStruct
      */
     public function setDealItemId($dealItemId)
     {
@@ -210,7 +210,7 @@ class SiteJournalDealsStruct
 
     /**
      * @param int $dealBuyerId
-     * @return \Ircykk\AllegroApi\SiteJournalDealsStruct
+     * @return \bbcreation\AllegroApi\SiteJournalDealsStruct
      */
     public function setDealBuyerId($dealBuyerId)
     {
@@ -228,7 +228,7 @@ class SiteJournalDealsStruct
 
     /**
      * @param int $dealQuantity
-     * @return \Ircykk\AllegroApi\SiteJournalDealsStruct
+     * @return \bbcreation\AllegroApi\SiteJournalDealsStruct
      */
     public function setDealQuantity($dealQuantity)
     {

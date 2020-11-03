@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoMyContactRequest
 {
@@ -49,7 +49,7 @@ class DoMyContactRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoMyContactRequest
+     * @return \bbcreation\AllegroApi\DoMyContactRequest
      */
     public function setSessionHandle($sessionHandle)
     {
@@ -67,7 +67,7 @@ class DoMyContactRequest
 
     /**
      * @param ArrayOfLong $auctionIdList
-     * @return \Ircykk\AllegroApi\DoMyContactRequest
+     * @return \bbcreation\AllegroApi\DoMyContactRequest
      */
     public function setAuctionIdList($auctionIdList)
     {
@@ -85,7 +85,7 @@ class DoMyContactRequest
 
     /**
      * @param int $offset
-     * @return \Ircykk\AllegroApi\DoMyContactRequest
+     * @return \bbcreation\AllegroApi\DoMyContactRequest
      */
     public function setOffset($offset)
     {
@@ -103,7 +103,7 @@ class DoMyContactRequest
 
     /**
      * @param int $desc
-     * @return \Ircykk\AllegroApi\DoMyContactRequest
+     * @return \bbcreation\AllegroApi\DoMyContactRequest
      */
     public function setDesc($desc)
     {

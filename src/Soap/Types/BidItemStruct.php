@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class BidItemStruct
 {
@@ -152,7 +152,7 @@ class BidItemStruct
 
     /**
      * @param int $itemId
-     * @return \Ircykk\AllegroApi\BidItemStruct
+     * @return \bbcreation\AllegroApi\BidItemStruct
      */
     public function setItemId($itemId)
     {
@@ -170,7 +170,7 @@ class BidItemStruct
 
     /**
      * @param string $itemTitle
-     * @return \Ircykk\AllegroApi\BidItemStruct
+     * @return \bbcreation\AllegroApi\BidItemStruct
      */
     public function setItemTitle($itemTitle)
     {
@@ -188,7 +188,7 @@ class BidItemStruct
 
     /**
      * @param string $itemThumbnailUrl
-     * @return \Ircykk\AllegroApi\BidItemStruct
+     * @return \bbcreation\AllegroApi\BidItemStruct
      */
     public function setItemThumbnailUrl($itemThumbnailUrl)
     {
@@ -206,7 +206,7 @@ class BidItemStruct
 
     /**
      * @param ArrayOfItempricestruct $itemPrice
-     * @return \Ircykk\AllegroApi\BidItemStruct
+     * @return \bbcreation\AllegroApi\BidItemStruct
      */
     public function setItemPrice($itemPrice)
     {
@@ -224,7 +224,7 @@ class BidItemStruct
 
     /**
      * @param int $itemBidQuantity
-     * @return \Ircykk\AllegroApi\BidItemStruct
+     * @return \bbcreation\AllegroApi\BidItemStruct
      */
     public function setItemBidQuantity($itemBidQuantity)
     {
@@ -242,7 +242,7 @@ class BidItemStruct
 
     /**
      * @param int $itemLeftQuantity
-     * @return \Ircykk\AllegroApi\BidItemStruct
+     * @return \bbcreation\AllegroApi\BidItemStruct
      */
     public function setItemLeftQuantity($itemLeftQuantity)
     {
@@ -260,7 +260,7 @@ class BidItemStruct
 
     /**
      * @param int $itemQuantityType
-     * @return \Ircykk\AllegroApi\BidItemStruct
+     * @return \bbcreation\AllegroApi\BidItemStruct
      */
     public function setItemQuantityType($itemQuantityType)
     {
@@ -278,7 +278,7 @@ class BidItemStruct
 
     /**
      * @param int $itemEndTime
-     * @return \Ircykk\AllegroApi\BidItemStruct
+     * @return \bbcreation\AllegroApi\BidItemStruct
      */
     public function setItemEndTime($itemEndTime)
     {
@@ -296,7 +296,7 @@ class BidItemStruct
 
     /**
      * @param string $itemEndTimeLeft
-     * @return \Ircykk\AllegroApi\BidItemStruct
+     * @return \bbcreation\AllegroApi\BidItemStruct
      */
     public function setItemEndTimeLeft($itemEndTimeLeft)
     {
@@ -314,7 +314,7 @@ class BidItemStruct
 
     /**
      * @param UserInfoStruct $itemSeller
-     * @return \Ircykk\AllegroApi\BidItemStruct
+     * @return \bbcreation\AllegroApi\BidItemStruct
      */
     public function setItemSeller($itemSeller)
     {
@@ -332,7 +332,7 @@ class BidItemStruct
 
     /**
      * @param int $itemBiddersCounter
-     * @return \Ircykk\AllegroApi\BidItemStruct
+     * @return \bbcreation\AllegroApi\BidItemStruct
      */
     public function setItemBiddersCounter($itemBiddersCounter)
     {
@@ -350,7 +350,7 @@ class BidItemStruct
 
     /**
      * @param UserInfoStruct $itemHighestBidder
-     * @return \Ircykk\AllegroApi\BidItemStruct
+     * @return \bbcreation\AllegroApi\BidItemStruct
      */
     public function setItemHighestBidder($itemHighestBidder)
     {
@@ -368,7 +368,7 @@ class BidItemStruct
 
     /**
      * @param int $itemCategoryId
-     * @return \Ircykk\AllegroApi\BidItemStruct
+     * @return \bbcreation\AllegroApi\BidItemStruct
      */
     public function setItemCategoryId($itemCategoryId)
     {
@@ -386,7 +386,7 @@ class BidItemStruct
 
     /**
      * @param int $itemViewsCounter
-     * @return \Ircykk\AllegroApi\BidItemStruct
+     * @return \bbcreation\AllegroApi\BidItemStruct
      */
     public function setItemViewsCounter($itemViewsCounter)
     {
@@ -404,7 +404,7 @@ class BidItemStruct
 
     /**
      * @param string $itemNote
-     * @return \Ircykk\AllegroApi\BidItemStruct
+     * @return \bbcreation\AllegroApi\BidItemStruct
      */
     public function setItemNote($itemNote)
     {
@@ -422,7 +422,7 @@ class BidItemStruct
 
     /**
      * @param int $itemSpecialInfo
-     * @return \Ircykk\AllegroApi\BidItemStruct
+     * @return \bbcreation\AllegroApi\BidItemStruct
      */
     public function setItemSpecialInfo($itemSpecialInfo)
     {
@@ -440,7 +440,7 @@ class BidItemStruct
 
     /**
      * @param int $itemShopInfo
-     * @return \Ircykk\AllegroApi\BidItemStruct
+     * @return \bbcreation\AllegroApi\BidItemStruct
      */
     public function setItemShopInfo($itemShopInfo)
     {
@@ -458,7 +458,7 @@ class BidItemStruct
 
     /**
      * @param int $itemProductInfo
-     * @return \Ircykk\AllegroApi\BidItemStruct
+     * @return \bbcreation\AllegroApi\BidItemStruct
      */
     public function setItemProductInfo($itemProductInfo)
     {
@@ -476,7 +476,7 @@ class BidItemStruct
 
     /**
      * @param int $itemPayuInfo
-     * @return \Ircykk\AllegroApi\BidItemStruct
+     * @return \bbcreation\AllegroApi\BidItemStruct
      */
     public function setItemPayuInfo($itemPayuInfo)
     {

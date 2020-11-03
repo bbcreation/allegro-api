@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoLoginEncRequest
 {
@@ -56,7 +56,7 @@ class DoLoginEncRequest
 
     /**
      * @param string $userLogin
-     * @return \Ircykk\AllegroApi\DoLoginEncRequest
+     * @return \bbcreation\AllegroApi\DoLoginEncRequest
      */
     public function setUserLogin($userLogin)
     {
@@ -74,7 +74,7 @@ class DoLoginEncRequest
 
     /**
      * @param string $userHashPassword
-     * @return \Ircykk\AllegroApi\DoLoginEncRequest
+     * @return \bbcreation\AllegroApi\DoLoginEncRequest
      */
     public function setUserHashPassword($userHashPassword)
     {
@@ -92,7 +92,7 @@ class DoLoginEncRequest
 
     /**
      * @param int $countryCode
-     * @return \Ircykk\AllegroApi\DoLoginEncRequest
+     * @return \bbcreation\AllegroApi\DoLoginEncRequest
      */
     public function setCountryCode($countryCode)
     {
@@ -110,7 +110,7 @@ class DoLoginEncRequest
 
     /**
      * @param string $webapiKey
-     * @return \Ircykk\AllegroApi\DoLoginEncRequest
+     * @return \bbcreation\AllegroApi\DoLoginEncRequest
      */
     public function setWebapiKey($webapiKey)
     {
@@ -128,7 +128,7 @@ class DoLoginEncRequest
 
     /**
      * @param int $localVersion
-     * @return \Ircykk\AllegroApi\DoLoginEncRequest
+     * @return \bbcreation\AllegroApi\DoLoginEncRequest
      */
     public function setLocalVersion($localVersion)
     {

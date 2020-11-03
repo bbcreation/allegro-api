@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfRelateditemstruct implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfRelateditemstruct implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param RelatedItemStruct[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfRelateditemstruct
+     * @return \bbcreation\AllegroApi\ArrayOfRelateditemstruct
      */
     public function setItem(array $item = null)
     {

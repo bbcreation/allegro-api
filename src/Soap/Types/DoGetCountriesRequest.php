@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetCountriesRequest
 {
@@ -35,7 +35,7 @@ class DoGetCountriesRequest
 
     /**
      * @param int $countryCode
-     * @return \Ircykk\AllegroApi\DoGetCountriesRequest
+     * @return \bbcreation\AllegroApi\DoGetCountriesRequest
      */
     public function setCountryCode($countryCode)
     {
@@ -53,7 +53,7 @@ class DoGetCountriesRequest
 
     /**
      * @param string $webapiKey
-     * @return \Ircykk\AllegroApi\DoGetCountriesRequest
+     * @return \bbcreation\AllegroApi\DoGetCountriesRequest
      */
     public function setWebapiKey($webapiKey)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetFreeDeliveryAmountResponse
 {
@@ -35,7 +35,7 @@ class doGetFreeDeliveryAmountResponse
 
     /**
      * @param float $freeDeliveryAmount
-     * @return \Ircykk\AllegroApi\doGetFreeDeliveryAmountResponse
+     * @return \bbcreation\AllegroApi\doGetFreeDeliveryAmountResponse
      */
     public function setFreeDeliveryAmount($freeDeliveryAmount)
     {
@@ -53,7 +53,7 @@ class doGetFreeDeliveryAmountResponse
 
     /**
      * @param int $activeFlag
-     * @return \Ircykk\AllegroApi\doGetFreeDeliveryAmountResponse
+     * @return \bbcreation\AllegroApi\doGetFreeDeliveryAmountResponse
      */
     public function setActiveFlag($activeFlag)
     {

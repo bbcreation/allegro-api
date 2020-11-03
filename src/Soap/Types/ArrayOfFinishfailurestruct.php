@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfFinishfailurestruct implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfFinishfailurestruct implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param FinishFailureStruct[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfFinishfailurestruct
+     * @return \bbcreation\AllegroApi\ArrayOfFinishfailurestruct
      */
     public function setItem(array $item = null)
     {

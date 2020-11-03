@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetMessageToBuyerResponse
 {
@@ -28,7 +28,7 @@ class doGetMessageToBuyerResponse
 
     /**
      * @param MessageToBuyerStruct $messageToBuyer
-     * @return \Ircykk\AllegroApi\doGetMessageToBuyerResponse
+     * @return \bbcreation\AllegroApi\doGetMessageToBuyerResponse
      */
     public function setMessageToBuyer($messageToBuyer)
     {

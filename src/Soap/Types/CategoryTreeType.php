@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class CategoryTreeType
 {
@@ -49,7 +49,7 @@ class CategoryTreeType
 
     /**
      * @param int $categoryId
-     * @return \Ircykk\AllegroApi\CategoryTreeType
+     * @return \bbcreation\AllegroApi\CategoryTreeType
      */
     public function setCategoryId($categoryId)
     {
@@ -67,7 +67,7 @@ class CategoryTreeType
 
     /**
      * @param string $categoryName
-     * @return \Ircykk\AllegroApi\CategoryTreeType
+     * @return \bbcreation\AllegroApi\CategoryTreeType
      */
     public function setCategoryName($categoryName)
     {
@@ -85,7 +85,7 @@ class CategoryTreeType
 
     /**
      * @param int $categoryParentId
-     * @return \Ircykk\AllegroApi\CategoryTreeType
+     * @return \bbcreation\AllegroApi\CategoryTreeType
      */
     public function setCategoryParentId($categoryParentId)
     {
@@ -103,7 +103,7 @@ class CategoryTreeType
 
     /**
      * @param int $categoryItemsCount
-     * @return \Ircykk\AllegroApi\CategoryTreeType
+     * @return \bbcreation\AllegroApi\CategoryTreeType
      */
     public function setCategoryItemsCount($categoryItemsCount)
     {

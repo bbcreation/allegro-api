@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetMySellItemsRequest
 {
@@ -77,7 +77,7 @@ class DoGetMySellItemsRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoGetMySellItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMySellItemsRequest
      */
     public function setSessionId($sessionId)
     {
@@ -95,7 +95,7 @@ class DoGetMySellItemsRequest
 
     /**
      * @param SortOptionsStruct $sortOptions
-     * @return \Ircykk\AllegroApi\DoGetMySellItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMySellItemsRequest
      */
     public function setSortOptions($sortOptions)
     {
@@ -113,7 +113,7 @@ class DoGetMySellItemsRequest
 
     /**
      * @param SellFilterOptionsStruct $filterOptions
-     * @return \Ircykk\AllegroApi\DoGetMySellItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMySellItemsRequest
      */
     public function setFilterOptions($filterOptions)
     {
@@ -131,7 +131,7 @@ class DoGetMySellItemsRequest
 
     /**
      * @param string $searchValue
-     * @return \Ircykk\AllegroApi\DoGetMySellItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMySellItemsRequest
      */
     public function setSearchValue($searchValue)
     {
@@ -149,7 +149,7 @@ class DoGetMySellItemsRequest
 
     /**
      * @param int $categoryId
-     * @return \Ircykk\AllegroApi\DoGetMySellItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMySellItemsRequest
      */
     public function setCategoryId($categoryId)
     {
@@ -167,7 +167,7 @@ class DoGetMySellItemsRequest
 
     /**
      * @param ArrayOfLong $itemIds
-     * @return \Ircykk\AllegroApi\DoGetMySellItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMySellItemsRequest
      */
     public function setItemIds($itemIds)
     {
@@ -185,7 +185,7 @@ class DoGetMySellItemsRequest
 
     /**
      * @param int $pageSize
-     * @return \Ircykk\AllegroApi\DoGetMySellItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMySellItemsRequest
      */
     public function setPageSize($pageSize)
     {
@@ -203,7 +203,7 @@ class DoGetMySellItemsRequest
 
     /**
      * @param int $pageNumber
-     * @return \Ircykk\AllegroApi\DoGetMySellItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMySellItemsRequest
      */
     public function setPageNumber($pageNumber)
     {

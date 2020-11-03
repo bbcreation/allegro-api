@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetMyFutureItemsResponse
 {
@@ -35,7 +35,7 @@ class doGetMyFutureItemsResponse
 
     /**
      * @param int $futureItemsCounter
-     * @return \Ircykk\AllegroApi\doGetMyFutureItemsResponse
+     * @return \bbcreation\AllegroApi\doGetMyFutureItemsResponse
      */
     public function setFutureItemsCounter($futureItemsCounter)
     {
@@ -53,7 +53,7 @@ class doGetMyFutureItemsResponse
 
     /**
      * @param ArrayOfFutureitemstruct $futureItemsList
-     * @return \Ircykk\AllegroApi\doGetMyFutureItemsResponse
+     * @return \bbcreation\AllegroApi\doGetMyFutureItemsResponse
      */
     public function setFutureItemsList($futureItemsList)
     {

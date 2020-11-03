@@ -1,16 +1,16 @@
 <?php
 
-namespace Ircykk\AllegroApi\Rest\Order;
+namespace bbcreation\AllegroApi\Rest\Order;
 
 use Http\Client\Exception;
-use Ircykk\AllegroApi\Rest\AbstractRestResource;
+use bbcreation\AllegroApi\Rest\AbstractRestResource;
 
 /**
  * Class CheckoutForms.
  *
  * @link https://developer.allegro.pl/documentation/#operation/getListOfOrdersUsingGET
  *
- * @package Ircykk\AllegroApi\Rest\Order
+ * @package bbcreation\AllegroApi\Rest\Order
  */
 class CheckoutForms extends AbstractRestResource
 {

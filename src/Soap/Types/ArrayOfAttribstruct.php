@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfAttribstruct implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfAttribstruct implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param AttribStruct[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfAttribstruct
+     * @return \bbcreation\AllegroApi\ArrayOfAttribstruct
      */
     public function setItem(array $item = null)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetShipmentPriceTypesResponse
 {
@@ -28,7 +28,7 @@ class doGetShipmentPriceTypesResponse
 
     /**
      * @param ArrayOfShipmentpricetypestruct $shipmentPriceTypes
-     * @return \Ircykk\AllegroApi\doGetShipmentPriceTypesResponse
+     * @return \bbcreation\AllegroApi\doGetShipmentPriceTypesResponse
      */
     public function setShipmentPriceTypes($shipmentPriceTypes)
     {

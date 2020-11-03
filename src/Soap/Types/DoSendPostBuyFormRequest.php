@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoSendPostBuyFormRequest
 {
@@ -42,7 +42,7 @@ class DoSendPostBuyFormRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoSendPostBuyFormRequest
+     * @return \bbcreation\AllegroApi\DoSendPostBuyFormRequest
      */
     public function setSessionId($sessionId)
     {
@@ -60,7 +60,7 @@ class DoSendPostBuyFormRequest
 
     /**
      * @param ArrayOfNewpostbuyformsellerstruct $newPostBuyFormSeller
-     * @return \Ircykk\AllegroApi\DoSendPostBuyFormRequest
+     * @return \bbcreation\AllegroApi\DoSendPostBuyFormRequest
      */
     public function setNewPostBuyFormSeller($newPostBuyFormSeller)
     {
@@ -78,7 +78,7 @@ class DoSendPostBuyFormRequest
 
     /**
      * @param NewPostBuyFormCommonStruct $newPostBuyFormCommon
-     * @return \Ircykk\AllegroApi\DoSendPostBuyFormRequest
+     * @return \bbcreation\AllegroApi\DoSendPostBuyFormRequest
      */
     public function setNewPostBuyFormCommon($newPostBuyFormCommon)
     {

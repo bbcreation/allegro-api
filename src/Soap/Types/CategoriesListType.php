@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class CategoriesListType
 {
@@ -31,7 +31,7 @@ class CategoriesListType
 
     /**
      * @param ArrayOfCategorytreetype $categoriesTree
-     * @return \Ircykk\AllegroApi\CategoriesListType
+     * @return \bbcreation\AllegroApi\CategoriesListType
      */
     public function setCategoriesTree($categoriesTree)
     {
@@ -49,7 +49,7 @@ class CategoriesListType
 
     /**
      * @param ArrayOfCategorypathtype $categoriesPath
-     * @return \Ircykk\AllegroApi\CategoriesListType
+     * @return \bbcreation\AllegroApi\CategoriesListType
      */
     public function setCategoriesPath($categoriesPath)
     {

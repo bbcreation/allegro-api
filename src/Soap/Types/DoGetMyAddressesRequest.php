@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetMyAddressesRequest
 {
@@ -28,7 +28,7 @@ class DoGetMyAddressesRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoGetMyAddressesRequest
+     * @return \bbcreation\AllegroApi\DoGetMyAddressesRequest
      */
     public function setSessionId($sessionId)
     {

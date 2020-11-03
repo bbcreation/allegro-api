@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class PaymentMethodStruct
 {
@@ -49,7 +49,7 @@ class PaymentMethodStruct
 
     /**
      * @param string $paymentMethodId
-     * @return \Ircykk\AllegroApi\PaymentMethodStruct
+     * @return \bbcreation\AllegroApi\PaymentMethodStruct
      */
     public function setPaymentMethodId($paymentMethodId)
     {
@@ -67,7 +67,7 @@ class PaymentMethodStruct
 
     /**
      * @param string $paymentMethodName
-     * @return \Ircykk\AllegroApi\PaymentMethodStruct
+     * @return \bbcreation\AllegroApi\PaymentMethodStruct
      */
     public function setPaymentMethodName($paymentMethodName)
     {
@@ -85,7 +85,7 @@ class PaymentMethodStruct
 
     /**
      * @param string $paymentMethodImage
-     * @return \Ircykk\AllegroApi\PaymentMethodStruct
+     * @return \bbcreation\AllegroApi\PaymentMethodStruct
      */
     public function setPaymentMethodImage($paymentMethodImage)
     {
@@ -103,7 +103,7 @@ class PaymentMethodStruct
 
     /**
      * @param int $paymentMethodUsage
-     * @return \Ircykk\AllegroApi\PaymentMethodStruct
+     * @return \bbcreation\AllegroApi\PaymentMethodStruct
      */
     public function setPaymentMethodUsage($paymentMethodUsage)
     {

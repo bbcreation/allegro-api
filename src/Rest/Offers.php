@@ -1,15 +1,15 @@
 <?php
 
-namespace Ircykk\AllegroApi\Rest;
+namespace bbcreation\AllegroApi\Rest;
 
 use Psr\Http\Message\ResponseInterface;
-use Ircykk\AllegroApi\Exception\InvalidArgumentException;
+use bbcreation\AllegroApi\Exception\InvalidArgumentException;
 use Http\Client\Exception;
 
 /**
  * Class Offers.
  *
- * @package Ircykk\AllegroApi\Rest
+ * @package bbcreation\AllegroApi\Rest
  */
 class Offers extends AbstractRestResource
 {

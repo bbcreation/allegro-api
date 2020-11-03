@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doRequestPayoutResponse
 {
@@ -28,7 +28,7 @@ class doRequestPayoutResponse
 
     /**
      * @param RequestPayoutStruct $requestPayout
-     * @return \Ircykk\AllegroApi\doRequestPayoutResponse
+     * @return \bbcreation\AllegroApi\doRequestPayoutResponse
      */
     public function setRequestPayout($requestPayout)
     {

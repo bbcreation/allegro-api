@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DurationInfoStruct
 {
@@ -26,7 +26,7 @@ class DurationInfoStruct
 
     /**
      * @param int $durationType
-     * @return \Ircykk\AllegroApi\DurationInfoStruct
+     * @return \bbcreation\AllegroApi\DurationInfoStruct
      */
     public function setDurationType($durationType)
     {

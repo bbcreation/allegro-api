@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class PaymentsUserDataStruct
 {
@@ -63,7 +63,7 @@ class PaymentsUserDataStruct
 
     /**
      * @param string $userFullName
-     * @return \Ircykk\AllegroApi\PaymentsUserDataStruct
+     * @return \bbcreation\AllegroApi\PaymentsUserDataStruct
      */
     public function setUserFullName($userFullName)
     {
@@ -81,7 +81,7 @@ class PaymentsUserDataStruct
 
     /**
      * @param string $userAddress
-     * @return \Ircykk\AllegroApi\PaymentsUserDataStruct
+     * @return \bbcreation\AllegroApi\PaymentsUserDataStruct
      */
     public function setUserAddress($userAddress)
     {
@@ -99,7 +99,7 @@ class PaymentsUserDataStruct
 
     /**
      * @param string $userPostcode
-     * @return \Ircykk\AllegroApi\PaymentsUserDataStruct
+     * @return \bbcreation\AllegroApi\PaymentsUserDataStruct
      */
     public function setUserPostcode($userPostcode)
     {
@@ -117,7 +117,7 @@ class PaymentsUserDataStruct
 
     /**
      * @param string $userCity
-     * @return \Ircykk\AllegroApi\PaymentsUserDataStruct
+     * @return \bbcreation\AllegroApi\PaymentsUserDataStruct
      */
     public function setUserCity($userCity)
     {
@@ -135,7 +135,7 @@ class PaymentsUserDataStruct
 
     /**
      * @param int $userCountry
-     * @return \Ircykk\AllegroApi\PaymentsUserDataStruct
+     * @return \bbcreation\AllegroApi\PaymentsUserDataStruct
      */
     public function setUserCountry($userCountry)
     {
@@ -153,7 +153,7 @@ class PaymentsUserDataStruct
 
     /**
      * @param string $userPhone
-     * @return \Ircykk\AllegroApi\PaymentsUserDataStruct
+     * @return \bbcreation\AllegroApi\PaymentsUserDataStruct
      */
     public function setUserPhone($userPhone)
     {

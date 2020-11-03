@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class CategoryPathType
 {
@@ -42,7 +42,7 @@ class CategoryPathType
 
     /**
      * @param int $categoryId
-     * @return \Ircykk\AllegroApi\CategoryPathType
+     * @return \bbcreation\AllegroApi\CategoryPathType
      */
     public function setCategoryId($categoryId)
     {
@@ -60,7 +60,7 @@ class CategoryPathType
 
     /**
      * @param string $categoryName
-     * @return \Ircykk\AllegroApi\CategoryPathType
+     * @return \bbcreation\AllegroApi\CategoryPathType
      */
     public function setCategoryName($categoryName)
     {
@@ -78,7 +78,7 @@ class CategoryPathType
 
     /**
      * @param int $categoryParentId
-     * @return \Ircykk\AllegroApi\CategoryPathType
+     * @return \bbcreation\AllegroApi\CategoryPathType
      */
     public function setCategoryParentId($categoryParentId)
     {

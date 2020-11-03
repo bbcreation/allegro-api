@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class AddressUserDataStruct
 {
@@ -54,7 +54,7 @@ class AddressUserDataStruct
 
     /**
      * @param string $userCompany
-     * @return \Ircykk\AllegroApi\AddressUserDataStruct
+     * @return \bbcreation\AllegroApi\AddressUserDataStruct
      */
     public function setUserCompany($userCompany)
     {
@@ -72,7 +72,7 @@ class AddressUserDataStruct
 
     /**
      * @param string $userFullName
-     * @return \Ircykk\AllegroApi\AddressUserDataStruct
+     * @return \bbcreation\AllegroApi\AddressUserDataStruct
      */
     public function setUserFullName($userFullName)
     {
@@ -90,7 +90,7 @@ class AddressUserDataStruct
 
     /**
      * @param string $userAddress
-     * @return \Ircykk\AllegroApi\AddressUserDataStruct
+     * @return \bbcreation\AllegroApi\AddressUserDataStruct
      */
     public function setUserAddress($userAddress)
     {
@@ -108,7 +108,7 @@ class AddressUserDataStruct
 
     /**
      * @param string $userPostcode
-     * @return \Ircykk\AllegroApi\AddressUserDataStruct
+     * @return \bbcreation\AllegroApi\AddressUserDataStruct
      */
     public function setUserPostcode($userPostcode)
     {
@@ -126,7 +126,7 @@ class AddressUserDataStruct
 
     /**
      * @param string $userCity
-     * @return \Ircykk\AllegroApi\AddressUserDataStruct
+     * @return \bbcreation\AllegroApi\AddressUserDataStruct
      */
     public function setUserCity($userCity)
     {

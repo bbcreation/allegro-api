@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class MessageToBuyerStruct
 {
@@ -35,7 +35,7 @@ class MessageToBuyerStruct
 
     /**
      * @param int $messageSellerId
-     * @return \Ircykk\AllegroApi\MessageToBuyerStruct
+     * @return \bbcreation\AllegroApi\MessageToBuyerStruct
      */
     public function setMessageSellerId($messageSellerId)
     {
@@ -53,7 +53,7 @@ class MessageToBuyerStruct
 
     /**
      * @param string $messageContent
-     * @return \Ircykk\AllegroApi\MessageToBuyerStruct
+     * @return \bbcreation\AllegroApi\MessageToBuyerStruct
      */
     public function setMessageContent($messageContent)
     {

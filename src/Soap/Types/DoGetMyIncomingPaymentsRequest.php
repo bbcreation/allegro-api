@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetMyIncomingPaymentsRequest
 {
@@ -77,7 +77,7 @@ class DoGetMyIncomingPaymentsRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoGetMyIncomingPaymentsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyIncomingPaymentsRequest
      */
     public function setSessionHandle($sessionHandle)
     {
@@ -95,7 +95,7 @@ class DoGetMyIncomingPaymentsRequest
 
     /**
      * @param int $buyerId
-     * @return \Ircykk\AllegroApi\DoGetMyIncomingPaymentsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyIncomingPaymentsRequest
      */
     public function setBuyerId($buyerId)
     {
@@ -113,7 +113,7 @@ class DoGetMyIncomingPaymentsRequest
 
     /**
      * @param int $itemId
-     * @return \Ircykk\AllegroApi\DoGetMyIncomingPaymentsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyIncomingPaymentsRequest
      */
     public function setItemId($itemId)
     {
@@ -131,7 +131,7 @@ class DoGetMyIncomingPaymentsRequest
 
     /**
      * @param int $transRecvDateFrom
-     * @return \Ircykk\AllegroApi\DoGetMyIncomingPaymentsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyIncomingPaymentsRequest
      */
     public function setTransRecvDateFrom($transRecvDateFrom)
     {
@@ -149,7 +149,7 @@ class DoGetMyIncomingPaymentsRequest
 
     /**
      * @param int $transRecvDateTo
-     * @return \Ircykk\AllegroApi\DoGetMyIncomingPaymentsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyIncomingPaymentsRequest
      */
     public function setTransRecvDateTo($transRecvDateTo)
     {
@@ -167,7 +167,7 @@ class DoGetMyIncomingPaymentsRequest
 
     /**
      * @param int $transPageLimit
-     * @return \Ircykk\AllegroApi\DoGetMyIncomingPaymentsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyIncomingPaymentsRequest
      */
     public function setTransPageLimit($transPageLimit)
     {
@@ -185,7 +185,7 @@ class DoGetMyIncomingPaymentsRequest
 
     /**
      * @param int $transOffset
-     * @return \Ircykk\AllegroApi\DoGetMyIncomingPaymentsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyIncomingPaymentsRequest
      */
     public function setTransOffset($transOffset)
     {
@@ -203,7 +203,7 @@ class DoGetMyIncomingPaymentsRequest
 
     /**
      * @param int $strictedSearch
-     * @return \Ircykk\AllegroApi\DoGetMyIncomingPaymentsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyIncomingPaymentsRequest
      */
     public function setStrictedSearch($strictedSearch)
     {

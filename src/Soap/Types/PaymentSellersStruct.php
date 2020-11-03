@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class PaymentSellersStruct
 {
@@ -47,7 +47,7 @@ class PaymentSellersStruct
 
     /**
      * @param int $payTransSellerId
-     * @return \Ircykk\AllegroApi\PaymentSellersStruct
+     * @return \bbcreation\AllegroApi\PaymentSellersStruct
      */
     public function setPayTransSellerId($payTransSellerId)
     {
@@ -65,7 +65,7 @@ class PaymentSellersStruct
 
     /**
      * @param string $payTransSellerName
-     * @return \Ircykk\AllegroApi\PaymentSellersStruct
+     * @return \bbcreation\AllegroApi\PaymentSellersStruct
      */
     public function setPayTransSellerName($payTransSellerName)
     {
@@ -83,7 +83,7 @@ class PaymentSellersStruct
 
     /**
      * @param ArrayOfPaymentitemsstruct $payTransItems
-     * @return \Ircykk\AllegroApi\PaymentSellersStruct
+     * @return \bbcreation\AllegroApi\PaymentSellersStruct
      */
     public function setPayTransItems($payTransItems)
     {
@@ -101,7 +101,7 @@ class PaymentSellersStruct
 
     /**
      * @param float $payTransSellerPostageAmount
-     * @return \Ircykk\AllegroApi\PaymentSellersStruct
+     * @return \bbcreation\AllegroApi\PaymentSellersStruct
      */
     public function setPayTransSellerPostageAmount($payTransSellerPostageAmount)
     {

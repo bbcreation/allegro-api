@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class UserPostBuyDataStruct
 {
@@ -47,7 +47,7 @@ class UserPostBuyDataStruct
 
     /**
      * @param UserDataStruct $userData
-     * @return \Ircykk\AllegroApi\UserPostBuyDataStruct
+     * @return \bbcreation\AllegroApi\UserPostBuyDataStruct
      */
     public function setUserData($userData)
     {
@@ -65,7 +65,7 @@ class UserPostBuyDataStruct
 
     /**
      * @param UserSentToDataStruct $userSentToData
-     * @return \Ircykk\AllegroApi\UserPostBuyDataStruct
+     * @return \bbcreation\AllegroApi\UserPostBuyDataStruct
      */
     public function setUserSentToData($userSentToData)
     {
@@ -83,7 +83,7 @@ class UserPostBuyDataStruct
 
     /**
      * @param ArrayOfString $userBankAccounts
-     * @return \Ircykk\AllegroApi\UserPostBuyDataStruct
+     * @return \bbcreation\AllegroApi\UserPostBuyDataStruct
      */
     public function setUserBankAccounts($userBankAccounts)
     {
@@ -101,7 +101,7 @@ class UserPostBuyDataStruct
 
     /**
      * @param CompanySecondAddressStruct $companySecondAddress
-     * @return \Ircykk\AllegroApi\UserPostBuyDataStruct
+     * @return \bbcreation\AllegroApi\UserPostBuyDataStruct
      */
     public function setCompanySecondAddress($companySecondAddress)
     {

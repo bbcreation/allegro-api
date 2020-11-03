@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class PayoutPaymentsStruct
 {
@@ -70,7 +70,7 @@ class PayoutPaymentsStruct
 
     /**
      * @param int $tranasctionId
-     * @return \Ircykk\AllegroApi\PayoutPaymentsStruct
+     * @return \bbcreation\AllegroApi\PayoutPaymentsStruct
      */
     public function setTranasctionId($tranasctionId)
     {
@@ -88,7 +88,7 @@ class PayoutPaymentsStruct
 
     /**
      * @param string $userName
-     * @return \Ircykk\AllegroApi\PayoutPaymentsStruct
+     * @return \bbcreation\AllegroApi\PayoutPaymentsStruct
      */
     public function setUserName($userName)
     {
@@ -106,7 +106,7 @@ class PayoutPaymentsStruct
 
     /**
      * @param int $userId
-     * @return \Ircykk\AllegroApi\PayoutPaymentsStruct
+     * @return \bbcreation\AllegroApi\PayoutPaymentsStruct
      */
     public function setUserId($userId)
     {
@@ -124,7 +124,7 @@ class PayoutPaymentsStruct
 
     /**
      * @param float $amount
-     * @return \Ircykk\AllegroApi\PayoutPaymentsStruct
+     * @return \bbcreation\AllegroApi\PayoutPaymentsStruct
      */
     public function setAmount($amount)
     {
@@ -142,7 +142,7 @@ class PayoutPaymentsStruct
 
     /**
      * @param float $transportAmount
-     * @return \Ircykk\AllegroApi\PayoutPaymentsStruct
+     * @return \bbcreation\AllegroApi\PayoutPaymentsStruct
      */
     public function setTransportAmount($transportAmount)
     {
@@ -160,7 +160,7 @@ class PayoutPaymentsStruct
 
     /**
      * @param float $totalAmount
-     * @return \Ircykk\AllegroApi\PayoutPaymentsStruct
+     * @return \bbcreation\AllegroApi\PayoutPaymentsStruct
      */
     public function setTotalAmount($totalAmount)
     {
@@ -178,7 +178,7 @@ class PayoutPaymentsStruct
 
     /**
      * @param string $paidDate
-     * @return \Ircykk\AllegroApi\PayoutPaymentsStruct
+     * @return \bbcreation\AllegroApi\PayoutPaymentsStruct
      */
     public function setPaidDate($paidDate)
     {

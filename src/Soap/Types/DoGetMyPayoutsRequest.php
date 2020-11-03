@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetMyPayoutsRequest
 {
@@ -56,7 +56,7 @@ class DoGetMyPayoutsRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoGetMyPayoutsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyPayoutsRequest
      */
     public function setSessionHandle($sessionHandle)
     {
@@ -74,7 +74,7 @@ class DoGetMyPayoutsRequest
 
     /**
      * @param int $transCreateDateFrom
-     * @return \Ircykk\AllegroApi\DoGetMyPayoutsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyPayoutsRequest
      */
     public function setTransCreateDateFrom($transCreateDateFrom)
     {
@@ -92,7 +92,7 @@ class DoGetMyPayoutsRequest
 
     /**
      * @param int $transCreateDateTo
-     * @return \Ircykk\AllegroApi\DoGetMyPayoutsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyPayoutsRequest
      */
     public function setTransCreateDateTo($transCreateDateTo)
     {
@@ -110,7 +110,7 @@ class DoGetMyPayoutsRequest
 
     /**
      * @param int $transPageLimit
-     * @return \Ircykk\AllegroApi\DoGetMyPayoutsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyPayoutsRequest
      */
     public function setTransPageLimit($transPageLimit)
     {
@@ -128,7 +128,7 @@ class DoGetMyPayoutsRequest
 
     /**
      * @param int $transOffset
-     * @return \Ircykk\AllegroApi\DoGetMyPayoutsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyPayoutsRequest
      */
     public function setTransOffset($transOffset)
     {

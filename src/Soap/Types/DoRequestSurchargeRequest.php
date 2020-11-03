@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoRequestSurchargeRequest
 {
@@ -49,7 +49,7 @@ class DoRequestSurchargeRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoRequestSurchargeRequest
+     * @return \bbcreation\AllegroApi\DoRequestSurchargeRequest
      */
     public function setSessionHandle($sessionHandle)
     {
@@ -67,7 +67,7 @@ class DoRequestSurchargeRequest
 
     /**
      * @param int $transactionId
-     * @return \Ircykk\AllegroApi\DoRequestSurchargeRequest
+     * @return \bbcreation\AllegroApi\DoRequestSurchargeRequest
      */
     public function setTransactionId($transactionId)
     {
@@ -85,7 +85,7 @@ class DoRequestSurchargeRequest
 
     /**
      * @param float $surchargeValue
-     * @return \Ircykk\AllegroApi\DoRequestSurchargeRequest
+     * @return \bbcreation\AllegroApi\DoRequestSurchargeRequest
      */
     public function setSurchargeValue($surchargeValue)
     {
@@ -103,7 +103,7 @@ class DoRequestSurchargeRequest
 
     /**
      * @param string $surchargeMessageToBuyer
-     * @return \Ircykk\AllegroApi\DoRequestSurchargeRequest
+     * @return \bbcreation\AllegroApi\DoRequestSurchargeRequest
      */
     public function setSurchargeMessageToBuyer($surchargeMessageToBuyer)
     {

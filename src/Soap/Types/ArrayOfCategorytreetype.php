@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfCategorytreetype implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfCategorytreetype implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param CategoryTreeType[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfCategorytreetype
+     * @return \bbcreation\AllegroApi\ArrayOfCategorytreetype
      */
     public function setItem(array $item = null)
     {

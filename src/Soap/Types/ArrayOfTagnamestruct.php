@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfTagnamestruct implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfTagnamestruct implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param TagNameStruct[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfTagnamestruct
+     * @return \bbcreation\AllegroApi\ArrayOfTagnamestruct
      */
     public function setItem(array $item = null)
     {

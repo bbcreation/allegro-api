@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetMyCurrentShipmentPriceTypeRequest
 {
@@ -28,7 +28,7 @@ class DoGetMyCurrentShipmentPriceTypeRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoGetMyCurrentShipmentPriceTypeRequest
+     * @return \bbcreation\AllegroApi\DoGetMyCurrentShipmentPriceTypeRequest
      */
     public function setSessionId($sessionId)
     {

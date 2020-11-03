@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doMyBillingResponse
 {
@@ -28,7 +28,7 @@ class doMyBillingResponse
 
     /**
      * @param string $myBilling
-     * @return \Ircykk\AllegroApi\doMyBillingResponse
+     * @return \bbcreation\AllegroApi\doMyBillingResponse
      */
     public function setMyBilling($myBilling)
     {

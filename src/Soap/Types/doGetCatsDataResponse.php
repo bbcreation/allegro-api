@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetCatsDataResponse
 {
@@ -42,7 +42,7 @@ class doGetCatsDataResponse
 
     /**
      * @param ArrayOfCatinfotype $catsList
-     * @return \Ircykk\AllegroApi\doGetCatsDataResponse
+     * @return \bbcreation\AllegroApi\doGetCatsDataResponse
      */
     public function setCatsList($catsList)
     {
@@ -60,7 +60,7 @@ class doGetCatsDataResponse
 
     /**
      * @param int $verKey
-     * @return \Ircykk\AllegroApi\doGetCatsDataResponse
+     * @return \bbcreation\AllegroApi\doGetCatsDataResponse
      */
     public function setVerKey($verKey)
     {
@@ -78,7 +78,7 @@ class doGetCatsDataResponse
 
     /**
      * @param string $verStr
-     * @return \Ircykk\AllegroApi\doGetCatsDataResponse
+     * @return \bbcreation\AllegroApi\doGetCatsDataResponse
      */
     public function setVerStr($verStr)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetMyPaymentsInfoRequest
 {
@@ -28,7 +28,7 @@ class DoGetMyPaymentsInfoRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoGetMyPaymentsInfoRequest
+     * @return \bbcreation\AllegroApi\DoGetMyPaymentsInfoRequest
      */
     public function setSessionId($sessionId)
     {

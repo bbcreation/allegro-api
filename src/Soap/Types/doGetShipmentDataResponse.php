@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetShipmentDataResponse
 {
@@ -35,7 +35,7 @@ class doGetShipmentDataResponse
 
     /**
      * @param ArrayOfShipmentdatastruct $shipmentDataList
-     * @return \Ircykk\AllegroApi\doGetShipmentDataResponse
+     * @return \bbcreation\AllegroApi\doGetShipmentDataResponse
      */
     public function setShipmentDataList($shipmentDataList)
     {
@@ -53,7 +53,7 @@ class doGetShipmentDataResponse
 
     /**
      * @param int $localVersion
-     * @return \Ircykk\AllegroApi\doGetShipmentDataResponse
+     * @return \bbcreation\AllegroApi\doGetShipmentDataResponse
      */
     public function setLocalVersion($localVersion)
     {

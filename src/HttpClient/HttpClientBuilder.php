@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi\HttpClient;
+namespace bbcreation\AllegroApi\HttpClient;
 
 use Http\Client\Common\HttpMethodsClient;
 use Http\Client\Common\Plugin;
@@ -12,14 +12,14 @@ use Http\Discovery\StreamFactoryDiscovery;
 use Http\Message\MessageFactory;
 use Http\Message\RequestFactory;
 use Http\Message\StreamFactory;
-use Ircykk\AllegroApi\Rest\Response\ObjectResponseFormatter;
-use Ircykk\AllegroApi\Rest\Response\ResponseFormatterInterface;
+use bbcreation\AllegroApi\Rest\Response\ObjectResponseFormatter;
+use bbcreation\AllegroApi\Rest\Response\ResponseFormatterInterface;
 use Psr\Cache\CacheItemPoolInterface;
 
 /**
  * Class HttpClientBuilder.
  *
- * @package Ircykk\AllegroApi\HttpClient
+ * @package bbcreation\AllegroApi\HttpClient
  */
 class HttpClientBuilder
 {

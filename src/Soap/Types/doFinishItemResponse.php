@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doFinishItemResponse
 {
@@ -28,7 +28,7 @@ class doFinishItemResponse
 
     /**
      * @param int $finishValue
-     * @return \Ircykk\AllegroApi\doFinishItemResponse
+     * @return \bbcreation\AllegroApi\doFinishItemResponse
      */
     public function setFinishValue($finishValue)
     {

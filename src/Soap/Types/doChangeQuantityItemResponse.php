@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doChangeQuantityItemResponse
 {
@@ -49,7 +49,7 @@ class doChangeQuantityItemResponse
 
     /**
      * @param int $itemId
-     * @return \Ircykk\AllegroApi\doChangeQuantityItemResponse
+     * @return \bbcreation\AllegroApi\doChangeQuantityItemResponse
      */
     public function setItemId($itemId)
     {
@@ -67,7 +67,7 @@ class doChangeQuantityItemResponse
 
     /**
      * @param string $itemInfo
-     * @return \Ircykk\AllegroApi\doChangeQuantityItemResponse
+     * @return \bbcreation\AllegroApi\doChangeQuantityItemResponse
      */
     public function setItemInfo($itemInfo)
     {
@@ -85,7 +85,7 @@ class doChangeQuantityItemResponse
 
     /**
      * @param int $itemQuantityLeft
-     * @return \Ircykk\AllegroApi\doChangeQuantityItemResponse
+     * @return \bbcreation\AllegroApi\doChangeQuantityItemResponse
      */
     public function setItemQuantityLeft($itemQuantityLeft)
     {
@@ -103,7 +103,7 @@ class doChangeQuantityItemResponse
 
     /**
      * @param int $itemQuantitySold
-     * @return \Ircykk\AllegroApi\doChangeQuantityItemResponse
+     * @return \bbcreation\AllegroApi\doChangeQuantityItemResponse
      */
     public function setItemQuantitySold($itemQuantitySold)
     {

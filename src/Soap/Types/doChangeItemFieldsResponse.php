@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doChangeItemFieldsResponse
 {
@@ -28,7 +28,7 @@ class doChangeItemFieldsResponse
 
     /**
      * @param ChangedItemStruct $changedItem
-     * @return \Ircykk\AllegroApi\doChangeItemFieldsResponse
+     * @return \bbcreation\AllegroApi\doChangeItemFieldsResponse
      */
     public function setChangedItem($changedItem)
     {

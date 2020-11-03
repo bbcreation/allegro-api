@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetDealsResponse
 {
@@ -28,7 +28,7 @@ class doGetDealsResponse
 
     /**
      * @param ArrayOfDealsstruct $dealsList
-     * @return \Ircykk\AllegroApi\doGetDealsResponse
+     * @return \bbcreation\AllegroApi\doGetDealsResponse
      */
     public function setDealsList($dealsList)
     {

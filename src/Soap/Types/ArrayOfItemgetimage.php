@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfItemgetimage implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfItemgetimage implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param ItemGetImage[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfItemgetimage
+     * @return \bbcreation\AllegroApi\ArrayOfItemgetimage
      */
     public function setItem(array $item = null)
     {

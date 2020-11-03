@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ItemsListType
 {
@@ -128,7 +128,7 @@ class ItemsListType
 
     /**
      * @param int $itemId
-     * @return \Ircykk\AllegroApi\ItemsListType
+     * @return \bbcreation\AllegroApi\ItemsListType
      */
     public function setItemId($itemId)
     {
@@ -146,7 +146,7 @@ class ItemsListType
 
     /**
      * @param string $itemTitle
-     * @return \Ircykk\AllegroApi\ItemsListType
+     * @return \bbcreation\AllegroApi\ItemsListType
      */
     public function setItemTitle($itemTitle)
     {
@@ -164,7 +164,7 @@ class ItemsListType
 
     /**
      * @param int $leftCount
-     * @return \Ircykk\AllegroApi\ItemsListType
+     * @return \bbcreation\AllegroApi\ItemsListType
      */
     public function setLeftCount($leftCount)
     {
@@ -182,7 +182,7 @@ class ItemsListType
 
     /**
      * @param int $bidsCount
-     * @return \Ircykk\AllegroApi\ItemsListType
+     * @return \bbcreation\AllegroApi\ItemsListType
      */
     public function setBidsCount($bidsCount)
     {
@@ -200,7 +200,7 @@ class ItemsListType
 
     /**
      * @param int $biddersCount
-     * @return \Ircykk\AllegroApi\ItemsListType
+     * @return \bbcreation\AllegroApi\ItemsListType
      */
     public function setBiddersCount($biddersCount)
     {
@@ -218,7 +218,7 @@ class ItemsListType
 
     /**
      * @param string $quantityType
-     * @return \Ircykk\AllegroApi\ItemsListType
+     * @return \bbcreation\AllegroApi\ItemsListType
      */
     public function setQuantityType($quantityType)
     {
@@ -244,7 +244,7 @@ class ItemsListType
 
     /**
      * @param \DateTime $endingTime
-     * @return \Ircykk\AllegroApi\ItemsListType
+     * @return \bbcreation\AllegroApi\ItemsListType
      */
     public function setEndingTime(\DateTime $endingTime = null)
     {
@@ -266,7 +266,7 @@ class ItemsListType
 
     /**
      * @param string $timeToEnd
-     * @return \Ircykk\AllegroApi\ItemsListType
+     * @return \bbcreation\AllegroApi\ItemsListType
      */
     public function setTimeToEnd($timeToEnd)
     {
@@ -284,7 +284,7 @@ class ItemsListType
 
     /**
      * @param int $categoryId
-     * @return \Ircykk\AllegroApi\ItemsListType
+     * @return \bbcreation\AllegroApi\ItemsListType
      */
     public function setCategoryId($categoryId)
     {
@@ -302,7 +302,7 @@ class ItemsListType
 
     /**
      * @param string $conditionInfo
-     * @return \Ircykk\AllegroApi\ItemsListType
+     * @return \bbcreation\AllegroApi\ItemsListType
      */
     public function setConditionInfo($conditionInfo)
     {
@@ -320,7 +320,7 @@ class ItemsListType
 
     /**
      * @param int $promotionInfo
-     * @return \Ircykk\AllegroApi\ItemsListType
+     * @return \bbcreation\AllegroApi\ItemsListType
      */
     public function setPromotionInfo($promotionInfo)
     {
@@ -338,7 +338,7 @@ class ItemsListType
 
     /**
      * @param int $additionalInfo
-     * @return \Ircykk\AllegroApi\ItemsListType
+     * @return \bbcreation\AllegroApi\ItemsListType
      */
     public function setAdditionalInfo($additionalInfo)
     {
@@ -356,7 +356,7 @@ class ItemsListType
 
     /**
      * @param UserInfoType $sellerInfo
-     * @return \Ircykk\AllegroApi\ItemsListType
+     * @return \bbcreation\AllegroApi\ItemsListType
      */
     public function setSellerInfo($sellerInfo)
     {
@@ -374,7 +374,7 @@ class ItemsListType
 
     /**
      * @param ArrayOfPriceinfotype $priceInfo
-     * @return \Ircykk\AllegroApi\ItemsListType
+     * @return \bbcreation\AllegroApi\ItemsListType
      */
     public function setPriceInfo($priceInfo)
     {
@@ -392,7 +392,7 @@ class ItemsListType
 
     /**
      * @param ArrayOfPhotoinfotype $photosInfo
-     * @return \Ircykk\AllegroApi\ItemsListType
+     * @return \bbcreation\AllegroApi\ItemsListType
      */
     public function setPhotosInfo($photosInfo)
     {
@@ -410,7 +410,7 @@ class ItemsListType
 
     /**
      * @param ArrayOfParameterinfotype $parametersInfo
-     * @return \Ircykk\AllegroApi\ItemsListType
+     * @return \bbcreation\AllegroApi\ItemsListType
      */
     public function setParametersInfo($parametersInfo)
     {
@@ -428,7 +428,7 @@ class ItemsListType
 
     /**
      * @param AdvertInfoType $advertInfo
-     * @return \Ircykk\AllegroApi\ItemsListType
+     * @return \bbcreation\AllegroApi\ItemsListType
      */
     public function setAdvertInfo($advertInfo)
     {

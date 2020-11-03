@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfProductparametersstruct implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfProductparametersstruct implements \ArrayAccess, \Iterator, \Counta
 
     /**
      * @param ProductParametersStruct[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfProductparametersstruct
+     * @return \bbcreation\AllegroApi\ArrayOfProductparametersstruct
      */
     public function setItem(array $item = null)
     {

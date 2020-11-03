@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class PostBuyFormStruct
 {
@@ -40,7 +40,7 @@ class PostBuyFormStruct
 
     /**
      * @param int $transactionId
-     * @return \Ircykk\AllegroApi\PostBuyFormStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormStruct
      */
     public function setTransactionId($transactionId)
     {
@@ -58,7 +58,7 @@ class PostBuyFormStruct
 
     /**
      * @param ArrayOfLong $transactionPackageIds
-     * @return \Ircykk\AllegroApi\PostBuyFormStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormStruct
      */
     public function setTransactionPackageIds($transactionPackageIds)
     {
@@ -76,7 +76,7 @@ class PostBuyFormStruct
 
     /**
      * @param TransactionPayByLinkStruct $transactionPayByLink
-     * @return \Ircykk\AllegroApi\PostBuyFormStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormStruct
      */
     public function setTransactionPayByLink($transactionPayByLink)
     {

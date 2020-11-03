@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfReasoninfotype implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfReasoninfotype implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param ReasonInfoType[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfReasoninfotype
+     * @return \bbcreation\AllegroApi\ArrayOfReasoninfotype
      */
     public function setItem(array $item = null)
     {

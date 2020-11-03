@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoFinishItemsRequest
 {
@@ -35,7 +35,7 @@ class DoFinishItemsRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoFinishItemsRequest
+     * @return \bbcreation\AllegroApi\DoFinishItemsRequest
      */
     public function setSessionHandle($sessionHandle)
     {
@@ -53,7 +53,7 @@ class DoFinishItemsRequest
 
     /**
      * @param ArrayOfFinishitemsstruct $finishItemsList
-     * @return \Ircykk\AllegroApi\DoFinishItemsRequest
+     * @return \bbcreation\AllegroApi\DoFinishItemsRequest
      */
     public function setFinishItemsList($finishItemsList)
     {

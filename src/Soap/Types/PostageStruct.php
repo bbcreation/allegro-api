@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class PostageStruct
 {
@@ -68,7 +68,7 @@ class PostageStruct
 
     /**
      * @param float $postageAmount
-     * @return \Ircykk\AllegroApi\PostageStruct
+     * @return \bbcreation\AllegroApi\PostageStruct
      */
     public function setPostageAmount($postageAmount)
     {
@@ -86,7 +86,7 @@ class PostageStruct
 
     /**
      * @param float $postageAmountAdd
-     * @return \Ircykk\AllegroApi\PostageStruct
+     * @return \bbcreation\AllegroApi\PostageStruct
      */
     public function setPostageAmountAdd($postageAmountAdd)
     {
@@ -104,7 +104,7 @@ class PostageStruct
 
     /**
      * @param int $postagePackSize
-     * @return \Ircykk\AllegroApi\PostageStruct
+     * @return \bbcreation\AllegroApi\PostageStruct
      */
     public function setPostagePackSize($postagePackSize)
     {
@@ -122,7 +122,7 @@ class PostageStruct
 
     /**
      * @param int $postageId
-     * @return \Ircykk\AllegroApi\PostageStruct
+     * @return \bbcreation\AllegroApi\PostageStruct
      */
     public function setPostageId($postageId)
     {
@@ -140,7 +140,7 @@ class PostageStruct
 
     /**
      * @param int $postageFreeShipping
-     * @return \Ircykk\AllegroApi\PostageStruct
+     * @return \bbcreation\AllegroApi\PostageStruct
      */
     public function setPostageFreeShipping($postageFreeShipping)
     {
@@ -158,7 +158,7 @@ class PostageStruct
 
     /**
      * @param int $postageFreeReturn
-     * @return \Ircykk\AllegroApi\PostageStruct
+     * @return \bbcreation\AllegroApi\PostageStruct
      */
     public function setPostageFreeReturn($postageFreeReturn)
     {
@@ -176,7 +176,7 @@ class PostageStruct
 
     /**
      * @param FulfillmentTimeStruct $postageFulfillmentTime
-     * @return \Ircykk\AllegroApi\PostageStruct
+     * @return \bbcreation\AllegroApi\PostageStruct
      */
     public function setPostageFulfillmentTime($postageFulfillmentTime)
     {

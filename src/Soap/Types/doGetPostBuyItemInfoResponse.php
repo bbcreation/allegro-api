@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetPostBuyItemInfoResponse
 {
@@ -28,7 +28,7 @@ class doGetPostBuyItemInfoResponse
 
     /**
      * @param ArrayOfPostbuyiteminfostruct $itemPostBuyFormInfo
-     * @return \Ircykk\AllegroApi\doGetPostBuyItemInfoResponse
+     * @return \bbcreation\AllegroApi\doGetPostBuyItemInfoResponse
      */
     public function setItemPostBuyFormInfo($itemPostBuyFormInfo)
     {

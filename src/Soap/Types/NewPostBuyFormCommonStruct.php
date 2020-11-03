@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class NewPostBuyFormCommonStruct
 {
@@ -57,7 +57,7 @@ class NewPostBuyFormCommonStruct
 
     /**
      * @param string $paymentMethodId
-     * @return \Ircykk\AllegroApi\NewPostBuyFormCommonStruct
+     * @return \bbcreation\AllegroApi\NewPostBuyFormCommonStruct
      */
     public function setPaymentMethodId($paymentMethodId)
     {
@@ -75,7 +75,7 @@ class NewPostBuyFormCommonStruct
 
     /**
      * @param int $shipmentAddressType
-     * @return \Ircykk\AllegroApi\NewPostBuyFormCommonStruct
+     * @return \bbcreation\AllegroApi\NewPostBuyFormCommonStruct
      */
     public function setShipmentAddressType($shipmentAddressType)
     {
@@ -93,7 +93,7 @@ class NewPostBuyFormCommonStruct
 
     /**
      * @param AddressUserDataStruct $shipmentAddressData
-     * @return \Ircykk\AllegroApi\NewPostBuyFormCommonStruct
+     * @return \bbcreation\AllegroApi\NewPostBuyFormCommonStruct
      */
     public function setShipmentAddressData($shipmentAddressData)
     {
@@ -111,7 +111,7 @@ class NewPostBuyFormCommonStruct
 
     /**
      * @param string $contactPhone
-     * @return \Ircykk\AllegroApi\NewPostBuyFormCommonStruct
+     * @return \bbcreation\AllegroApi\NewPostBuyFormCommonStruct
      */
     public function setContactPhone($contactPhone)
     {
@@ -129,7 +129,7 @@ class NewPostBuyFormCommonStruct
 
     /**
      * @param int $invoiceOption
-     * @return \Ircykk\AllegroApi\NewPostBuyFormCommonStruct
+     * @return \bbcreation\AllegroApi\NewPostBuyFormCommonStruct
      */
     public function setInvoiceOption($invoiceOption)
     {
@@ -147,7 +147,7 @@ class NewPostBuyFormCommonStruct
 
     /**
      * @param InvoiceInfoStruct $invoiceInfo
-     * @return \Ircykk\AllegroApi\NewPostBuyFormCommonStruct
+     * @return \bbcreation\AllegroApi\NewPostBuyFormCommonStruct
      */
     public function setInvoiceInfo($invoiceInfo)
     {

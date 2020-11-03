@@ -1,13 +1,13 @@
 <?php
 
-namespace Ircykk\AllegroApi\Rest;
+namespace bbcreation\AllegroApi\Rest;
 
 /**
  * Class Sale.
  *
  * @link https://developer.allegro.pl/documentation/#/offer-management
  *
- * @package Ircykk\AllegroApi\Rest
+ * @package bbcreation\AllegroApi\Rest
  */
 class Sale extends AbstractRestResource
 {

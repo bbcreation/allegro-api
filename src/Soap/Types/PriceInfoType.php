@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class PriceInfoType
 {
@@ -35,7 +35,7 @@ class PriceInfoType
 
     /**
      * @param string $priceType
-     * @return \Ircykk\AllegroApi\PriceInfoType
+     * @return \bbcreation\AllegroApi\PriceInfoType
      */
     public function setPriceType($priceType)
     {
@@ -53,7 +53,7 @@ class PriceInfoType
 
     /**
      * @param float $priceValue
-     * @return \Ircykk\AllegroApi\PriceInfoType
+     * @return \bbcreation\AllegroApi\PriceInfoType
      */
     public function setPriceValue($priceValue)
     {

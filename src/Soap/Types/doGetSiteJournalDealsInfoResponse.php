@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetSiteJournalDealsInfoResponse
 {
@@ -28,7 +28,7 @@ class doGetSiteJournalDealsInfoResponse
 
     /**
      * @param SiteJournalDealsInfoStruct $siteJournalDealsInfo
-     * @return \Ircykk\AllegroApi\doGetSiteJournalDealsInfoResponse
+     * @return \bbcreation\AllegroApi\doGetSiteJournalDealsInfoResponse
      */
     public function setSiteJournalDealsInfo($siteJournalDealsInfo)
     {

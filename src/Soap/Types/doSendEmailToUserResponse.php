@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doSendEmailToUserResponse
 {
@@ -35,7 +35,7 @@ class doSendEmailToUserResponse
 
     /**
      * @param int $mailToUserReceiverId
-     * @return \Ircykk\AllegroApi\doSendEmailToUserResponse
+     * @return \bbcreation\AllegroApi\doSendEmailToUserResponse
      */
     public function setMailToUserReceiverId($mailToUserReceiverId)
     {
@@ -53,7 +53,7 @@ class doSendEmailToUserResponse
 
     /**
      * @param string $mailToUserResult
-     * @return \Ircykk\AllegroApi\doSendEmailToUserResponse
+     * @return \bbcreation\AllegroApi\doSendEmailToUserResponse
      */
     public function setMailToUserResult($mailToUserResult)
     {

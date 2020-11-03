@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetPostBuyFormsIdsResponse
 {
@@ -42,7 +42,7 @@ class doGetPostBuyFormsIdsResponse
 
     /**
      * @param int $formsCount
-     * @return \Ircykk\AllegroApi\doGetPostBuyFormsIdsResponse
+     * @return \bbcreation\AllegroApi\doGetPostBuyFormsIdsResponse
      */
     public function setFormsCount($formsCount)
     {
@@ -60,7 +60,7 @@ class doGetPostBuyFormsIdsResponse
 
     /**
      * @param ArrayOfLong $formsIds
-     * @return \Ircykk\AllegroApi\doGetPostBuyFormsIdsResponse
+     * @return \bbcreation\AllegroApi\doGetPostBuyFormsIdsResponse
      */
     public function setFormsIds($formsIds)
     {
@@ -78,7 +78,7 @@ class doGetPostBuyFormsIdsResponse
 
     /**
      * @param ArrayOfFilterslisttype $filtersList
-     * @return \Ircykk\AllegroApi\doGetPostBuyFormsIdsResponse
+     * @return \bbcreation\AllegroApi\doGetPostBuyFormsIdsResponse
      */
     public function setFiltersList($filtersList)
     {

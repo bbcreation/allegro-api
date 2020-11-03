@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doRemoveFromBlackListResponse
 {
@@ -28,7 +28,7 @@ class doRemoveFromBlackListResponse
 
     /**
      * @param ArrayOfBlacklistresstruct $blackListResult
-     * @return \Ircykk\AllegroApi\doRemoveFromBlackListResponse
+     * @return \bbcreation\AllegroApi\doRemoveFromBlackListResponse
      */
     public function setBlackListResult($blackListResult)
     {

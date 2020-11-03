@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetMyBidItemsRequest
 {
@@ -70,7 +70,7 @@ class DoGetMyBidItemsRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoGetMyBidItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyBidItemsRequest
      */
     public function setSessionId($sessionId)
     {
@@ -88,7 +88,7 @@ class DoGetMyBidItemsRequest
 
     /**
      * @param SortOptionsStruct $sortOptions
-     * @return \Ircykk\AllegroApi\DoGetMyBidItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyBidItemsRequest
      */
     public function setSortOptions($sortOptions)
     {
@@ -106,7 +106,7 @@ class DoGetMyBidItemsRequest
 
     /**
      * @param string $searchValue
-     * @return \Ircykk\AllegroApi\DoGetMyBidItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyBidItemsRequest
      */
     public function setSearchValue($searchValue)
     {
@@ -124,7 +124,7 @@ class DoGetMyBidItemsRequest
 
     /**
      * @param int $categoryId
-     * @return \Ircykk\AllegroApi\DoGetMyBidItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyBidItemsRequest
      */
     public function setCategoryId($categoryId)
     {
@@ -142,7 +142,7 @@ class DoGetMyBidItemsRequest
 
     /**
      * @param ArrayOfLong $itemIds
-     * @return \Ircykk\AllegroApi\DoGetMyBidItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyBidItemsRequest
      */
     public function setItemIds($itemIds)
     {
@@ -160,7 +160,7 @@ class DoGetMyBidItemsRequest
 
     /**
      * @param int $pageSize
-     * @return \Ircykk\AllegroApi\DoGetMyBidItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyBidItemsRequest
      */
     public function setPageSize($pageSize)
     {
@@ -178,7 +178,7 @@ class DoGetMyBidItemsRequest
 
     /**
      * @param int $pageNumber
-     * @return \Ircykk\AllegroApi\DoGetMyBidItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyBidItemsRequest
      */
     public function setPageNumber($pageNumber)
     {

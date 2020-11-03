@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfLong implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfLong implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param long[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfLong
+     * @return \bbcreation\AllegroApi\ArrayOfLong
      */
     public function setItem(array $item = null)
     {

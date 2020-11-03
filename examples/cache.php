@@ -9,7 +9,7 @@
  * composer require symfony/cache
  */
 
-use Ircykk\AllegroApi\Client;
+use bbcreation\AllegroApi\Client;
 use Symfony\Component\Cache\Adapter\FilesystemAdapter;
 
 include_once __DIR__.'/credentials.php';

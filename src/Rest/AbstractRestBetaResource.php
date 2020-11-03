@@ -1,11 +1,11 @@
 <?php
 
-namespace Ircykk\AllegroApi\Rest;
+namespace bbcreation\AllegroApi\Rest;
 
 /**
  * Class AbstractRestBetaResource.
  *
- * @package Ircykk\AllegroApi\Rest
+ * @package bbcreation\AllegroApi\Rest
  */
 class AbstractRestBetaResource extends AbstractRestResource
 {

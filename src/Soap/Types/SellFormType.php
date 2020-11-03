@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class SellFormType
 {
@@ -161,7 +161,7 @@ class SellFormType
 
     /**
      * @param int $sellFormId
-     * @return \Ircykk\AllegroApi\SellFormType
+     * @return \bbcreation\AllegroApi\SellFormType
      */
     public function setSellFormId($sellFormId)
     {
@@ -179,7 +179,7 @@ class SellFormType
 
     /**
      * @param string $sellFormTitle
-     * @return \Ircykk\AllegroApi\SellFormType
+     * @return \bbcreation\AllegroApi\SellFormType
      */
     public function setSellFormTitle($sellFormTitle)
     {
@@ -197,7 +197,7 @@ class SellFormType
 
     /**
      * @param int $sellFormCat
-     * @return \Ircykk\AllegroApi\SellFormType
+     * @return \bbcreation\AllegroApi\SellFormType
      */
     public function setSellFormCat($sellFormCat)
     {
@@ -215,7 +215,7 @@ class SellFormType
 
     /**
      * @param int $sellFormType
-     * @return \Ircykk\AllegroApi\SellFormType
+     * @return \bbcreation\AllegroApi\SellFormType
      */
     public function setSellFormType($sellFormType)
     {
@@ -233,7 +233,7 @@ class SellFormType
 
     /**
      * @param int $sellFormResType
-     * @return \Ircykk\AllegroApi\SellFormType
+     * @return \bbcreation\AllegroApi\SellFormType
      */
     public function setSellFormResType($sellFormResType)
     {
@@ -251,7 +251,7 @@ class SellFormType
 
     /**
      * @param int $sellFormDefValue
-     * @return \Ircykk\AllegroApi\SellFormType
+     * @return \bbcreation\AllegroApi\SellFormType
      */
     public function setSellFormDefValue($sellFormDefValue)
     {
@@ -269,7 +269,7 @@ class SellFormType
 
     /**
      * @param int $sellFormOpt
-     * @return \Ircykk\AllegroApi\SellFormType
+     * @return \bbcreation\AllegroApi\SellFormType
      */
     public function setSellFormOpt($sellFormOpt)
     {
@@ -287,7 +287,7 @@ class SellFormType
 
     /**
      * @param int $sellFormPos
-     * @return \Ircykk\AllegroApi\SellFormType
+     * @return \bbcreation\AllegroApi\SellFormType
      */
     public function setSellFormPos($sellFormPos)
     {
@@ -305,7 +305,7 @@ class SellFormType
 
     /**
      * @param int $sellFormLength
-     * @return \Ircykk\AllegroApi\SellFormType
+     * @return \bbcreation\AllegroApi\SellFormType
      */
     public function setSellFormLength($sellFormLength)
     {
@@ -323,7 +323,7 @@ class SellFormType
 
     /**
      * @param string $sellMinValue
-     * @return \Ircykk\AllegroApi\SellFormType
+     * @return \bbcreation\AllegroApi\SellFormType
      */
     public function setSellMinValue($sellMinValue)
     {
@@ -341,7 +341,7 @@ class SellFormType
 
     /**
      * @param string $sellMaxValue
-     * @return \Ircykk\AllegroApi\SellFormType
+     * @return \bbcreation\AllegroApi\SellFormType
      */
     public function setSellMaxValue($sellMaxValue)
     {
@@ -359,7 +359,7 @@ class SellFormType
 
     /**
      * @param string $sellFormDesc
-     * @return \Ircykk\AllegroApi\SellFormType
+     * @return \bbcreation\AllegroApi\SellFormType
      */
     public function setSellFormDesc($sellFormDesc)
     {
@@ -377,7 +377,7 @@ class SellFormType
 
     /**
      * @param string $sellFormOptsValues
-     * @return \Ircykk\AllegroApi\SellFormType
+     * @return \bbcreation\AllegroApi\SellFormType
      */
     public function setSellFormOptsValues($sellFormOptsValues)
     {
@@ -395,7 +395,7 @@ class SellFormType
 
     /**
      * @param string $sellFormFieldDesc
-     * @return \Ircykk\AllegroApi\SellFormType
+     * @return \bbcreation\AllegroApi\SellFormType
      */
     public function setSellFormFieldDesc($sellFormFieldDesc)
     {
@@ -413,7 +413,7 @@ class SellFormType
 
     /**
      * @param int $sellFormParamId
-     * @return \Ircykk\AllegroApi\SellFormType
+     * @return \bbcreation\AllegroApi\SellFormType
      */
     public function setSellFormParamId($sellFormParamId)
     {
@@ -431,7 +431,7 @@ class SellFormType
 
     /**
      * @param string $sellFormParamValues
-     * @return \Ircykk\AllegroApi\SellFormType
+     * @return \bbcreation\AllegroApi\SellFormType
      */
     public function setSellFormParamValues($sellFormParamValues)
     {
@@ -449,7 +449,7 @@ class SellFormType
 
     /**
      * @param int $sellFormParentId
-     * @return \Ircykk\AllegroApi\SellFormType
+     * @return \bbcreation\AllegroApi\SellFormType
      */
     public function setSellFormParentId($sellFormParentId)
     {
@@ -467,7 +467,7 @@ class SellFormType
 
     /**
      * @param string $sellFormParentValue
-     * @return \Ircykk\AllegroApi\SellFormType
+     * @return \bbcreation\AllegroApi\SellFormType
      */
     public function setSellFormParentValue($sellFormParentValue)
     {
@@ -485,7 +485,7 @@ class SellFormType
 
     /**
      * @param string $sellFormUnit
-     * @return \Ircykk\AllegroApi\SellFormType
+     * @return \bbcreation\AllegroApi\SellFormType
      */
     public function setSellFormUnit($sellFormUnit)
     {
@@ -503,7 +503,7 @@ class SellFormType
 
     /**
      * @param int $sellFormOptions
-     * @return \Ircykk\AllegroApi\SellFormType
+     * @return \bbcreation\AllegroApi\SellFormType
      */
     public function setSellFormOptions($sellFormOptions)
     {

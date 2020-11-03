@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfBiditemstruct implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfBiditemstruct implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param BidItemStruct[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfBiditemstruct
+     * @return \bbcreation\AllegroApi\ArrayOfBiditemstruct
      */
     public function setItem(array $item = null)
     {

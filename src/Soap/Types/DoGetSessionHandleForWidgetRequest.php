@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetSessionHandleForWidgetRequest
 {
@@ -35,7 +35,7 @@ class DoGetSessionHandleForWidgetRequest
 
     /**
      * @param string $webapiKey
-     * @return \Ircykk\AllegroApi\DoGetSessionHandleForWidgetRequest
+     * @return \bbcreation\AllegroApi\DoGetSessionHandleForWidgetRequest
      */
     public function setWebapiKey($webapiKey)
     {
@@ -53,7 +53,7 @@ class DoGetSessionHandleForWidgetRequest
 
     /**
      * @param int $countryCode
-     * @return \Ircykk\AllegroApi\DoGetSessionHandleForWidgetRequest
+     * @return \bbcreation\AllegroApi\DoGetSessionHandleForWidgetRequest
      */
     public function setCountryCode($countryCode)
     {

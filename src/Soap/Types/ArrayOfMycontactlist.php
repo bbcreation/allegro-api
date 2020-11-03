@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfMycontactlist implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfMycontactlist implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param MyContactList[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfMycontactlist
+     * @return \bbcreation\AllegroApi\ArrayOfMycontactlist
      */
     public function setItem(array $item = null)
     {

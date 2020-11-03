@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doSellSomeAgainResponse
 {
@@ -42,7 +42,7 @@ class doSellSomeAgainResponse
 
     /**
      * @param ArrayOfStructsellagain $itemsSellAgain
-     * @return \Ircykk\AllegroApi\doSellSomeAgainResponse
+     * @return \bbcreation\AllegroApi\doSellSomeAgainResponse
      */
     public function setItemsSellAgain($itemsSellAgain)
     {
@@ -60,7 +60,7 @@ class doSellSomeAgainResponse
 
     /**
      * @param ArrayOfStructsellfailed $itemsSellFailed
-     * @return \Ircykk\AllegroApi\doSellSomeAgainResponse
+     * @return \bbcreation\AllegroApi\doSellSomeAgainResponse
      */
     public function setItemsSellFailed($itemsSellFailed)
     {
@@ -78,7 +78,7 @@ class doSellSomeAgainResponse
 
     /**
      * @param ArrayOfLong $itemsSellNotFound
-     * @return \Ircykk\AllegroApi\doSellSomeAgainResponse
+     * @return \bbcreation\AllegroApi\doSellSomeAgainResponse
      */
     public function setItemsSellNotFound($itemsSellNotFound)
     {

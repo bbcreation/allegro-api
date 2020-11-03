@@ -1,8 +1,8 @@
 <?php
 
-namespace Ircykk\AllegroApi\Rest\Sale;
+namespace bbcreation\AllegroApi\Rest\Sale;
 
-use Ircykk\AllegroApi\Rest\AbstractRestResource;
+use bbcreation\AllegroApi\Rest\AbstractRestResource;
 use Psr\Http\Message\ResponseInterface;
 use Http\Client\Exception;
 
@@ -11,7 +11,7 @@ use Http\Client\Exception;
  *
  * @link https://developer.allegro.pl/documentation/#/user-ratings
  *
- * @package Ircykk\AllegroApi\Rest
+ * @package bbcreation\AllegroApi\Rest
  */
 class UserRating extends AbstractRestResource
 {

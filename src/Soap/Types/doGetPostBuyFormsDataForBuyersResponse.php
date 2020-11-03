@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetPostBuyFormsDataForBuyersResponse
 {
@@ -28,7 +28,7 @@ class doGetPostBuyFormsDataForBuyersResponse
 
     /**
      * @param ArrayOfPostbuyformforbuyersdatastruct $postBuyFormDataForBuyers
-     * @return \Ircykk\AllegroApi\doGetPostBuyFormsDataForBuyersResponse
+     * @return \bbcreation\AllegroApi\doGetPostBuyFormsDataForBuyersResponse
      */
     public function setPostBuyFormDataForBuyers($postBuyFormDataForBuyers)
     {

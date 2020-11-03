@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetMyFutureItemsRequest
 {
@@ -70,7 +70,7 @@ class DoGetMyFutureItemsRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoGetMyFutureItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyFutureItemsRequest
      */
     public function setSessionId($sessionId)
     {
@@ -88,7 +88,7 @@ class DoGetMyFutureItemsRequest
 
     /**
      * @param SortOptionsStruct $sortOptions
-     * @return \Ircykk\AllegroApi\DoGetMyFutureItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyFutureItemsRequest
      */
     public function setSortOptions($sortOptions)
     {
@@ -106,7 +106,7 @@ class DoGetMyFutureItemsRequest
 
     /**
      * @param FutureFilterOptionsStruct $filterOptions
-     * @return \Ircykk\AllegroApi\DoGetMyFutureItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyFutureItemsRequest
      */
     public function setFilterOptions($filterOptions)
     {
@@ -124,7 +124,7 @@ class DoGetMyFutureItemsRequest
 
     /**
      * @param int $categoryId
-     * @return \Ircykk\AllegroApi\DoGetMyFutureItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyFutureItemsRequest
      */
     public function setCategoryId($categoryId)
     {
@@ -142,7 +142,7 @@ class DoGetMyFutureItemsRequest
 
     /**
      * @param ArrayOfLong $itemIds
-     * @return \Ircykk\AllegroApi\DoGetMyFutureItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyFutureItemsRequest
      */
     public function setItemIds($itemIds)
     {
@@ -160,7 +160,7 @@ class DoGetMyFutureItemsRequest
 
     /**
      * @param int $pageSize
-     * @return \Ircykk\AllegroApi\DoGetMyFutureItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyFutureItemsRequest
      */
     public function setPageSize($pageSize)
     {
@@ -178,7 +178,7 @@ class DoGetMyFutureItemsRequest
 
     /**
      * @param int $pageNumber
-     * @return \Ircykk\AllegroApi\DoGetMyFutureItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyFutureItemsRequest
      */
     public function setPageNumber($pageNumber)
     {

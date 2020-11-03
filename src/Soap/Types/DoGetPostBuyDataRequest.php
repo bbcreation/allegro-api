@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetPostBuyDataRequest
 {
@@ -42,7 +42,7 @@ class DoGetPostBuyDataRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoGetPostBuyDataRequest
+     * @return \bbcreation\AllegroApi\DoGetPostBuyDataRequest
      */
     public function setSessionHandle($sessionHandle)
     {
@@ -60,7 +60,7 @@ class DoGetPostBuyDataRequest
 
     /**
      * @param ArrayOfLong $itemsArray
-     * @return \Ircykk\AllegroApi\DoGetPostBuyDataRequest
+     * @return \bbcreation\AllegroApi\DoGetPostBuyDataRequest
      */
     public function setItemsArray($itemsArray)
     {
@@ -78,7 +78,7 @@ class DoGetPostBuyDataRequest
 
     /**
      * @param ArrayOfLong $buyerFilterArray
-     * @return \Ircykk\AllegroApi\DoGetPostBuyDataRequest
+     * @return \bbcreation\AllegroApi\DoGetPostBuyDataRequest
      */
     public function setBuyerFilterArray($buyerFilterArray)
     {

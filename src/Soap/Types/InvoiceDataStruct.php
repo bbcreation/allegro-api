@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class InvoiceDataStruct
 {
@@ -35,7 +35,7 @@ class InvoiceDataStruct
 
     /**
      * @param string $companyName
-     * @return \Ircykk\AllegroApi\InvoiceDataStruct
+     * @return \bbcreation\AllegroApi\InvoiceDataStruct
      */
     public function setCompanyName($companyName)
     {
@@ -53,7 +53,7 @@ class InvoiceDataStruct
 
     /**
      * @param string $companyNip
-     * @return \Ircykk\AllegroApi\InvoiceDataStruct
+     * @return \bbcreation\AllegroApi\InvoiceDataStruct
      */
     public function setCompanyNip($companyNip)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class TagNameStruct
 {
@@ -28,7 +28,7 @@ class TagNameStruct
 
     /**
      * @param string $tagName
-     * @return \Ircykk\AllegroApi\TagNameStruct
+     * @return \bbcreation\AllegroApi\TagNameStruct
      */
     public function setTagName($tagName)
     {

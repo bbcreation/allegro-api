@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doBidItemResponse
 {
@@ -28,7 +28,7 @@ class doBidItemResponse
 
     /**
      * @param string $bidPrice
-     * @return \Ircykk\AllegroApi\doBidItemResponse
+     * @return \bbcreation\AllegroApi\doBidItemResponse
      */
     public function setBidPrice($bidPrice)
     {

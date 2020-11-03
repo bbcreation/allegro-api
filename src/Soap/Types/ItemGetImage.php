@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ItemGetImage
 {
@@ -42,7 +42,7 @@ class ItemGetImage
 
     /**
      * @param int $itId
-     * @return \Ircykk\AllegroApi\ItemGetImage
+     * @return \bbcreation\AllegroApi\ItemGetImage
      */
     public function setItId($itId)
     {
@@ -60,7 +60,7 @@ class ItemGetImage
 
     /**
      * @param int $itSellerId
-     * @return \Ircykk\AllegroApi\ItemGetImage
+     * @return \bbcreation\AllegroApi\ItemGetImage
      */
     public function setItSellerId($itSellerId)
     {
@@ -78,7 +78,7 @@ class ItemGetImage
 
     /**
      * @param int $itFotoCount
-     * @return \Ircykk\AllegroApi\ItemGetImage
+     * @return \bbcreation\AllegroApi\ItemGetImage
      */
     public function setItFotoCount($itFotoCount)
     {

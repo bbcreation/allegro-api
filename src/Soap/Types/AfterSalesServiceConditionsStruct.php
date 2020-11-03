@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class AfterSalesServiceConditionsStruct
 {
@@ -42,7 +42,7 @@ class AfterSalesServiceConditionsStruct
 
     /**
      * @param string $impliedWarranty
-     * @return \Ircykk\AllegroApi\AfterSalesServiceConditionsStruct
+     * @return \bbcreation\AllegroApi\AfterSalesServiceConditionsStruct
      */
     public function setImpliedWarranty($impliedWarranty)
     {
@@ -60,7 +60,7 @@ class AfterSalesServiceConditionsStruct
 
     /**
      * @param string $returnPolicy
-     * @return \Ircykk\AllegroApi\AfterSalesServiceConditionsStruct
+     * @return \bbcreation\AllegroApi\AfterSalesServiceConditionsStruct
      */
     public function setReturnPolicy($returnPolicy)
     {
@@ -78,7 +78,7 @@ class AfterSalesServiceConditionsStruct
 
     /**
      * @param string $warranty
-     * @return \Ircykk\AllegroApi\AfterSalesServiceConditionsStruct
+     * @return \bbcreation\AllegroApi\AfterSalesServiceConditionsStruct
      */
     public function setWarranty($warranty)
     {

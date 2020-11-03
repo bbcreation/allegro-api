@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ReasonInfoType
 {
@@ -40,7 +40,7 @@ class ReasonInfoType
 
     /**
      * @param int $reasonId
-     * @return \Ircykk\AllegroApi\ReasonInfoType
+     * @return \bbcreation\AllegroApi\ReasonInfoType
      */
     public function setReasonId($reasonId)
     {
@@ -58,7 +58,7 @@ class ReasonInfoType
 
     /**
      * @param string $reasonName
-     * @return \Ircykk\AllegroApi\ReasonInfoType
+     * @return \bbcreation\AllegroApi\ReasonInfoType
      */
     public function setReasonName($reasonName)
     {
@@ -76,7 +76,7 @@ class ReasonInfoType
 
     /**
      * @param int $maxQuantity
-     * @return \Ircykk\AllegroApi\ReasonInfoType
+     * @return \bbcreation\AllegroApi\ReasonInfoType
      */
     public function setMaxQuantity($maxQuantity)
     {

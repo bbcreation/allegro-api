@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class FilledPostBuyFormsStruct
 {
@@ -26,7 +26,7 @@ class FilledPostBuyFormsStruct
 
     /**
      * @param ArrayOfLong $transactionIds
-     * @return \Ircykk\AllegroApi\FilledPostBuyFormsStruct
+     * @return \bbcreation\AllegroApi\FilledPostBuyFormsStruct
      */
     public function setTransactionIds($transactionIds)
     {

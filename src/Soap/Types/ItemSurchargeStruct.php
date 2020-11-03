@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ItemSurchargeStruct
 {
@@ -35,7 +35,7 @@ class ItemSurchargeStruct
 
     /**
      * @param string $surchargeDescription
-     * @return \Ircykk\AllegroApi\ItemSurchargeStruct
+     * @return \bbcreation\AllegroApi\ItemSurchargeStruct
      */
     public function setSurchargeDescription($surchargeDescription)
     {
@@ -53,7 +53,7 @@ class ItemSurchargeStruct
 
     /**
      * @param AmountStruct $surchargeAmount
-     * @return \Ircykk\AllegroApi\ItemSurchargeStruct
+     * @return \bbcreation\AllegroApi\ItemSurchargeStruct
      */
     public function setSurchargeAmount($surchargeAmount)
     {

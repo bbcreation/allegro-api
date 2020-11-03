@@ -1,15 +1,15 @@
 <?php
 
-namespace Ircykk\AllegroApi\Rest;
+namespace bbcreation\AllegroApi\Rest;
 
-use Ircykk\AllegroApi\Client;
+use bbcreation\AllegroApi\Client;
 use Psr\Http\Message\ResponseInterface;
 use Ramsey\Uuid\Uuid;
 
 /**
  * Class AbstractRestResource.
  *
- * @package Ircykk\AllegroApi\Rest
+ * @package bbcreation\AllegroApi\Rest
  */
 abstract class AbstractRestResource
 {

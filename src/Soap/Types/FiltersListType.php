@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class FiltersListType
 {
@@ -78,7 +78,7 @@ class FiltersListType
 
     /**
      * @param string $filterId
-     * @return \Ircykk\AllegroApi\FiltersListType
+     * @return \bbcreation\AllegroApi\FiltersListType
      */
     public function setFilterId($filterId)
     {
@@ -96,7 +96,7 @@ class FiltersListType
 
     /**
      * @param string $filterName
-     * @return \Ircykk\AllegroApi\FiltersListType
+     * @return \bbcreation\AllegroApi\FiltersListType
      */
     public function setFilterName($filterName)
     {
@@ -114,7 +114,7 @@ class FiltersListType
 
     /**
      * @param string $filterType
-     * @return \Ircykk\AllegroApi\FiltersListType
+     * @return \bbcreation\AllegroApi\FiltersListType
      */
     public function setFilterType($filterType)
     {
@@ -132,7 +132,7 @@ class FiltersListType
 
     /**
      * @param string $filterControlType
-     * @return \Ircykk\AllegroApi\FiltersListType
+     * @return \bbcreation\AllegroApi\FiltersListType
      */
     public function setFilterControlType($filterControlType)
     {
@@ -150,7 +150,7 @@ class FiltersListType
 
     /**
      * @param string $filterDataType
-     * @return \Ircykk\AllegroApi\FiltersListType
+     * @return \bbcreation\AllegroApi\FiltersListType
      */
     public function setFilterDataType($filterDataType)
     {
@@ -168,7 +168,7 @@ class FiltersListType
 
     /**
      * @param boolean $filterIsRange
-     * @return \Ircykk\AllegroApi\FiltersListType
+     * @return \bbcreation\AllegroApi\FiltersListType
      */
     public function setFilterIsRange($filterIsRange)
     {
@@ -186,7 +186,7 @@ class FiltersListType
 
     /**
      * @param int $filterArraySize
-     * @return \Ircykk\AllegroApi\FiltersListType
+     * @return \bbcreation\AllegroApi\FiltersListType
      */
     public function setFilterArraySize($filterArraySize)
     {
@@ -204,7 +204,7 @@ class FiltersListType
 
     /**
      * @param ArrayOfFiltervaluetype $filterValues
-     * @return \Ircykk\AllegroApi\FiltersListType
+     * @return \bbcreation\AllegroApi\FiltersListType
      */
     public function setFilterValues($filterValues)
     {
@@ -222,7 +222,7 @@ class FiltersListType
 
     /**
      * @param FilterRelationType $filterRelations
-     * @return \Ircykk\AllegroApi\FiltersListType
+     * @return \bbcreation\AllegroApi\FiltersListType
      */
     public function setFilterRelations($filterRelations)
     {

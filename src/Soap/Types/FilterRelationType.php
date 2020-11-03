@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class FilterRelationType
 {
@@ -36,7 +36,7 @@ class FilterRelationType
 
     /**
      * @param ArrayOfString $relationAnd
-     * @return \Ircykk\AllegroApi\FilterRelationType
+     * @return \bbcreation\AllegroApi\FilterRelationType
      */
     public function setRelationAnd($relationAnd)
     {
@@ -54,7 +54,7 @@ class FilterRelationType
 
     /**
      * @param ArrayOfString $relationOr
-     * @return \Ircykk\AllegroApi\FilterRelationType
+     * @return \bbcreation\AllegroApi\FilterRelationType
      */
     public function setRelationOr($relationOr)
     {
@@ -72,7 +72,7 @@ class FilterRelationType
 
     /**
      * @param ArrayOfString $relationExclude
-     * @return \Ircykk\AllegroApi\FilterRelationType
+     * @return \bbcreation\AllegroApi\FilterRelationType
      */
     public function setRelationExclude($relationExclude)
     {

@@ -1,15 +1,15 @@
 <?php
 
-namespace Ircykk\AllegroApi\Rest\Sale;
+namespace bbcreation\AllegroApi\Rest\Sale;
 
-use Ircykk\AllegroApi\Rest\AbstractRestResource;
+use bbcreation\AllegroApi\Rest\AbstractRestResource;
 
 /**
  * Class Loyalty.
  *
  * @link https://developer.allegro.pl/documentation/#/offer-management
  *
- * @package Ircykk\AllegroApi\Rest
+ * @package bbcreation\AllegroApi\Rest
  */
 class Loyalty extends AbstractRestResource
 {

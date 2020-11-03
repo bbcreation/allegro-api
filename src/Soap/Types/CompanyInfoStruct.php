@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class CompanyInfoStruct
 {
@@ -70,7 +70,7 @@ class CompanyInfoStruct
 
     /**
      * @param string $companyFirstName
-     * @return \Ircykk\AllegroApi\CompanyInfoStruct
+     * @return \bbcreation\AllegroApi\CompanyInfoStruct
      */
     public function setCompanyFirstName($companyFirstName)
     {
@@ -88,7 +88,7 @@ class CompanyInfoStruct
 
     /**
      * @param string $companyLastName
-     * @return \Ircykk\AllegroApi\CompanyInfoStruct
+     * @return \bbcreation\AllegroApi\CompanyInfoStruct
      */
     public function setCompanyLastName($companyLastName)
     {
@@ -106,7 +106,7 @@ class CompanyInfoStruct
 
     /**
      * @param string $companyName
-     * @return \Ircykk\AllegroApi\CompanyInfoStruct
+     * @return \bbcreation\AllegroApi\CompanyInfoStruct
      */
     public function setCompanyName($companyName)
     {
@@ -124,7 +124,7 @@ class CompanyInfoStruct
 
     /**
      * @param string $companyAddress
-     * @return \Ircykk\AllegroApi\CompanyInfoStruct
+     * @return \bbcreation\AllegroApi\CompanyInfoStruct
      */
     public function setCompanyAddress($companyAddress)
     {
@@ -142,7 +142,7 @@ class CompanyInfoStruct
 
     /**
      * @param string $companyPostcode
-     * @return \Ircykk\AllegroApi\CompanyInfoStruct
+     * @return \bbcreation\AllegroApi\CompanyInfoStruct
      */
     public function setCompanyPostcode($companyPostcode)
     {
@@ -160,7 +160,7 @@ class CompanyInfoStruct
 
     /**
      * @param string $companyCity
-     * @return \Ircykk\AllegroApi\CompanyInfoStruct
+     * @return \bbcreation\AllegroApi\CompanyInfoStruct
      */
     public function setCompanyCity($companyCity)
     {
@@ -178,7 +178,7 @@ class CompanyInfoStruct
 
     /**
      * @param string $companyNip
-     * @return \Ircykk\AllegroApi\CompanyInfoStruct
+     * @return \bbcreation\AllegroApi\CompanyInfoStruct
      */
     public function setCompanyNip($companyNip)
     {

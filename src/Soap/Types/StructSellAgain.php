@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class StructSellAgain
 {
@@ -42,7 +42,7 @@ class StructSellAgain
 
     /**
      * @param int $sellItemId
-     * @return \Ircykk\AllegroApi\StructSellAgain
+     * @return \bbcreation\AllegroApi\StructSellAgain
      */
     public function setSellItemId($sellItemId)
     {
@@ -60,7 +60,7 @@ class StructSellAgain
 
     /**
      * @param string $sellItemInfo
-     * @return \Ircykk\AllegroApi\StructSellAgain
+     * @return \bbcreation\AllegroApi\StructSellAgain
      */
     public function setSellItemInfo($sellItemInfo)
     {
@@ -78,7 +78,7 @@ class StructSellAgain
 
     /**
      * @param int $sellItemLocalId
-     * @return \Ircykk\AllegroApi\StructSellAgain
+     * @return \bbcreation\AllegroApi\StructSellAgain
      */
     public function setSellItemLocalId($sellItemLocalId)
     {

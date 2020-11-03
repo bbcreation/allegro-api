@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetCatsDataLimitRequest
 {
@@ -63,7 +63,7 @@ class DoGetCatsDataLimitRequest
 
     /**
      * @param int $countryId
-     * @return \Ircykk\AllegroApi\DoGetCatsDataLimitRequest
+     * @return \bbcreation\AllegroApi\DoGetCatsDataLimitRequest
      */
     public function setCountryId($countryId)
     {
@@ -81,7 +81,7 @@ class DoGetCatsDataLimitRequest
 
     /**
      * @param int $localVersion
-     * @return \Ircykk\AllegroApi\DoGetCatsDataLimitRequest
+     * @return \bbcreation\AllegroApi\DoGetCatsDataLimitRequest
      */
     public function setLocalVersion($localVersion)
     {
@@ -99,7 +99,7 @@ class DoGetCatsDataLimitRequest
 
     /**
      * @param string $webapiKey
-     * @return \Ircykk\AllegroApi\DoGetCatsDataLimitRequest
+     * @return \bbcreation\AllegroApi\DoGetCatsDataLimitRequest
      */
     public function setWebapiKey($webapiKey)
     {
@@ -117,7 +117,7 @@ class DoGetCatsDataLimitRequest
 
     /**
      * @param int $offset
-     * @return \Ircykk\AllegroApi\DoGetCatsDataLimitRequest
+     * @return \bbcreation\AllegroApi\DoGetCatsDataLimitRequest
      */
     public function setOffset($offset)
     {
@@ -135,7 +135,7 @@ class DoGetCatsDataLimitRequest
 
     /**
      * @param int $packageElement
-     * @return \Ircykk\AllegroApi\DoGetCatsDataLimitRequest
+     * @return \bbcreation\AllegroApi\DoGetCatsDataLimitRequest
      */
     public function setPackageElement($packageElement)
     {
@@ -153,7 +153,7 @@ class DoGetCatsDataLimitRequest
 
     /**
      * @param boolean $onlyLeaf
-     * @return \Ircykk\AllegroApi\DoGetCatsDataLimitRequest
+     * @return \bbcreation\AllegroApi\DoGetCatsDataLimitRequest
      */
     public function setOnlyLeaf($onlyLeaf)
     {

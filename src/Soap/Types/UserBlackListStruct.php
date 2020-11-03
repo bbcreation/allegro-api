@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class UserBlackListStruct
 {
@@ -33,7 +33,7 @@ class UserBlackListStruct
 
     /**
      * @param int $userId
-     * @return \Ircykk\AllegroApi\UserBlackListStruct
+     * @return \bbcreation\AllegroApi\UserBlackListStruct
      */
     public function setUserId($userId)
     {
@@ -51,7 +51,7 @@ class UserBlackListStruct
 
     /**
      * @param string $userBlackListNote
-     * @return \Ircykk\AllegroApi\UserBlackListStruct
+     * @return \bbcreation\AllegroApi\UserBlackListStruct
      */
     public function setUserBlackListNote($userBlackListNote)
     {

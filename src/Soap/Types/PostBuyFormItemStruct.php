@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class PostBuyFormItemStruct
 {
@@ -68,7 +68,7 @@ class PostBuyFormItemStruct
 
     /**
      * @param int $postBuyFormItQuantity
-     * @return \Ircykk\AllegroApi\PostBuyFormItemStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormItemStruct
      */
     public function setPostBuyFormItQuantity($postBuyFormItQuantity)
     {
@@ -86,7 +86,7 @@ class PostBuyFormItemStruct
 
     /**
      * @param float $postBuyFormItAmount
-     * @return \Ircykk\AllegroApi\PostBuyFormItemStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormItemStruct
      */
     public function setPostBuyFormItAmount($postBuyFormItAmount)
     {
@@ -104,7 +104,7 @@ class PostBuyFormItemStruct
 
     /**
      * @param int $postBuyFormItId
-     * @return \Ircykk\AllegroApi\PostBuyFormItemStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormItemStruct
      */
     public function setPostBuyFormItId($postBuyFormItId)
     {
@@ -122,7 +122,7 @@ class PostBuyFormItemStruct
 
     /**
      * @param string $postBuyFormItTitle
-     * @return \Ircykk\AllegroApi\PostBuyFormItemStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormItemStruct
      */
     public function setPostBuyFormItTitle($postBuyFormItTitle)
     {
@@ -140,7 +140,7 @@ class PostBuyFormItemStruct
 
     /**
      * @param int $postBuyFormItCountry
-     * @return \Ircykk\AllegroApi\PostBuyFormItemStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormItemStruct
      */
     public function setPostBuyFormItCountry($postBuyFormItCountry)
     {
@@ -158,7 +158,7 @@ class PostBuyFormItemStruct
 
     /**
      * @param float $postBuyFormItPrice
-     * @return \Ircykk\AllegroApi\PostBuyFormItemStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormItemStruct
      */
     public function setPostBuyFormItPrice($postBuyFormItPrice)
     {
@@ -176,7 +176,7 @@ class PostBuyFormItemStruct
 
     /**
      * @param ArrayOfPostbuyformitemdealsstruct $postBuyFormItDeals
-     * @return \Ircykk\AllegroApi\PostBuyFormItemStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormItemStruct
      */
     public function setPostBuyFormItDeals($postBuyFormItDeals)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetSiteJournalDealsRequest
 {
@@ -35,7 +35,7 @@ class DoGetSiteJournalDealsRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoGetSiteJournalDealsRequest
+     * @return \bbcreation\AllegroApi\DoGetSiteJournalDealsRequest
      */
     public function setSessionId($sessionId)
     {
@@ -53,7 +53,7 @@ class DoGetSiteJournalDealsRequest
 
     /**
      * @param int $journalStart
-     * @return \Ircykk\AllegroApi\DoGetSiteJournalDealsRequest
+     * @return \bbcreation\AllegroApi\DoGetSiteJournalDealsRequest
      */
     public function setJournalStart($journalStart)
     {

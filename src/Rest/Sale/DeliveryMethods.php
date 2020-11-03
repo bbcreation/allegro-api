@@ -1,16 +1,16 @@
 <?php
 
-namespace Ircykk\AllegroApi\Rest\Sale;
+namespace bbcreation\AllegroApi\Rest\Sale;
 
 use Http\Client\Exception;
-use Ircykk\AllegroApi\Rest\AbstractRestResource;
+use bbcreation\AllegroApi\Rest\AbstractRestResource;
 
 /**
  * Class DeliveryMethods.
  *
  * @link https://developer.allegro.pl/documentation/#/offer-management/get_sale_delivery_methods
  *
- * @package Ircykk\AllegroApi\Rest
+ * @package bbcreation\AllegroApi\Rest
  */
 class DeliveryMethods extends AbstractRestResource
 {

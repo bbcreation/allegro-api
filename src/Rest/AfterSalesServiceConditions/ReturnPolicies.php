@@ -1,8 +1,8 @@
 <?php
 
-namespace Ircykk\AllegroApi\Rest\AfterSalesServiceConditions;
+namespace bbcreation\AllegroApi\Rest\AfterSalesServiceConditions;
 
-use Ircykk\AllegroApi\Rest\AbstractRestResource;
+use bbcreation\AllegroApi\Rest\AbstractRestResource;
 use Http\Client\Exception;
 
 /**
@@ -10,7 +10,7 @@ use Http\Client\Exception;
  *
  * @link https://developer.allegro.pl/documentation/#/offer-additional-services
  *
- * @package Ircykk\AllegroApi\Rest
+ * @package bbcreation\AllegroApi\Rest
  */
 class ReturnPolicies extends AbstractRestResource
 {

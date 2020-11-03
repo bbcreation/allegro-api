@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class PostBuyFormShipmentTrackingStruct
 {
@@ -49,7 +49,7 @@ class PostBuyFormShipmentTrackingStruct
 
     /**
      * @param int $postBuyFormOperatorId
-     * @return \Ircykk\AllegroApi\PostBuyFormShipmentTrackingStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormShipmentTrackingStruct
      */
     public function setPostBuyFormOperatorId($postBuyFormOperatorId)
     {
@@ -67,7 +67,7 @@ class PostBuyFormShipmentTrackingStruct
 
     /**
      * @param string $postBuyFormOperatorName
-     * @return \Ircykk\AllegroApi\PostBuyFormShipmentTrackingStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormShipmentTrackingStruct
      */
     public function setPostBuyFormOperatorName($postBuyFormOperatorName)
     {
@@ -85,7 +85,7 @@ class PostBuyFormShipmentTrackingStruct
 
     /**
      * @param string $postBuyFormPackageId
-     * @return \Ircykk\AllegroApi\PostBuyFormShipmentTrackingStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormShipmentTrackingStruct
      */
     public function setPostBuyFormPackageId($postBuyFormPackageId)
     {
@@ -103,7 +103,7 @@ class PostBuyFormShipmentTrackingStruct
 
     /**
      * @param string $postBuyFormPackageStatus
-     * @return \Ircykk\AllegroApi\PostBuyFormShipmentTrackingStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormShipmentTrackingStruct
      */
     public function setPostBuyFormPackageStatus($postBuyFormPackageStatus)
     {

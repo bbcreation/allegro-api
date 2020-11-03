@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class PayoutAutoSettingsStruct
 {
@@ -35,7 +35,7 @@ class PayoutAutoSettingsStruct
 
     /**
      * @param float $payoutAutoAmount
-     * @return \Ircykk\AllegroApi\PayoutAutoSettingsStruct
+     * @return \bbcreation\AllegroApi\PayoutAutoSettingsStruct
      */
     public function setPayoutAutoAmount($payoutAutoAmount)
     {
@@ -53,7 +53,7 @@ class PayoutAutoSettingsStruct
 
     /**
      * @param PayoutAutoFrequencyStruct $payoutAutoFrequency
-     * @return \Ircykk\AllegroApi\PayoutAutoSettingsStruct
+     * @return \bbcreation\AllegroApi\PayoutAutoSettingsStruct
      */
     public function setPayoutAutoFrequency($payoutAutoFrequency)
     {

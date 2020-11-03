@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class PaymentDetailsStruct
 {
@@ -42,7 +42,7 @@ class PaymentDetailsStruct
 
     /**
      * @param int $payTransDetailsItId
-     * @return \Ircykk\AllegroApi\PaymentDetailsStruct
+     * @return \bbcreation\AllegroApi\PaymentDetailsStruct
      */
     public function setPayTransDetailsItId($payTransDetailsItId)
     {
@@ -60,7 +60,7 @@ class PaymentDetailsStruct
 
     /**
      * @param float $payTransDetailsPrice
-     * @return \Ircykk\AllegroApi\PaymentDetailsStruct
+     * @return \bbcreation\AllegroApi\PaymentDetailsStruct
      */
     public function setPayTransDetailsPrice($payTransDetailsPrice)
     {
@@ -78,7 +78,7 @@ class PaymentDetailsStruct
 
     /**
      * @param int $payTransDetailsCount
-     * @return \Ircykk\AllegroApi\PaymentDetailsStruct
+     * @return \bbcreation\AllegroApi\PaymentDetailsStruct
      */
     public function setPayTransDetailsCount($payTransDetailsCount)
     {

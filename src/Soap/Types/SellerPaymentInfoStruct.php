@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class SellerPaymentInfoStruct
 {
@@ -31,7 +31,7 @@ class SellerPaymentInfoStruct
 
     /**
      * @param ArrayOfShipmentpaymentinfostruct $shipmentPaymentInfoPza
-     * @return \Ircykk\AllegroApi\SellerPaymentInfoStruct
+     * @return \bbcreation\AllegroApi\SellerPaymentInfoStruct
      */
     public function setShipmentPaymentInfoPza($shipmentPaymentInfoPza)
     {
@@ -49,7 +49,7 @@ class SellerPaymentInfoStruct
 
     /**
      * @param ArrayOfShipmentpaymentinfostruct $shipmentPaymentInfoNonPza
-     * @return \Ircykk\AllegroApi\SellerPaymentInfoStruct
+     * @return \bbcreation\AllegroApi\SellerPaymentInfoStruct
      */
     public function setShipmentPaymentInfoNonPza($shipmentPaymentInfoNonPza)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class BidListStruct2
 {
@@ -26,7 +26,7 @@ class BidListStruct2
 
     /**
      * @param ArrayOfString $bidsArray
-     * @return \Ircykk\AllegroApi\BidListStruct2
+     * @return \bbcreation\AllegroApi\BidListStruct2
      */
     public function setBidsArray($bidsArray)
     {

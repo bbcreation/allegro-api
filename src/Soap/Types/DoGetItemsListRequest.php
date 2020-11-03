@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetItemsListRequest
 {
@@ -70,7 +70,7 @@ class DoGetItemsListRequest
 
     /**
      * @param string $webapiKey
-     * @return \Ircykk\AllegroApi\DoGetItemsListRequest
+     * @return \bbcreation\AllegroApi\DoGetItemsListRequest
      */
     public function setWebapiKey($webapiKey)
     {
@@ -88,7 +88,7 @@ class DoGetItemsListRequest
 
     /**
      * @param int $countryId
-     * @return \Ircykk\AllegroApi\DoGetItemsListRequest
+     * @return \bbcreation\AllegroApi\DoGetItemsListRequest
      */
     public function setCountryId($countryId)
     {
@@ -106,7 +106,7 @@ class DoGetItemsListRequest
 
     /**
      * @param ArrayOfFilteroptionstype $filterOptions
-     * @return \Ircykk\AllegroApi\DoGetItemsListRequest
+     * @return \bbcreation\AllegroApi\DoGetItemsListRequest
      */
     public function setFilterOptions($filterOptions)
     {
@@ -124,7 +124,7 @@ class DoGetItemsListRequest
 
     /**
      * @param SortOptionsType $sortOptions
-     * @return \Ircykk\AllegroApi\DoGetItemsListRequest
+     * @return \bbcreation\AllegroApi\DoGetItemsListRequest
      */
     public function setSortOptions($sortOptions)
     {
@@ -142,7 +142,7 @@ class DoGetItemsListRequest
 
     /**
      * @param int $resultSize
-     * @return \Ircykk\AllegroApi\DoGetItemsListRequest
+     * @return \bbcreation\AllegroApi\DoGetItemsListRequest
      */
     public function setResultSize($resultSize)
     {
@@ -160,7 +160,7 @@ class DoGetItemsListRequest
 
     /**
      * @param int $resultOffset
-     * @return \Ircykk\AllegroApi\DoGetItemsListRequest
+     * @return \bbcreation\AllegroApi\DoGetItemsListRequest
      */
     public function setResultOffset($resultOffset)
     {
@@ -178,7 +178,7 @@ class DoGetItemsListRequest
 
     /**
      * @param int $resultScope
-     * @return \Ircykk\AllegroApi\DoGetItemsListRequest
+     * @return \bbcreation\AllegroApi\DoGetItemsListRequest
      */
     public function setResultScope($resultScope)
     {

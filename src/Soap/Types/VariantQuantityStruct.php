@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class VariantQuantityStruct
 {
@@ -35,7 +35,7 @@ class VariantQuantityStruct
 
     /**
      * @param int $mask
-     * @return \Ircykk\AllegroApi\VariantQuantityStruct
+     * @return \bbcreation\AllegroApi\VariantQuantityStruct
      */
     public function setMask($mask)
     {
@@ -53,7 +53,7 @@ class VariantQuantityStruct
 
     /**
      * @param int $quantity
-     * @return \Ircykk\AllegroApi\VariantQuantityStruct
+     * @return \bbcreation\AllegroApi\VariantQuantityStruct
      */
     public function setQuantity($quantity)
     {

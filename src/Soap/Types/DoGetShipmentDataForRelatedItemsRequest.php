@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetShipmentDataForRelatedItemsRequest
 {
@@ -35,7 +35,7 @@ class DoGetShipmentDataForRelatedItemsRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoGetShipmentDataForRelatedItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetShipmentDataForRelatedItemsRequest
      */
     public function setSessionId($sessionId)
     {
@@ -53,7 +53,7 @@ class DoGetShipmentDataForRelatedItemsRequest
 
     /**
      * @param ArrayOfLong $itemIds
-     * @return \Ircykk\AllegroApi\DoGetShipmentDataForRelatedItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetShipmentDataForRelatedItemsRequest
      */
     public function setItemIds($itemIds)
     {

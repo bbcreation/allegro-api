@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetPostBuyFormsIdsRequest
 {
@@ -49,7 +49,7 @@ class DoGetPostBuyFormsIdsRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoGetPostBuyFormsIdsRequest
+     * @return \bbcreation\AllegroApi\DoGetPostBuyFormsIdsRequest
      */
     public function setSessionId($sessionId)
     {
@@ -67,7 +67,7 @@ class DoGetPostBuyFormsIdsRequest
 
     /**
      * @param ArrayOfFilteroptionstype $filterOptions
-     * @return \Ircykk\AllegroApi\DoGetPostBuyFormsIdsRequest
+     * @return \bbcreation\AllegroApi\DoGetPostBuyFormsIdsRequest
      */
     public function setFilterOptions($filterOptions)
     {
@@ -85,7 +85,7 @@ class DoGetPostBuyFormsIdsRequest
 
     /**
      * @param int $resultSize
-     * @return \Ircykk\AllegroApi\DoGetPostBuyFormsIdsRequest
+     * @return \bbcreation\AllegroApi\DoGetPostBuyFormsIdsRequest
      */
     public function setResultSize($resultSize)
     {
@@ -103,7 +103,7 @@ class DoGetPostBuyFormsIdsRequest
 
     /**
      * @param int $resultOffset
-     * @return \Ircykk\AllegroApi\DoGetPostBuyFormsIdsRequest
+     * @return \bbcreation\AllegroApi\DoGetPostBuyFormsIdsRequest
      */
     public function setResultOffset($resultOffset)
     {

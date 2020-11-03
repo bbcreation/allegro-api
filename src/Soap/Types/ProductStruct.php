@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ProductStruct
 {
@@ -52,7 +52,7 @@ class ProductStruct
 
     /**
      * @param int $productId
-     * @return \Ircykk\AllegroApi\ProductStruct
+     * @return \bbcreation\AllegroApi\ProductStruct
      */
     public function setProductId($productId)
     {
@@ -70,7 +70,7 @@ class ProductStruct
 
     /**
      * @param string $productName
-     * @return \Ircykk\AllegroApi\ProductStruct
+     * @return \bbcreation\AllegroApi\ProductStruct
      */
     public function setProductName($productName)
     {
@@ -88,7 +88,7 @@ class ProductStruct
 
     /**
      * @param string $productDescription
-     * @return \Ircykk\AllegroApi\ProductStruct
+     * @return \bbcreation\AllegroApi\ProductStruct
      */
     public function setProductDescription($productDescription)
     {
@@ -106,7 +106,7 @@ class ProductStruct
 
     /**
      * @param ArrayOfString $productImagesList
-     * @return \Ircykk\AllegroApi\ProductStruct
+     * @return \bbcreation\AllegroApi\ProductStruct
      */
     public function setProductImagesList($productImagesList)
     {
@@ -124,7 +124,7 @@ class ProductStruct
 
     /**
      * @param ArrayOfProductparametersgroupstruct $productParametersGroupList
-     * @return \Ircykk\AllegroApi\ProductStruct
+     * @return \bbcreation\AllegroApi\ProductStruct
      */
     public function setProductParametersGroupList($productParametersGroupList)
     {

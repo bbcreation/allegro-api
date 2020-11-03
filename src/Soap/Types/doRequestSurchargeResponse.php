@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doRequestSurchargeResponse
 {
@@ -28,7 +28,7 @@ class doRequestSurchargeResponse
 
     /**
      * @param int $surchargeResult
-     * @return \Ircykk\AllegroApi\doRequestSurchargeResponse
+     * @return \bbcreation\AllegroApi\doRequestSurchargeResponse
      */
     public function setSurchargeResult($surchargeResult)
     {

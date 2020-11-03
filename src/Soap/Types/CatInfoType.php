@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class CatInfoType
 {
@@ -61,7 +61,7 @@ class CatInfoType
 
     /**
      * @param int $catId
-     * @return \Ircykk\AllegroApi\CatInfoType
+     * @return \bbcreation\AllegroApi\CatInfoType
      */
     public function setCatId($catId)
     {
@@ -79,7 +79,7 @@ class CatInfoType
 
     /**
      * @param string $catName
-     * @return \Ircykk\AllegroApi\CatInfoType
+     * @return \bbcreation\AllegroApi\CatInfoType
      */
     public function setCatName($catName)
     {
@@ -97,7 +97,7 @@ class CatInfoType
 
     /**
      * @param int $catParent
-     * @return \Ircykk\AllegroApi\CatInfoType
+     * @return \bbcreation\AllegroApi\CatInfoType
      */
     public function setCatParent($catParent)
     {
@@ -115,7 +115,7 @@ class CatInfoType
 
     /**
      * @param int $catPosition
-     * @return \Ircykk\AllegroApi\CatInfoType
+     * @return \bbcreation\AllegroApi\CatInfoType
      */
     public function setCatPosition($catPosition)
     {
@@ -133,7 +133,7 @@ class CatInfoType
 
     /**
      * @param int $catIsProductCatalogueEnabled
-     * @return \Ircykk\AllegroApi\CatInfoType
+     * @return \bbcreation\AllegroApi\CatInfoType
      */
     public function setCatIsProductCatalogueEnabled($catIsProductCatalogueEnabled)
     {
@@ -151,7 +151,7 @@ class CatInfoType
 
     /**
      * @param boolean $catIsLeaf
-     * @return \Ircykk\AllegroApi\CatInfoType
+     * @return \bbcreation\AllegroApi\CatInfoType
      */
     public function setCatIsLeaf($catIsLeaf)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class UserPaymentRefundsStruct
 {
@@ -63,7 +63,7 @@ class UserPaymentRefundsStruct
 
     /**
      * @param int $payRefundTransId
-     * @return \Ircykk\AllegroApi\UserPaymentRefundsStruct
+     * @return \bbcreation\AllegroApi\UserPaymentRefundsStruct
      */
     public function setPayRefundTransId($payRefundTransId)
     {
@@ -81,7 +81,7 @@ class UserPaymentRefundsStruct
 
     /**
      * @param int $payRefundItId
-     * @return \Ircykk\AllegroApi\UserPaymentRefundsStruct
+     * @return \bbcreation\AllegroApi\UserPaymentRefundsStruct
      */
     public function setPayRefundItId($payRefundItId)
     {
@@ -99,7 +99,7 @@ class UserPaymentRefundsStruct
 
     /**
      * @param int $payRefundSellerId
-     * @return \Ircykk\AllegroApi\UserPaymentRefundsStruct
+     * @return \bbcreation\AllegroApi\UserPaymentRefundsStruct
      */
     public function setPayRefundSellerId($payRefundSellerId)
     {
@@ -117,7 +117,7 @@ class UserPaymentRefundsStruct
 
     /**
      * @param float $payRefundValue
-     * @return \Ircykk\AllegroApi\UserPaymentRefundsStruct
+     * @return \bbcreation\AllegroApi\UserPaymentRefundsStruct
      */
     public function setPayRefundValue($payRefundValue)
     {
@@ -135,7 +135,7 @@ class UserPaymentRefundsStruct
 
     /**
      * @param string $payRefundReason
-     * @return \Ircykk\AllegroApi\UserPaymentRefundsStruct
+     * @return \bbcreation\AllegroApi\UserPaymentRefundsStruct
      */
     public function setPayRefundReason($payRefundReason)
     {
@@ -153,7 +153,7 @@ class UserPaymentRefundsStruct
 
     /**
      * @param int $payRefundDate
-     * @return \Ircykk\AllegroApi\UserPaymentRefundsStruct
+     * @return \bbcreation\AllegroApi\UserPaymentRefundsStruct
      */
     public function setPayRefundDate($payRefundDate)
     {

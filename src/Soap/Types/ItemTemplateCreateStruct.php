@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ItemTemplateCreateStruct
 {
@@ -35,7 +35,7 @@ class ItemTemplateCreateStruct
 
     /**
      * @param int $itemTemplateOption
-     * @return \Ircykk\AllegroApi\ItemTemplateCreateStruct
+     * @return \bbcreation\AllegroApi\ItemTemplateCreateStruct
      */
     public function setItemTemplateOption($itemTemplateOption)
     {
@@ -53,7 +53,7 @@ class ItemTemplateCreateStruct
 
     /**
      * @param string $itemTemplateName
-     * @return \Ircykk\AllegroApi\ItemTemplateCreateStruct
+     * @return \bbcreation\AllegroApi\ItemTemplateCreateStruct
      */
     public function setItemTemplateName($itemTemplateName)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class PharmacyRecipientDataStruct
 {
@@ -46,7 +46,7 @@ class PharmacyRecipientDataStruct
 
     /**
      * @param string $recipientFirstName
-     * @return \Ircykk\AllegroApi\PharmacyRecipientDataStruct
+     * @return \bbcreation\AllegroApi\PharmacyRecipientDataStruct
      */
     public function setRecipientFirstName($recipientFirstName)
     {
@@ -64,7 +64,7 @@ class PharmacyRecipientDataStruct
 
     /**
      * @param string $recipientLastName
-     * @return \Ircykk\AllegroApi\PharmacyRecipientDataStruct
+     * @return \bbcreation\AllegroApi\PharmacyRecipientDataStruct
      */
     public function setRecipientLastName($recipientLastName)
     {
@@ -82,7 +82,7 @@ class PharmacyRecipientDataStruct
 
     /**
      * @param string $recipientAddress
-     * @return \Ircykk\AllegroApi\PharmacyRecipientDataStruct
+     * @return \bbcreation\AllegroApi\PharmacyRecipientDataStruct
      */
     public function setRecipientAddress($recipientAddress)
     {
@@ -100,7 +100,7 @@ class PharmacyRecipientDataStruct
 
     /**
      * @param string $recipientPostcode
-     * @return \Ircykk\AllegroApi\PharmacyRecipientDataStruct
+     * @return \bbcreation\AllegroApi\PharmacyRecipientDataStruct
      */
     public function setRecipientPostcode($recipientPostcode)
     {
@@ -118,7 +118,7 @@ class PharmacyRecipientDataStruct
 
     /**
      * @param string $recipientCity
-     * @return \Ircykk\AllegroApi\PharmacyRecipientDataStruct
+     * @return \bbcreation\AllegroApi\PharmacyRecipientDataStruct
      */
     public function setRecipientCity($recipientCity)
     {

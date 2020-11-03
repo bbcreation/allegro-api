@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doMyAccountItemsCountResponse
 {
@@ -28,7 +28,7 @@ class doMyAccountItemsCountResponse
 
     /**
      * @param int $myaccountItemsCount
-     * @return \Ircykk\AllegroApi\doMyAccountItemsCountResponse
+     * @return \bbcreation\AllegroApi\doMyAccountItemsCountResponse
      */
     public function setMyaccountItemsCount($myaccountItemsCount)
     {

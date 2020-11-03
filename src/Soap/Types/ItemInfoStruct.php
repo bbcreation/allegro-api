@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ItemInfoStruct
 {
@@ -79,7 +79,7 @@ class ItemInfoStruct
 
     /**
      * @param ItemInfo $itemInfo
-     * @return \Ircykk\AllegroApi\ItemInfoStruct
+     * @return \bbcreation\AllegroApi\ItemInfoStruct
      */
     public function setItemInfo($itemInfo)
     {
@@ -97,7 +97,7 @@ class ItemInfoStruct
 
     /**
      * @param ArrayOfItemcatlist $itemCats
-     * @return \Ircykk\AllegroApi\ItemInfoStruct
+     * @return \bbcreation\AllegroApi\ItemInfoStruct
      */
     public function setItemCats($itemCats)
     {
@@ -115,7 +115,7 @@ class ItemInfoStruct
 
     /**
      * @param ArrayOfItemimagelist $itemImages
-     * @return \Ircykk\AllegroApi\ItemInfoStruct
+     * @return \bbcreation\AllegroApi\ItemInfoStruct
      */
     public function setItemImages($itemImages)
     {
@@ -133,7 +133,7 @@ class ItemInfoStruct
 
     /**
      * @param ArrayOfAttribstruct $itemAttribs
-     * @return \Ircykk\AllegroApi\ItemInfoStruct
+     * @return \bbcreation\AllegroApi\ItemInfoStruct
      */
     public function setItemAttribs($itemAttribs)
     {
@@ -151,7 +151,7 @@ class ItemInfoStruct
 
     /**
      * @param ArrayOfPostagestruct $itemPostageOptions
-     * @return \Ircykk\AllegroApi\ItemInfoStruct
+     * @return \bbcreation\AllegroApi\ItemInfoStruct
      */
     public function setItemPostageOptions($itemPostageOptions)
     {
@@ -169,7 +169,7 @@ class ItemInfoStruct
 
     /**
      * @param ItemPaymentOptions $itemPaymentOptions
-     * @return \Ircykk\AllegroApi\ItemInfoStruct
+     * @return \bbcreation\AllegroApi\ItemInfoStruct
      */
     public function setItemPaymentOptions($itemPaymentOptions)
     {
@@ -187,7 +187,7 @@ class ItemInfoStruct
 
     /**
      * @param CompanyInfoStruct $itemCompanyInfo
-     * @return \Ircykk\AllegroApi\ItemInfoStruct
+     * @return \bbcreation\AllegroApi\ItemInfoStruct
      */
     public function setItemCompanyInfo($itemCompanyInfo)
     {
@@ -205,7 +205,7 @@ class ItemInfoStruct
 
     /**
      * @param ProductStruct $itemProductInfo
-     * @return \Ircykk\AllegroApi\ItemInfoStruct
+     * @return \bbcreation\AllegroApi\ItemInfoStruct
      */
     public function setItemProductInfo($itemProductInfo)
     {
@@ -223,7 +223,7 @@ class ItemInfoStruct
 
     /**
      * @param AfterSalesServiceConditionsStruct $itemAfterSalesServiceConditions
-     * @return \Ircykk\AllegroApi\ItemInfoStruct
+     * @return \bbcreation\AllegroApi\ItemInfoStruct
      */
     public function setItemAfterSalesServiceConditions($itemAfterSalesServiceConditions)
     {
@@ -241,7 +241,7 @@ class ItemInfoStruct
 
     /**
      * @param string $itemAdditionalServicesGroup
-     * @return \Ircykk\AllegroApi\ItemInfoStruct
+     * @return \bbcreation\AllegroApi\ItemInfoStruct
      */
     public function setItemAdditionalServicesGroup($itemAdditionalServicesGroup)
     {

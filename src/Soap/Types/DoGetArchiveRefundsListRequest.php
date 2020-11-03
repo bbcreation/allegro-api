@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetArchiveRefundsListRequest
 {
@@ -35,7 +35,7 @@ class DoGetArchiveRefundsListRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoGetArchiveRefundsListRequest
+     * @return \bbcreation\AllegroApi\DoGetArchiveRefundsListRequest
      */
     public function setSessionId($sessionId)
     {
@@ -53,7 +53,7 @@ class DoGetArchiveRefundsListRequest
 
     /**
      * @param int $itemId
-     * @return \Ircykk\AllegroApi\DoGetArchiveRefundsListRequest
+     * @return \bbcreation\AllegroApi\DoGetArchiveRefundsListRequest
      */
     public function setItemId($itemId)
     {

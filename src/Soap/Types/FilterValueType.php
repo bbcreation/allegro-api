@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class FilterValueType
 {
@@ -40,7 +40,7 @@ class FilterValueType
 
     /**
      * @param string $filterValueId
-     * @return \Ircykk\AllegroApi\FilterValueType
+     * @return \bbcreation\AllegroApi\FilterValueType
      */
     public function setFilterValueId($filterValueId)
     {
@@ -58,7 +58,7 @@ class FilterValueType
 
     /**
      * @param string $filterValueName
-     * @return \Ircykk\AllegroApi\FilterValueType
+     * @return \bbcreation\AllegroApi\FilterValueType
      */
     public function setFilterValueName($filterValueName)
     {
@@ -76,7 +76,7 @@ class FilterValueType
 
     /**
      * @param int $filterValueCount
-     * @return \Ircykk\AllegroApi\FilterValueType
+     * @return \bbcreation\AllegroApi\FilterValueType
      */
     public function setFilterValueCount($filterValueCount)
     {

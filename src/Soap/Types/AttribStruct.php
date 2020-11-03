@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class AttribStruct
 {
@@ -33,7 +33,7 @@ class AttribStruct
 
     /**
      * @param string $attribName
-     * @return \Ircykk\AllegroApi\AttribStruct
+     * @return \bbcreation\AllegroApi\AttribStruct
      */
     public function setAttribName($attribName)
     {
@@ -51,7 +51,7 @@ class AttribStruct
 
     /**
      * @param ArrayOfString $attribValues
-     * @return \Ircykk\AllegroApi\AttribStruct
+     * @return \bbcreation\AllegroApi\AttribStruct
      */
     public function setAttribValues($attribValues)
     {

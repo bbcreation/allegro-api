@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class CategoryData
 {
@@ -70,7 +70,7 @@ class CategoryData
 
     /**
      * @param int $catId
-     * @return \Ircykk\AllegroApi\CategoryData
+     * @return \bbcreation\AllegroApi\CategoryData
      */
     public function setCatId($catId)
     {
@@ -88,7 +88,7 @@ class CategoryData
 
     /**
      * @param int $catParent
-     * @return \Ircykk\AllegroApi\CategoryData
+     * @return \bbcreation\AllegroApi\CategoryData
      */
     public function setCatParent($catParent)
     {
@@ -106,7 +106,7 @@ class CategoryData
 
     /**
      * @param int $catCountry
-     * @return \Ircykk\AllegroApi\CategoryData
+     * @return \bbcreation\AllegroApi\CategoryData
      */
     public function setCatCountry($catCountry)
     {
@@ -124,7 +124,7 @@ class CategoryData
 
     /**
      * @param int $catLevel
-     * @return \Ircykk\AllegroApi\CategoryData
+     * @return \bbcreation\AllegroApi\CategoryData
      */
     public function setCatLevel($catLevel)
     {
@@ -142,7 +142,7 @@ class CategoryData
 
     /**
      * @param int $catIsLeaf
-     * @return \Ircykk\AllegroApi\CategoryData
+     * @return \bbcreation\AllegroApi\CategoryData
      */
     public function setCatIsLeaf($catIsLeaf)
     {
@@ -160,7 +160,7 @@ class CategoryData
 
     /**
      * @param string $catName
-     * @return \Ircykk\AllegroApi\CategoryData
+     * @return \bbcreation\AllegroApi\CategoryData
      */
     public function setCatName($catName)
     {
@@ -178,7 +178,7 @@ class CategoryData
 
     /**
      * @param int $catOptions
-     * @return \Ircykk\AllegroApi\CategoryData
+     * @return \bbcreation\AllegroApi\CategoryData
      */
     public function setCatOptions($catOptions)
     {

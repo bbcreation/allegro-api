@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doSendRefundFormResponse
 {
@@ -28,7 +28,7 @@ class doSendRefundFormResponse
 
     /**
      * @param int $refundId
-     * @return \Ircykk\AllegroApi\doSendRefundFormResponse
+     * @return \bbcreation\AllegroApi\doSendRefundFormResponse
      */
     public function setRefundId($refundId)
     {

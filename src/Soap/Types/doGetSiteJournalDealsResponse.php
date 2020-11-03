@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetSiteJournalDealsResponse
 {
@@ -28,7 +28,7 @@ class doGetSiteJournalDealsResponse
 
     /**
      * @param ArrayOfSitejournaldealsstruct $siteJournalDeals
-     * @return \Ircykk\AllegroApi\doGetSiteJournalDealsResponse
+     * @return \bbcreation\AllegroApi\doGetSiteJournalDealsResponse
      */
     public function setSiteJournalDeals($siteJournalDeals)
     {

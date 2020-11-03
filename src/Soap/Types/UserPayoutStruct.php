@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class UserPayoutStruct
 {
@@ -70,7 +70,7 @@ class UserPayoutStruct
 
     /**
      * @param int $payTransId
-     * @return \Ircykk\AllegroApi\UserPayoutStruct
+     * @return \bbcreation\AllegroApi\UserPayoutStruct
      */
     public function setPayTransId($payTransId)
     {
@@ -88,7 +88,7 @@ class UserPayoutStruct
 
     /**
      * @param string $payTransStatus
-     * @return \Ircykk\AllegroApi\UserPayoutStruct
+     * @return \bbcreation\AllegroApi\UserPayoutStruct
      */
     public function setPayTransStatus($payTransStatus)
     {
@@ -106,7 +106,7 @@ class UserPayoutStruct
 
     /**
      * @param float $payTransAmount
-     * @return \Ircykk\AllegroApi\UserPayoutStruct
+     * @return \bbcreation\AllegroApi\UserPayoutStruct
      */
     public function setPayTransAmount($payTransAmount)
     {
@@ -124,7 +124,7 @@ class UserPayoutStruct
 
     /**
      * @param int $payTransCreateDate
-     * @return \Ircykk\AllegroApi\UserPayoutStruct
+     * @return \bbcreation\AllegroApi\UserPayoutStruct
      */
     public function setPayTransCreateDate($payTransCreateDate)
     {
@@ -142,7 +142,7 @@ class UserPayoutStruct
 
     /**
      * @param int $payTransRecvDate
-     * @return \Ircykk\AllegroApi\UserPayoutStruct
+     * @return \bbcreation\AllegroApi\UserPayoutStruct
      */
     public function setPayTransRecvDate($payTransRecvDate)
     {
@@ -160,7 +160,7 @@ class UserPayoutStruct
 
     /**
      * @param int $payTransCancelDate
-     * @return \Ircykk\AllegroApi\UserPayoutStruct
+     * @return \bbcreation\AllegroApi\UserPayoutStruct
      */
     public function setPayTransCancelDate($payTransCancelDate)
     {
@@ -178,7 +178,7 @@ class UserPayoutStruct
 
     /**
      * @param string $payTransReport
-     * @return \Ircykk\AllegroApi\UserPayoutStruct
+     * @return \bbcreation\AllegroApi\UserPayoutStruct
      */
     public function setPayTransReport($payTransReport)
     {

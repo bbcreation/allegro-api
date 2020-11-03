@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class UserInfoStruct
 {
@@ -56,7 +56,7 @@ class UserInfoStruct
 
     /**
      * @param int $userId
-     * @return \Ircykk\AllegroApi\UserInfoStruct
+     * @return \bbcreation\AllegroApi\UserInfoStruct
      */
     public function setUserId($userId)
     {
@@ -74,7 +74,7 @@ class UserInfoStruct
 
     /**
      * @param string $userLogin
-     * @return \Ircykk\AllegroApi\UserInfoStruct
+     * @return \bbcreation\AllegroApi\UserInfoStruct
      */
     public function setUserLogin($userLogin)
     {
@@ -92,7 +92,7 @@ class UserInfoStruct
 
     /**
      * @param int $userRating
-     * @return \Ircykk\AllegroApi\UserInfoStruct
+     * @return \bbcreation\AllegroApi\UserInfoStruct
      */
     public function setUserRating($userRating)
     {
@@ -110,7 +110,7 @@ class UserInfoStruct
 
     /**
      * @param int $userIcons
-     * @return \Ircykk\AllegroApi\UserInfoStruct
+     * @return \bbcreation\AllegroApi\UserInfoStruct
      */
     public function setUserIcons($userIcons)
     {
@@ -128,7 +128,7 @@ class UserInfoStruct
 
     /**
      * @param int $userCountry
-     * @return \Ircykk\AllegroApi\UserInfoStruct
+     * @return \bbcreation\AllegroApi\UserInfoStruct
      */
     public function setUserCountry($userCountry)
     {

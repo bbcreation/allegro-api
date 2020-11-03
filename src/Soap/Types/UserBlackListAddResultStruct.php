@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class UserBlackListAddResultStruct
 {
@@ -49,7 +49,7 @@ class UserBlackListAddResultStruct
 
     /**
      * @param int $userId
-     * @return \Ircykk\AllegroApi\UserBlackListAddResultStruct
+     * @return \bbcreation\AllegroApi\UserBlackListAddResultStruct
      */
     public function setUserId($userId)
     {
@@ -67,7 +67,7 @@ class UserBlackListAddResultStruct
 
     /**
      * @param int $addToBlackListResult
-     * @return \Ircykk\AllegroApi\UserBlackListAddResultStruct
+     * @return \bbcreation\AllegroApi\UserBlackListAddResultStruct
      */
     public function setAddToBlackListResult($addToBlackListResult)
     {
@@ -85,7 +85,7 @@ class UserBlackListAddResultStruct
 
     /**
      * @param string $addToBlackListErrCode
-     * @return \Ircykk\AllegroApi\UserBlackListAddResultStruct
+     * @return \bbcreation\AllegroApi\UserBlackListAddResultStruct
      */
     public function setAddToBlackListErrCode($addToBlackListErrCode)
     {
@@ -103,7 +103,7 @@ class UserBlackListAddResultStruct
 
     /**
      * @param string $addToBlackListErrMsg
-     * @return \Ircykk\AllegroApi\UserBlackListAddResultStruct
+     * @return \bbcreation\AllegroApi\UserBlackListAddResultStruct
      */
     public function setAddToBlackListErrMsg($addToBlackListErrMsg)
     {

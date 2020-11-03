@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class UserPaymentStruct
 {
@@ -82,7 +82,7 @@ class UserPaymentStruct
 
     /**
      * @param int $payTransId
-     * @return \Ircykk\AllegroApi\UserPaymentStruct
+     * @return \bbcreation\AllegroApi\UserPaymentStruct
      */
     public function setPayTransId($payTransId)
     {
@@ -100,7 +100,7 @@ class UserPaymentStruct
 
     /**
      * @param ArrayOfPaymentsellersstruct $payTransSellers
-     * @return \Ircykk\AllegroApi\UserPaymentStruct
+     * @return \bbcreation\AllegroApi\UserPaymentStruct
      */
     public function setPayTransSellers($payTransSellers)
     {
@@ -118,7 +118,7 @@ class UserPaymentStruct
 
     /**
      * @param string $payTransType
-     * @return \Ircykk\AllegroApi\UserPaymentStruct
+     * @return \bbcreation\AllegroApi\UserPaymentStruct
      */
     public function setPayTransType($payTransType)
     {
@@ -136,7 +136,7 @@ class UserPaymentStruct
 
     /**
      * @param string $payTransStatus
-     * @return \Ircykk\AllegroApi\UserPaymentStruct
+     * @return \bbcreation\AllegroApi\UserPaymentStruct
      */
     public function setPayTransStatus($payTransStatus)
     {
@@ -154,7 +154,7 @@ class UserPaymentStruct
 
     /**
      * @param float $payTransAmount
-     * @return \Ircykk\AllegroApi\UserPaymentStruct
+     * @return \bbcreation\AllegroApi\UserPaymentStruct
      */
     public function setPayTransAmount($payTransAmount)
     {
@@ -172,7 +172,7 @@ class UserPaymentStruct
 
     /**
      * @param int $payTransCreateDate
-     * @return \Ircykk\AllegroApi\UserPaymentStruct
+     * @return \bbcreation\AllegroApi\UserPaymentStruct
      */
     public function setPayTransCreateDate($payTransCreateDate)
     {
@@ -190,7 +190,7 @@ class UserPaymentStruct
 
     /**
      * @param float $payTransPrice
-     * @return \Ircykk\AllegroApi\UserPaymentStruct
+     * @return \bbcreation\AllegroApi\UserPaymentStruct
      */
     public function setPayTransPrice($payTransPrice)
     {
@@ -208,7 +208,7 @@ class UserPaymentStruct
 
     /**
      * @param float $payTransPostageAmount
-     * @return \Ircykk\AllegroApi\UserPaymentStruct
+     * @return \bbcreation\AllegroApi\UserPaymentStruct
      */
     public function setPayTransPostageAmount($payTransPostageAmount)
     {
@@ -226,7 +226,7 @@ class UserPaymentStruct
 
     /**
      * @param int $payTransIncomplete
-     * @return \Ircykk\AllegroApi\UserPaymentStruct
+     * @return \bbcreation\AllegroApi\UserPaymentStruct
      */
     public function setPayTransIncomplete($payTransIncomplete)
     {

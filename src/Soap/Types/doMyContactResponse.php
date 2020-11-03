@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doMyContactResponse
 {
@@ -28,7 +28,7 @@ class doMyContactResponse
 
     /**
      * @param ArrayOfMycontactlist $mycontactList
-     * @return \Ircykk\AllegroApi\doMyContactResponse
+     * @return \bbcreation\AllegroApi\doMyContactResponse
      */
     public function setMycontactList($mycontactList)
     {

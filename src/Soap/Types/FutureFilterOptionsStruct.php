@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class FutureFilterOptionsStruct
 {
@@ -26,7 +26,7 @@ class FutureFilterOptionsStruct
 
     /**
      * @param int $filterFormat
-     * @return \Ircykk\AllegroApi\FutureFilterOptionsStruct
+     * @return \bbcreation\AllegroApi\FutureFilterOptionsStruct
      */
     public function setFilterFormat($filterFormat)
     {

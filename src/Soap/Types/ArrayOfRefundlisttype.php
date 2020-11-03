@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfRefundlisttype implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfRefundlisttype implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param RefundListType[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfRefundlisttype
+     * @return \bbcreation\AllegroApi\ArrayOfRefundlisttype
      */
     public function setItem(array $item = null)
     {

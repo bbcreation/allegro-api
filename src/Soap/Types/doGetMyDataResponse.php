@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetMyDataResponse
 {
@@ -70,7 +70,7 @@ class doGetMyDataResponse
 
     /**
      * @param UserDataStruct $userData
-     * @return \Ircykk\AllegroApi\doGetMyDataResponse
+     * @return \bbcreation\AllegroApi\doGetMyDataResponse
      */
     public function setUserData($userData)
     {
@@ -88,7 +88,7 @@ class doGetMyDataResponse
 
     /**
      * @param InvoiceDataStruct $invoiceData
-     * @return \Ircykk\AllegroApi\doGetMyDataResponse
+     * @return \bbcreation\AllegroApi\doGetMyDataResponse
      */
     public function setInvoiceData($invoiceData)
     {
@@ -106,7 +106,7 @@ class doGetMyDataResponse
 
     /**
      * @param CompanyExtraDataStruct $companyExtraData
-     * @return \Ircykk\AllegroApi\doGetMyDataResponse
+     * @return \bbcreation\AllegroApi\doGetMyDataResponse
      */
     public function setCompanyExtraData($companyExtraData)
     {
@@ -124,7 +124,7 @@ class doGetMyDataResponse
 
     /**
      * @param CompanySecondAddressStruct $companySecondAddress
-     * @return \Ircykk\AllegroApi\doGetMyDataResponse
+     * @return \bbcreation\AllegroApi\doGetMyDataResponse
      */
     public function setCompanySecondAddress($companySecondAddress)
     {
@@ -142,7 +142,7 @@ class doGetMyDataResponse
 
     /**
      * @param PharmacyDataStruct $pharmacyData
-     * @return \Ircykk\AllegroApi\doGetMyDataResponse
+     * @return \bbcreation\AllegroApi\doGetMyDataResponse
      */
     public function setPharmacyData($pharmacyData)
     {
@@ -160,7 +160,7 @@ class doGetMyDataResponse
 
     /**
      * @param AlcoholDataStruct $alcoholData
-     * @return \Ircykk\AllegroApi\doGetMyDataResponse
+     * @return \bbcreation\AllegroApi\doGetMyDataResponse
      */
     public function setAlcoholData($alcoholData)
     {
@@ -178,7 +178,7 @@ class doGetMyDataResponse
 
     /**
      * @param RelatedPersonsStruct $relatedPersons
-     * @return \Ircykk\AllegroApi\doGetMyDataResponse
+     * @return \bbcreation\AllegroApi\doGetMyDataResponse
      */
     public function setRelatedPersons($relatedPersons)
     {

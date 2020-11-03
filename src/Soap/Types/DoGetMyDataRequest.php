@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetMyDataRequest
 {
@@ -28,7 +28,7 @@ class DoGetMyDataRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoGetMyDataRequest
+     * @return \bbcreation\AllegroApi\DoGetMyDataRequest
      */
     public function setSessionHandle($sessionHandle)
     {

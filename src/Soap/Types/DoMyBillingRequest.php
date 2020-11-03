@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoMyBillingRequest
 {
@@ -28,7 +28,7 @@ class DoMyBillingRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoMyBillingRequest
+     * @return \bbcreation\AllegroApi\DoMyBillingRequest
      */
     public function setSessionHandle($sessionHandle)
     {

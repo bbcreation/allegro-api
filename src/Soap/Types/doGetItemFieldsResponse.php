@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetItemFieldsResponse
 {
@@ -42,7 +42,7 @@ class doGetItemFieldsResponse
 
     /**
      * @param ArrayOfFieldsvalue $itemFields
-     * @return \Ircykk\AllegroApi\doGetItemFieldsResponse
+     * @return \bbcreation\AllegroApi\doGetItemFieldsResponse
      */
     public function setItemFields($itemFields)
     {
@@ -60,7 +60,7 @@ class doGetItemFieldsResponse
 
     /**
      * @param AfterSalesServiceConditionsStruct $afterSalesServiceConditions
-     * @return \Ircykk\AllegroApi\doGetItemFieldsResponse
+     * @return \bbcreation\AllegroApi\doGetItemFieldsResponse
      */
     public function setAfterSalesServiceConditions($afterSalesServiceConditions)
     {
@@ -78,7 +78,7 @@ class doGetItemFieldsResponse
 
     /**
      * @param string $additionalServicesGroup
-     * @return \Ircykk\AllegroApi\doGetItemFieldsResponse
+     * @return \bbcreation\AllegroApi\doGetItemFieldsResponse
      */
     public function setAdditionalServicesGroup($additionalServicesGroup)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class RefundDetailsType
 {
@@ -56,7 +56,7 @@ class RefundDetailsType
 
     /**
      * @param int $refundId
-     * @return \Ircykk\AllegroApi\RefundDetailsType
+     * @return \bbcreation\AllegroApi\RefundDetailsType
      */
     public function setRefundId($refundId)
     {
@@ -74,7 +74,7 @@ class RefundDetailsType
 
     /**
      * @param string $refundStatus
-     * @return \Ircykk\AllegroApi\RefundDetailsType
+     * @return \bbcreation\AllegroApi\RefundDetailsType
      */
     public function setRefundStatus($refundStatus)
     {
@@ -92,7 +92,7 @@ class RefundDetailsType
 
     /**
      * @param int $refundQuantity
-     * @return \Ircykk\AllegroApi\RefundDetailsType
+     * @return \bbcreation\AllegroApi\RefundDetailsType
      */
     public function setRefundQuantity($refundQuantity)
     {
@@ -118,7 +118,7 @@ class RefundDetailsType
 
     /**
      * @param \DateTime $createdDate
-     * @return \Ircykk\AllegroApi\RefundDetailsType
+     * @return \bbcreation\AllegroApi\RefundDetailsType
      */
     public function setCreatedDate(\DateTime $createdDate)
     {
@@ -144,7 +144,7 @@ class RefundDetailsType
 
     /**
      * @param \DateTime $considerDate
-     * @return \Ircykk\AllegroApi\RefundDetailsType
+     * @return \bbcreation\AllegroApi\RefundDetailsType
      */
     public function setConsiderDate(\DateTime $considerDate)
     {

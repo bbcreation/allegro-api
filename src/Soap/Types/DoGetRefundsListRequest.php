@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetRefundsListRequest
 {
@@ -49,7 +49,7 @@ class DoGetRefundsListRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoGetRefundsListRequest
+     * @return \bbcreation\AllegroApi\DoGetRefundsListRequest
      */
     public function setSessionId($sessionId)
     {
@@ -67,7 +67,7 @@ class DoGetRefundsListRequest
 
     /**
      * @param ArrayOfFilteroptionstype $filterOptions
-     * @return \Ircykk\AllegroApi\DoGetRefundsListRequest
+     * @return \bbcreation\AllegroApi\DoGetRefundsListRequest
      */
     public function setFilterOptions($filterOptions)
     {
@@ -85,7 +85,7 @@ class DoGetRefundsListRequest
 
     /**
      * @param int $resultSize
-     * @return \Ircykk\AllegroApi\DoGetRefundsListRequest
+     * @return \bbcreation\AllegroApi\DoGetRefundsListRequest
      */
     public function setResultSize($resultSize)
     {
@@ -103,7 +103,7 @@ class DoGetRefundsListRequest
 
     /**
      * @param int $resultOffset
-     * @return \Ircykk\AllegroApi\DoGetRefundsListRequest
+     * @return \bbcreation\AllegroApi\DoGetRefundsListRequest
      */
     public function setResultOffset($resultOffset)
     {

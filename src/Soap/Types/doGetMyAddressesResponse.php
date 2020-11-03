@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetMyAddressesResponse
 {
@@ -28,7 +28,7 @@ class doGetMyAddressesResponse
 
     /**
      * @param ArrayOfAddressinfostruct $addressesInfo
-     * @return \Ircykk\AllegroApi\doGetMyAddressesResponse
+     * @return \bbcreation\AllegroApi\doGetMyAddressesResponse
      */
     public function setAddressesInfo($addressesInfo)
     {

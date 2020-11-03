@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doSetFreeDeliveryAmountResponse
 {
@@ -28,7 +28,7 @@ class doSetFreeDeliveryAmountResponse
 
     /**
      * @param boolean $responseStatus
-     * @return \Ircykk\AllegroApi\doSetFreeDeliveryAmountResponse
+     * @return \bbcreation\AllegroApi\doSetFreeDeliveryAmountResponse
      */
     public function setResponseStatus($responseStatus)
     {

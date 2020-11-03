@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetCatsDataLimitResponse
 {
@@ -42,7 +42,7 @@ class doGetCatsDataLimitResponse
 
     /**
      * @param ArrayOfCatinfotype $catsList
-     * @return \Ircykk\AllegroApi\doGetCatsDataLimitResponse
+     * @return \bbcreation\AllegroApi\doGetCatsDataLimitResponse
      */
     public function setCatsList($catsList)
     {
@@ -60,7 +60,7 @@ class doGetCatsDataLimitResponse
 
     /**
      * @param int $verKey
-     * @return \Ircykk\AllegroApi\doGetCatsDataLimitResponse
+     * @return \bbcreation\AllegroApi\doGetCatsDataLimitResponse
      */
     public function setVerKey($verKey)
     {
@@ -78,7 +78,7 @@ class doGetCatsDataLimitResponse
 
     /**
      * @param string $verStr
-     * @return \Ircykk\AllegroApi\doGetCatsDataLimitResponse
+     * @return \bbcreation\AllegroApi\doGetCatsDataLimitResponse
      */
     public function setVerStr($verStr)
     {

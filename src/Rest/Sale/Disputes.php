@@ -1,15 +1,15 @@
 <?php
 
-namespace Ircykk\AllegroApi\Rest\Sale;
+namespace bbcreation\AllegroApi\Rest\Sale;
 
-use Ircykk\AllegroApi\Rest\AbstractRestResource;
+use bbcreation\AllegroApi\Rest\AbstractRestResource;
 
 /**
  * Class Disputes.
  *
  * @link https://developer.allegro.pl/documentation/#operation/getListOfDisputesUsingGET
  *
- * @package Ircykk\AllegroApi\Rest\Sale
+ * @package bbcreation\AllegroApi\Rest\Sale
  */
 class Disputes extends AbstractRestResource
 {

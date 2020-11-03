@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetCategoryPathRequest
 {
@@ -35,7 +35,7 @@ class DoGetCategoryPathRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoGetCategoryPathRequest
+     * @return \bbcreation\AllegroApi\DoGetCategoryPathRequest
      */
     public function setSessionId($sessionId)
     {
@@ -53,7 +53,7 @@ class DoGetCategoryPathRequest
 
     /**
      * @param int $categoryId
-     * @return \Ircykk\AllegroApi\DoGetCategoryPathRequest
+     * @return \bbcreation\AllegroApi\DoGetCategoryPathRequest
      */
     public function setCategoryId($categoryId)
     {

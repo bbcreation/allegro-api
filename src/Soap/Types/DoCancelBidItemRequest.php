@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoCancelBidItemRequest
 {
@@ -56,7 +56,7 @@ class DoCancelBidItemRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoCancelBidItemRequest
+     * @return \bbcreation\AllegroApi\DoCancelBidItemRequest
      */
     public function setSessionHandle($sessionHandle)
     {
@@ -74,7 +74,7 @@ class DoCancelBidItemRequest
 
     /**
      * @param int $cancelItemId
-     * @return \Ircykk\AllegroApi\DoCancelBidItemRequest
+     * @return \bbcreation\AllegroApi\DoCancelBidItemRequest
      */
     public function setCancelItemId($cancelItemId)
     {
@@ -92,7 +92,7 @@ class DoCancelBidItemRequest
 
     /**
      * @param ArrayOfInt $cancelBidsArray
-     * @return \Ircykk\AllegroApi\DoCancelBidItemRequest
+     * @return \bbcreation\AllegroApi\DoCancelBidItemRequest
      */
     public function setCancelBidsArray($cancelBidsArray)
     {
@@ -110,7 +110,7 @@ class DoCancelBidItemRequest
 
     /**
      * @param string $cancelBidsReason
-     * @return \Ircykk\AllegroApi\DoCancelBidItemRequest
+     * @return \bbcreation\AllegroApi\DoCancelBidItemRequest
      */
     public function setCancelBidsReason($cancelBidsReason)
     {
@@ -128,7 +128,7 @@ class DoCancelBidItemRequest
 
     /**
      * @param int $cancelAddToBlackList
-     * @return \Ircykk\AllegroApi\DoCancelBidItemRequest
+     * @return \bbcreation\AllegroApi\DoCancelBidItemRequest
      */
     public function setCancelAddToBlackList($cancelAddToBlackList)
     {

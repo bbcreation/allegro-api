@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ShipmentPaymentInfoStruct
 {
@@ -54,7 +54,7 @@ class ShipmentPaymentInfoStruct
 
     /**
      * @param int $shipmentId
-     * @return \Ircykk\AllegroApi\ShipmentPaymentInfoStruct
+     * @return \bbcreation\AllegroApi\ShipmentPaymentInfoStruct
      */
     public function setShipmentId($shipmentId)
     {
@@ -72,7 +72,7 @@ class ShipmentPaymentInfoStruct
 
     /**
      * @param string $shipmentName
-     * @return \Ircykk\AllegroApi\ShipmentPaymentInfoStruct
+     * @return \bbcreation\AllegroApi\ShipmentPaymentInfoStruct
      */
     public function setShipmentName($shipmentName)
     {
@@ -90,7 +90,7 @@ class ShipmentPaymentInfoStruct
 
     /**
      * @param float $shipmentAmount
-     * @return \Ircykk\AllegroApi\ShipmentPaymentInfoStruct
+     * @return \bbcreation\AllegroApi\ShipmentPaymentInfoStruct
      */
     public function setShipmentAmount($shipmentAmount)
     {
@@ -108,7 +108,7 @@ class ShipmentPaymentInfoStruct
 
     /**
      * @param int $shipmentPaymentType
-     * @return \Ircykk\AllegroApi\ShipmentPaymentInfoStruct
+     * @return \bbcreation\AllegroApi\ShipmentPaymentInfoStruct
      */
     public function setShipmentPaymentType($shipmentPaymentType)
     {
@@ -126,7 +126,7 @@ class ShipmentPaymentInfoStruct
 
     /**
      * @param ArrayOfLong $shipmentItemIds
-     * @return \Ircykk\AllegroApi\ShipmentPaymentInfoStruct
+     * @return \bbcreation\AllegroApi\ShipmentPaymentInfoStruct
      */
     public function setShipmentItemIds($shipmentItemIds)
     {

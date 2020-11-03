@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class BlackListStruct
 {
@@ -49,7 +49,7 @@ class BlackListStruct
 
     /**
      * @param int $userId
-     * @return \Ircykk\AllegroApi\BlackListStruct
+     * @return \bbcreation\AllegroApi\BlackListStruct
      */
     public function setUserId($userId)
     {
@@ -67,7 +67,7 @@ class BlackListStruct
 
     /**
      * @param string $userLogin
-     * @return \Ircykk\AllegroApi\BlackListStruct
+     * @return \bbcreation\AllegroApi\BlackListStruct
      */
     public function setUserLogin($userLogin)
     {
@@ -85,7 +85,7 @@ class BlackListStruct
 
     /**
      * @param int $userRating
-     * @return \Ircykk\AllegroApi\BlackListStruct
+     * @return \bbcreation\AllegroApi\BlackListStruct
      */
     public function setUserRating($userRating)
     {
@@ -103,7 +103,7 @@ class BlackListStruct
 
     /**
      * @param int $userCountry
-     * @return \Ircykk\AllegroApi\BlackListStruct
+     * @return \bbcreation\AllegroApi\BlackListStruct
      */
     public function setUserCountry($userCountry)
     {

@@ -41,7 +41,7 @@ require_once __DIR__.'/vendor/autoload.php';
 
 $credentials = ...
 
-$client = new \Ircykk\AllegroApi\Client($credentials);
+$client = new \bbcreation\AllegroApi\Client($credentials);
 
 // Redirect to allegro for authenticate and get back with code
 if (!isset($_GET['code'])) {
@@ -88,7 +88,7 @@ require_once __DIR__.'/vendor/autoload.php';
 $credentials = ...
 $token = ...
 
-$client = new \Ircykk\AllegroApi\Client($credentials);
+$client = new \bbcreation\AllegroApi\Client($credentials);
 $client->authenticate($token);
 
 $categories = $client->sale()->categories()->all();
@@ -100,7 +100,7 @@ $categories = $client->sale()->categories()->all();
 $credentials = ...
 
 // WebApi SOAP client
-$soapClient = new \Ircykk\AllegroApi\WebapiClient($credentials);
+$soapClient = new \bbcreation\AllegroApi\WebapiClient($credentials);
 
 $categories = $soapClient->webApi()->getCatsDataLimit(0, 10);
 ```
@@ -109,7 +109,7 @@ $categories = $soapClient->webApi()->getCatsDataLimit(0, 10);
 
 In order to use [Sandbox environment](https://allegro.pl.allegrosandbox.pl/) just set `Credentials` property `$sandbox` to true.
 ```php
-$credentials = new \Ircykk\AllegroApi\Credentials(
+$credentials = new \bbcreation\AllegroApi\Credentials(
     ...
     true // Sandbox
 );

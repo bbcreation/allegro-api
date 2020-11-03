@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfItemsurchargestruct implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfItemsurchargestruct implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param ItemSurchargeStruct[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfItemsurchargestruct
+     * @return \bbcreation\AllegroApi\ArrayOfItemsurchargestruct
      */
     public function setItem(array $item = null)
     {

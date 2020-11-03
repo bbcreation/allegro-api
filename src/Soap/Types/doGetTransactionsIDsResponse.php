@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetTransactionsIDsResponse
 {
@@ -28,7 +28,7 @@ class doGetTransactionsIDsResponse
 
     /**
      * @param ArrayOfLong $transactionsIdsArray
-     * @return \Ircykk\AllegroApi\doGetTransactionsIDsResponse
+     * @return \bbcreation\AllegroApi\doGetTransactionsIDsResponse
      */
     public function setTransactionsIdsArray($transactionsIdsArray)
     {

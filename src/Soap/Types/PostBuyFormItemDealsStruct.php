@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class PostBuyFormItemDealsStruct
 {
@@ -66,7 +66,7 @@ class PostBuyFormItemDealsStruct
 
     /**
      * @param int $dealId
-     * @return \Ircykk\AllegroApi\PostBuyFormItemDealsStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormItemDealsStruct
      */
     public function setDealId($dealId)
     {
@@ -84,7 +84,7 @@ class PostBuyFormItemDealsStruct
 
     /**
      * @param float $dealFinalPrice
-     * @return \Ircykk\AllegroApi\PostBuyFormItemDealsStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormItemDealsStruct
      */
     public function setDealFinalPrice($dealFinalPrice)
     {
@@ -102,7 +102,7 @@ class PostBuyFormItemDealsStruct
 
     /**
      * @param int $dealQuantity
-     * @return \Ircykk\AllegroApi\PostBuyFormItemDealsStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormItemDealsStruct
      */
     public function setDealQuantity($dealQuantity)
     {
@@ -128,7 +128,7 @@ class PostBuyFormItemDealsStruct
 
     /**
      * @param \DateTime $dealDate
-     * @return \Ircykk\AllegroApi\PostBuyFormItemDealsStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormItemDealsStruct
      */
     public function setDealDate(\DateTime $dealDate)
     {
@@ -146,7 +146,7 @@ class PostBuyFormItemDealsStruct
 
     /**
      * @param boolean $dealWasDiscounted
-     * @return \Ircykk\AllegroApi\PostBuyFormItemDealsStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormItemDealsStruct
      */
     public function setDealWasDiscounted($dealWasDiscounted)
     {
@@ -164,7 +164,7 @@ class PostBuyFormItemDealsStruct
 
     /**
      * @param PostBuyFormItemDealsVariantStruct $dealVariant
-     * @return \Ircykk\AllegroApi\PostBuyFormItemDealsStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormItemDealsStruct
      */
     public function setDealVariant($dealVariant)
     {
@@ -182,7 +182,7 @@ class PostBuyFormItemDealsStruct
 
     /**
      * @param ArrayOfPostbuyformitemdealsadditionalservicestruct $dealAdditionalServices
-     * @return \Ircykk\AllegroApi\PostBuyFormItemDealsStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormItemDealsStruct
      */
     public function setDealAdditionalServices($dealAdditionalServices)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi\Auth;
+namespace bbcreation\AllegroApi\Auth;
 
 use Exception;
 use Http\Client\Exception as ClientException;
@@ -8,15 +8,15 @@ use Http\Client\HttpClient;
 use Http\Message\RequestFactory;
 use Http\Discovery\MessageFactoryDiscovery;
 use Http\Discovery\HttpClientDiscovery;
-use Ircykk\AllegroApi\CredentialsInterface;
-use Ircykk\AllegroApi\Exception\LogicException;
+use bbcreation\AllegroApi\CredentialsInterface;
+use bbcreation\AllegroApi\Exception\LogicException;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 
 /**
  * Class OAuth2.
  *
- * @package Ircykk\AllegroApi\Auth
+ * @package bbcreation\AllegroApi\Auth
  */
 class OAuth2 implements AuthInterface
 {

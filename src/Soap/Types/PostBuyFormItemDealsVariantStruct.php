@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class PostBuyFormItemDealsVariantStruct
 {
@@ -35,7 +35,7 @@ class PostBuyFormItemDealsVariantStruct
 
     /**
      * @param string $variantName
-     * @return \Ircykk\AllegroApi\PostBuyFormItemDealsVariantStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormItemDealsVariantStruct
      */
     public function setVariantName($variantName)
     {
@@ -53,7 +53,7 @@ class PostBuyFormItemDealsVariantStruct
 
     /**
      * @param string $variantValue
-     * @return \Ircykk\AllegroApi\PostBuyFormItemDealsVariantStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormItemDealsVariantStruct
      */
     public function setVariantValue($variantValue)
     {

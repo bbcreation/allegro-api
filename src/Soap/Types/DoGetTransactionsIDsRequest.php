@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetTransactionsIDsRequest
 {
@@ -49,7 +49,7 @@ class DoGetTransactionsIDsRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoGetTransactionsIDsRequest
+     * @return \bbcreation\AllegroApi\DoGetTransactionsIDsRequest
      */
     public function setSessionHandle($sessionHandle)
     {
@@ -67,7 +67,7 @@ class DoGetTransactionsIDsRequest
 
     /**
      * @param ArrayOfLong $itemsIdArray
-     * @return \Ircykk\AllegroApi\DoGetTransactionsIDsRequest
+     * @return \bbcreation\AllegroApi\DoGetTransactionsIDsRequest
      */
     public function setItemsIdArray($itemsIdArray)
     {
@@ -85,7 +85,7 @@ class DoGetTransactionsIDsRequest
 
     /**
      * @param string $userRole
-     * @return \Ircykk\AllegroApi\DoGetTransactionsIDsRequest
+     * @return \bbcreation\AllegroApi\DoGetTransactionsIDsRequest
      */
     public function setUserRole($userRole)
     {
@@ -103,7 +103,7 @@ class DoGetTransactionsIDsRequest
 
     /**
      * @param ArrayOfLong $shipmentIdArray
-     * @return \Ircykk\AllegroApi\DoGetTransactionsIDsRequest
+     * @return \bbcreation\AllegroApi\DoGetTransactionsIDsRequest
      */
     public function setShipmentIdArray($shipmentIdArray)
     {

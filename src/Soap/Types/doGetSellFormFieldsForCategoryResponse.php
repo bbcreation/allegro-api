@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetSellFormFieldsForCategoryResponse
 {
@@ -28,7 +28,7 @@ class doGetSellFormFieldsForCategoryResponse
 
     /**
      * @param SellFormFieldsForCategoryStruct $sellFormFieldsForCategory
-     * @return \Ircykk\AllegroApi\doGetSellFormFieldsForCategoryResponse
+     * @return \bbcreation\AllegroApi\doGetSellFormFieldsForCategoryResponse
      */
     public function setSellFormFieldsForCategory($sellFormFieldsForCategory)
     {

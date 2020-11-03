@@ -1,15 +1,15 @@
 <?php
 
-namespace Ircykk\AllegroApi\Rest\Sale\OfferAdditionalServices;
+namespace bbcreation\AllegroApi\Rest\Sale\OfferAdditionalServices;
 
-use Ircykk\AllegroApi\Rest\AbstractRestResource;
+use bbcreation\AllegroApi\Rest\AbstractRestResource;
 
 /**
  * Class Definitions.
  *
  * @link https://developer.allegro.pl/documentation/#/offer-additional-services
  *
- * @package Ircykk\AllegroApi\Rest
+ * @package bbcreation\AllegroApi\Rest
  */
 class Definitions extends AbstractRestResource
 {

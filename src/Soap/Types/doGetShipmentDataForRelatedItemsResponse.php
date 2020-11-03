@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetShipmentDataForRelatedItemsResponse
 {
@@ -28,7 +28,7 @@ class doGetShipmentDataForRelatedItemsResponse
 
     /**
      * @param RelatedItemsShipmentDataStruct $relatedItemsShipmentData
-     * @return \Ircykk\AllegroApi\doGetShipmentDataForRelatedItemsResponse
+     * @return \bbcreation\AllegroApi\doGetShipmentDataForRelatedItemsResponse
      */
     public function setRelatedItemsShipmentData($relatedItemsShipmentData)
     {

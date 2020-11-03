@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfCategorypathtype implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfCategorypathtype implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param CategoryPathType[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfCategorypathtype
+     * @return \bbcreation\AllegroApi\ArrayOfCategorypathtype
      */
     public function setItem(array $item = null)
     {

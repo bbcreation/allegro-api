@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doQueryAllSysStatusResponse
 {
@@ -28,7 +28,7 @@ class doQueryAllSysStatusResponse
 
     /**
      * @param ArrayOfSysstatustype $sysCountryStatus
-     * @return \Ircykk\AllegroApi\doQueryAllSysStatusResponse
+     * @return \bbcreation\AllegroApi\doQueryAllSysStatusResponse
      */
     public function setSysCountryStatus($sysCountryStatus)
     {

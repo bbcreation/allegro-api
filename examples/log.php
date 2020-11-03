@@ -8,7 +8,7 @@
  * composer require monolog/monolog
  */
 
-use Ircykk\AllegroApi\Client;
+use bbcreation\AllegroApi\Client;
 use Http\Client\Common\Plugin\LoggerPlugin;
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;

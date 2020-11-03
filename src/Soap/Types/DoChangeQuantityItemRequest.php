@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoChangeQuantityItemRequest
 {
@@ -42,7 +42,7 @@ class DoChangeQuantityItemRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoChangeQuantityItemRequest
+     * @return \bbcreation\AllegroApi\DoChangeQuantityItemRequest
      */
     public function setSessionHandle($sessionHandle)
     {
@@ -60,7 +60,7 @@ class DoChangeQuantityItemRequest
 
     /**
      * @param int $itemId
-     * @return \Ircykk\AllegroApi\DoChangeQuantityItemRequest
+     * @return \bbcreation\AllegroApi\DoChangeQuantityItemRequest
      */
     public function setItemId($itemId)
     {
@@ -78,7 +78,7 @@ class DoChangeQuantityItemRequest
 
     /**
      * @param int $newItemQuantity
-     * @return \Ircykk\AllegroApi\DoChangeQuantityItemRequest
+     * @return \bbcreation\AllegroApi\DoChangeQuantityItemRequest
      */
     public function setNewItemQuantity($newItemQuantity)
     {

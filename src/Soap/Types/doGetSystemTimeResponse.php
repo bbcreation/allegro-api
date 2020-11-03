@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetSystemTimeResponse
 {
@@ -28,7 +28,7 @@ class doGetSystemTimeResponse
 
     /**
      * @param int $serverTime
-     * @return \Ircykk\AllegroApi\doGetSystemTimeResponse
+     * @return \bbcreation\AllegroApi\doGetSystemTimeResponse
      */
     public function setServerTime($serverTime)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoShowItemInfoExtRequest
 {
@@ -98,7 +98,7 @@ class DoShowItemInfoExtRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoShowItemInfoExtRequest
+     * @return \bbcreation\AllegroApi\DoShowItemInfoExtRequest
      */
     public function setSessionHandle($sessionHandle)
     {
@@ -116,7 +116,7 @@ class DoShowItemInfoExtRequest
 
     /**
      * @param int $itemId
-     * @return \Ircykk\AllegroApi\DoShowItemInfoExtRequest
+     * @return \bbcreation\AllegroApi\DoShowItemInfoExtRequest
      */
     public function setItemId($itemId)
     {
@@ -134,7 +134,7 @@ class DoShowItemInfoExtRequest
 
     /**
      * @param int $getDesc
-     * @return \Ircykk\AllegroApi\DoShowItemInfoExtRequest
+     * @return \bbcreation\AllegroApi\DoShowItemInfoExtRequest
      */
     public function setGetDesc($getDesc)
     {
@@ -152,7 +152,7 @@ class DoShowItemInfoExtRequest
 
     /**
      * @param int $getImageUrl
-     * @return \Ircykk\AllegroApi\DoShowItemInfoExtRequest
+     * @return \bbcreation\AllegroApi\DoShowItemInfoExtRequest
      */
     public function setGetImageUrl($getImageUrl)
     {
@@ -170,7 +170,7 @@ class DoShowItemInfoExtRequest
 
     /**
      * @param int $getAttribs
-     * @return \Ircykk\AllegroApi\DoShowItemInfoExtRequest
+     * @return \bbcreation\AllegroApi\DoShowItemInfoExtRequest
      */
     public function setGetAttribs($getAttribs)
     {
@@ -188,7 +188,7 @@ class DoShowItemInfoExtRequest
 
     /**
      * @param int $getPostageOptions
-     * @return \Ircykk\AllegroApi\DoShowItemInfoExtRequest
+     * @return \bbcreation\AllegroApi\DoShowItemInfoExtRequest
      */
     public function setGetPostageOptions($getPostageOptions)
     {
@@ -206,7 +206,7 @@ class DoShowItemInfoExtRequest
 
     /**
      * @param int $getCompanyInfo
-     * @return \Ircykk\AllegroApi\DoShowItemInfoExtRequest
+     * @return \bbcreation\AllegroApi\DoShowItemInfoExtRequest
      */
     public function setGetCompanyInfo($getCompanyInfo)
     {
@@ -224,7 +224,7 @@ class DoShowItemInfoExtRequest
 
     /**
      * @param int $getProductInfo
-     * @return \Ircykk\AllegroApi\DoShowItemInfoExtRequest
+     * @return \bbcreation\AllegroApi\DoShowItemInfoExtRequest
      */
     public function setGetProductInfo($getProductInfo)
     {
@@ -242,7 +242,7 @@ class DoShowItemInfoExtRequest
 
     /**
      * @param int $getAfterSalesServiceConditions
-     * @return \Ircykk\AllegroApi\DoShowItemInfoExtRequest
+     * @return \bbcreation\AllegroApi\DoShowItemInfoExtRequest
      */
     public function setGetAfterSalesServiceConditions($getAfterSalesServiceConditions)
     {
@@ -260,7 +260,7 @@ class DoShowItemInfoExtRequest
 
     /**
      * @param int $getEan
-     * @return \Ircykk\AllegroApi\DoShowItemInfoExtRequest
+     * @return \bbcreation\AllegroApi\DoShowItemInfoExtRequest
      */
     public function setGetEan($getEan)
     {
@@ -278,7 +278,7 @@ class DoShowItemInfoExtRequest
 
     /**
      * @param int $getAdditionalServicesGroup
-     * @return \Ircykk\AllegroApi\DoShowItemInfoExtRequest
+     * @return \bbcreation\AllegroApi\DoShowItemInfoExtRequest
      */
     public function setGetAdditionalServicesGroup($getAdditionalServicesGroup)
     {

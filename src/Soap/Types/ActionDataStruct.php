@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ActionDataStruct
 {
@@ -35,7 +35,7 @@ class ActionDataStruct
 
     /**
      * @param string $actionKey
-     * @return \Ircykk\AllegroApi\ActionDataStruct
+     * @return \bbcreation\AllegroApi\ActionDataStruct
      */
     public function setActionKey($actionKey)
     {
@@ -53,7 +53,7 @@ class ActionDataStruct
 
     /**
      * @param string $actionValue
-     * @return \Ircykk\AllegroApi\ActionDataStruct
+     * @return \bbcreation\AllegroApi\ActionDataStruct
      */
     public function setActionValue($actionValue)
     {

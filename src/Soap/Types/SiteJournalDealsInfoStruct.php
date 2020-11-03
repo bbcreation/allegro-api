@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class SiteJournalDealsInfoStruct
 {
@@ -35,7 +35,7 @@ class SiteJournalDealsInfoStruct
 
     /**
      * @param int $dealEventsCount
-     * @return \Ircykk\AllegroApi\SiteJournalDealsInfoStruct
+     * @return \bbcreation\AllegroApi\SiteJournalDealsInfoStruct
      */
     public function setDealEventsCount($dealEventsCount)
     {
@@ -53,7 +53,7 @@ class SiteJournalDealsInfoStruct
 
     /**
      * @param int $dealLastEventTime
-     * @return \Ircykk\AllegroApi\SiteJournalDealsInfoStruct
+     * @return \bbcreation\AllegroApi\SiteJournalDealsInfoStruct
      */
     public function setDealLastEventTime($dealLastEventTime)
     {

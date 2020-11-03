@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doLoginEncResponse
 {
@@ -42,7 +42,7 @@ class doLoginEncResponse
 
     /**
      * @param string $sessionHandlePart
-     * @return \Ircykk\AllegroApi\doLoginEncResponse
+     * @return \bbcreation\AllegroApi\doLoginEncResponse
      */
     public function setSessionHandlePart($sessionHandlePart)
     {
@@ -60,7 +60,7 @@ class doLoginEncResponse
 
     /**
      * @param int $userId
-     * @return \Ircykk\AllegroApi\doLoginEncResponse
+     * @return \bbcreation\AllegroApi\doLoginEncResponse
      */
     public function setUserId($userId)
     {
@@ -78,7 +78,7 @@ class doLoginEncResponse
 
     /**
      * @param int $serverTime
-     * @return \Ircykk\AllegroApi\doLoginEncResponse
+     * @return \bbcreation\AllegroApi\doLoginEncResponse
      */
     public function setServerTime($serverTime)
     {

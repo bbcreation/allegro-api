@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetMyPayoutsDetailsRequest
 {
@@ -49,7 +49,7 @@ class DoGetMyPayoutsDetailsRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoGetMyPayoutsDetailsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyPayoutsDetailsRequest
      */
     public function setSessionId($sessionId)
     {
@@ -67,7 +67,7 @@ class DoGetMyPayoutsDetailsRequest
 
     /**
      * @param int $payoutId
-     * @return \Ircykk\AllegroApi\DoGetMyPayoutsDetailsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyPayoutsDetailsRequest
      */
     public function setPayoutId($payoutId)
     {
@@ -85,7 +85,7 @@ class DoGetMyPayoutsDetailsRequest
 
     /**
      * @param int $limit
-     * @return \Ircykk\AllegroApi\DoGetMyPayoutsDetailsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyPayoutsDetailsRequest
      */
     public function setLimit($limit)
     {
@@ -103,7 +103,7 @@ class DoGetMyPayoutsDetailsRequest
 
     /**
      * @param int $offset
-     * @return \Ircykk\AllegroApi\DoGetMyPayoutsDetailsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyPayoutsDetailsRequest
      */
     public function setOffset($offset)
     {

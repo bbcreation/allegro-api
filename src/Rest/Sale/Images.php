@@ -1,14 +1,14 @@
 <?php
 
-namespace Ircykk\AllegroApi\Rest\Sale;
+namespace bbcreation\AllegroApi\Rest\Sale;
 
-use Ircykk\AllegroApi\Exception\InvalidArgumentException;
-use Ircykk\AllegroApi\Rest\AbstractRestResource;
+use bbcreation\AllegroApi\Exception\InvalidArgumentException;
+use bbcreation\AllegroApi\Rest\AbstractRestResource;
 
 /**
  * Class Images.
  *
- * @package Ircykk\AllegroApi\Rest\Sale
+ * @package bbcreation\AllegroApi\Rest\Sale
  */
 class Images extends AbstractRestResource
 {

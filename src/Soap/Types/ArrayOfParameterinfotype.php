@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfParameterinfotype implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfParameterinfotype implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param ParameterInfoType[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfParameterinfotype
+     * @return \bbcreation\AllegroApi\ArrayOfParameterinfotype
      */
     public function setItem(array $item = null)
     {

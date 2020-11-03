@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfPostagestruct implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfPostagestruct implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param PostageStruct[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfPostagestruct
+     * @return \bbcreation\AllegroApi\ArrayOfPostagestruct
      */
     public function setItem(array $item = null)
     {

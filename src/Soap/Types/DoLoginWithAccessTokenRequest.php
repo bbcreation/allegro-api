@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoLoginWithAccessTokenRequest
 {
@@ -42,7 +42,7 @@ class DoLoginWithAccessTokenRequest
 
     /**
      * @param string $accessToken
-     * @return \Ircykk\AllegroApi\DoLoginWithAccessTokenRequest
+     * @return \bbcreation\AllegroApi\DoLoginWithAccessTokenRequest
      */
     public function setAccessToken($accessToken)
     {
@@ -60,7 +60,7 @@ class DoLoginWithAccessTokenRequest
 
     /**
      * @param int $countryCode
-     * @return \Ircykk\AllegroApi\DoLoginWithAccessTokenRequest
+     * @return \bbcreation\AllegroApi\DoLoginWithAccessTokenRequest
      */
     public function setCountryCode($countryCode)
     {
@@ -78,7 +78,7 @@ class DoLoginWithAccessTokenRequest
 
     /**
      * @param string $webapiKey
-     * @return \Ircykk\AllegroApi\DoLoginWithAccessTokenRequest
+     * @return \bbcreation\AllegroApi\DoLoginWithAccessTokenRequest
      */
     public function setWebapiKey($webapiKey)
     {

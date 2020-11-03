@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoSetShipmentPriceTypeRequest
 {
@@ -35,7 +35,7 @@ class DoSetShipmentPriceTypeRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoSetShipmentPriceTypeRequest
+     * @return \bbcreation\AllegroApi\DoSetShipmentPriceTypeRequest
      */
     public function setSessionId($sessionId)
     {
@@ -53,7 +53,7 @@ class DoSetShipmentPriceTypeRequest
 
     /**
      * @param int $shipmentPriceTypeId
-     * @return \Ircykk\AllegroApi\DoSetShipmentPriceTypeRequest
+     * @return \bbcreation\AllegroApi\DoSetShipmentPriceTypeRequest
      */
     public function setShipmentPriceTypeId($shipmentPriceTypeId)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class FilterOptionsType
 {
@@ -38,7 +38,7 @@ class FilterOptionsType
 
     /**
      * @param string $filterId
-     * @return \Ircykk\AllegroApi\FilterOptionsType
+     * @return \bbcreation\AllegroApi\FilterOptionsType
      */
     public function setFilterId($filterId)
     {
@@ -56,7 +56,7 @@ class FilterOptionsType
 
     /**
      * @param ArrayOfString $filterValueId
-     * @return \Ircykk\AllegroApi\FilterOptionsType
+     * @return \bbcreation\AllegroApi\FilterOptionsType
      */
     public function setFilterValueId($filterValueId)
     {
@@ -74,7 +74,7 @@ class FilterOptionsType
 
     /**
      * @param RangeValueType $filterValueRange
-     * @return \Ircykk\AllegroApi\FilterOptionsType
+     * @return \bbcreation\AllegroApi\FilterOptionsType
      */
     public function setFilterValueRange($filterValueRange)
     {

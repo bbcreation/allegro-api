@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoSetFreeDeliveryAmountRequest
 {
@@ -42,7 +42,7 @@ class DoSetFreeDeliveryAmountRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoSetFreeDeliveryAmountRequest
+     * @return \bbcreation\AllegroApi\DoSetFreeDeliveryAmountRequest
      */
     public function setSessionId($sessionId)
     {
@@ -60,7 +60,7 @@ class DoSetFreeDeliveryAmountRequest
 
     /**
      * @param int $activeFlag
-     * @return \Ircykk\AllegroApi\DoSetFreeDeliveryAmountRequest
+     * @return \bbcreation\AllegroApi\DoSetFreeDeliveryAmountRequest
      */
     public function setActiveFlag($activeFlag)
     {
@@ -78,7 +78,7 @@ class DoSetFreeDeliveryAmountRequest
 
     /**
      * @param float $freeDeliveryAmount
-     * @return \Ircykk\AllegroApi\DoSetFreeDeliveryAmountRequest
+     * @return \bbcreation\AllegroApi\DoSetFreeDeliveryAmountRequest
      */
     public function setFreeDeliveryAmount($freeDeliveryAmount)
     {

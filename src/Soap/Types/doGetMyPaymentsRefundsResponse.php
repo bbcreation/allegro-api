@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetMyPaymentsRefundsResponse
 {
@@ -28,7 +28,7 @@ class doGetMyPaymentsRefundsResponse
 
     /**
      * @param ArrayOfUserpaymentrefundsstruct $payTransPaymentRefunds
-     * @return \Ircykk\AllegroApi\doGetMyPaymentsRefundsResponse
+     * @return \bbcreation\AllegroApi\doGetMyPaymentsRefundsResponse
      */
     public function setPayTransPaymentRefunds($payTransPaymentRefunds)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class SysStatusType
 {
@@ -77,7 +77,7 @@ class SysStatusType
 
     /**
      * @param int $countryId
-     * @return \Ircykk\AllegroApi\SysStatusType
+     * @return \bbcreation\AllegroApi\SysStatusType
      */
     public function setCountryId($countryId)
     {
@@ -95,7 +95,7 @@ class SysStatusType
 
     /**
      * @param string $programVersion
-     * @return \Ircykk\AllegroApi\SysStatusType
+     * @return \bbcreation\AllegroApi\SysStatusType
      */
     public function setProgramVersion($programVersion)
     {
@@ -113,7 +113,7 @@ class SysStatusType
 
     /**
      * @param string $catsVersion
-     * @return \Ircykk\AllegroApi\SysStatusType
+     * @return \bbcreation\AllegroApi\SysStatusType
      */
     public function setCatsVersion($catsVersion)
     {
@@ -131,7 +131,7 @@ class SysStatusType
 
     /**
      * @param string $apiVersion
-     * @return \Ircykk\AllegroApi\SysStatusType
+     * @return \bbcreation\AllegroApi\SysStatusType
      */
     public function setApiVersion($apiVersion)
     {
@@ -149,7 +149,7 @@ class SysStatusType
 
     /**
      * @param string $attribVersion
-     * @return \Ircykk\AllegroApi\SysStatusType
+     * @return \bbcreation\AllegroApi\SysStatusType
      */
     public function setAttribVersion($attribVersion)
     {
@@ -167,7 +167,7 @@ class SysStatusType
 
     /**
      * @param string $formSellVersion
-     * @return \Ircykk\AllegroApi\SysStatusType
+     * @return \bbcreation\AllegroApi\SysStatusType
      */
     public function setFormSellVersion($formSellVersion)
     {
@@ -185,7 +185,7 @@ class SysStatusType
 
     /**
      * @param string $siteVersion
-     * @return \Ircykk\AllegroApi\SysStatusType
+     * @return \bbcreation\AllegroApi\SysStatusType
      */
     public function setSiteVersion($siteVersion)
     {
@@ -203,7 +203,7 @@ class SysStatusType
 
     /**
      * @param int $verKey
-     * @return \Ircykk\AllegroApi\SysStatusType
+     * @return \bbcreation\AllegroApi\SysStatusType
      */
     public function setVerKey($verKey)
     {

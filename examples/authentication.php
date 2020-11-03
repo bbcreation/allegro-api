@@ -6,7 +6,7 @@
  * After that we will be redirected back with code which we can use to fetch access token.
  */
 
-use Ircykk\AllegroApi\Client;
+use bbcreation\AllegroApi\Client;
 
 include_once __DIR__.'/credentials.php';
 

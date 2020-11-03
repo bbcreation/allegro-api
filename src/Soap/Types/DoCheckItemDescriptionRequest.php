@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoCheckItemDescriptionRequest
 {
@@ -35,7 +35,7 @@ class DoCheckItemDescriptionRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoCheckItemDescriptionRequest
+     * @return \bbcreation\AllegroApi\DoCheckItemDescriptionRequest
      */
     public function setSessionId($sessionId)
     {
@@ -53,7 +53,7 @@ class DoCheckItemDescriptionRequest
 
     /**
      * @param string $descriptionContent
-     * @return \Ircykk\AllegroApi\DoCheckItemDescriptionRequest
+     * @return \bbcreation\AllegroApi\DoCheckItemDescriptionRequest
      */
     public function setDescriptionContent($descriptionContent)
     {

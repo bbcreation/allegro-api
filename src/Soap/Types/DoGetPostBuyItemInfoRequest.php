@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetPostBuyItemInfoRequest
 {
@@ -35,7 +35,7 @@ class DoGetPostBuyItemInfoRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoGetPostBuyItemInfoRequest
+     * @return \bbcreation\AllegroApi\DoGetPostBuyItemInfoRequest
      */
     public function setSessionId($sessionId)
     {
@@ -53,7 +53,7 @@ class DoGetPostBuyItemInfoRequest
 
     /**
      * @param ArrayOfLong $itemIds
-     * @return \Ircykk\AllegroApi\DoGetPostBuyItemInfoRequest
+     * @return \bbcreation\AllegroApi\DoGetPostBuyItemInfoRequest
      */
     public function setItemIds($itemIds)
     {

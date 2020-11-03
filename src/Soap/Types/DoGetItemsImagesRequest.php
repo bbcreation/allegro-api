@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetItemsImagesRequest
 {
@@ -42,7 +42,7 @@ class DoGetItemsImagesRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoGetItemsImagesRequest
+     * @return \bbcreation\AllegroApi\DoGetItemsImagesRequest
      */
     public function setSessionHandle($sessionHandle)
     {
@@ -60,7 +60,7 @@ class DoGetItemsImagesRequest
 
     /**
      * @param ArrayOfItemgetimage $itemsArray
-     * @return \Ircykk\AllegroApi\DoGetItemsImagesRequest
+     * @return \bbcreation\AllegroApi\DoGetItemsImagesRequest
      */
     public function setItemsArray($itemsArray)
     {
@@ -78,7 +78,7 @@ class DoGetItemsImagesRequest
 
     /**
      * @param int $imageType
-     * @return \Ircykk\AllegroApi\DoGetItemsImagesRequest
+     * @return \bbcreation\AllegroApi\DoGetItemsImagesRequest
      */
     public function setImageType($imageType)
     {

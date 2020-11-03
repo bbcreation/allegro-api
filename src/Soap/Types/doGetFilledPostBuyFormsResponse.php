@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetFilledPostBuyFormsResponse
 {
@@ -28,7 +28,7 @@ class doGetFilledPostBuyFormsResponse
 
     /**
      * @param FilledPostBuyFormsStruct $filledPostBuyForms
-     * @return \Ircykk\AllegroApi\doGetFilledPostBuyFormsResponse
+     * @return \bbcreation\AllegroApi\doGetFilledPostBuyFormsResponse
      */
     public function setFilledPostBuyForms($filledPostBuyForms)
     {

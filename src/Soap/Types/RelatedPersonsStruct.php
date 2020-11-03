@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class RelatedPersonsStruct
 {
@@ -35,7 +35,7 @@ class RelatedPersonsStruct
 
     /**
      * @param string $spouseFirstName
-     * @return \Ircykk\AllegroApi\RelatedPersonsStruct
+     * @return \bbcreation\AllegroApi\RelatedPersonsStruct
      */
     public function setSpouseFirstName($spouseFirstName)
     {
@@ -53,7 +53,7 @@ class RelatedPersonsStruct
 
     /**
      * @param string $spouseLastName
-     * @return \Ircykk\AllegroApi\RelatedPersonsStruct
+     * @return \bbcreation\AllegroApi\RelatedPersonsStruct
      */
     public function setSpouseLastName($spouseLastName)
     {

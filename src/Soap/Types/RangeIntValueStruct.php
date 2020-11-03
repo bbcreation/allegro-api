@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class RangeIntValueStruct
 {
@@ -31,7 +31,7 @@ class RangeIntValueStruct
 
     /**
      * @param int $fvalueRangeIntMin
-     * @return \Ircykk\AllegroApi\RangeIntValueStruct
+     * @return \bbcreation\AllegroApi\RangeIntValueStruct
      */
     public function setFvalueRangeIntMin($fvalueRangeIntMin)
     {
@@ -49,7 +49,7 @@ class RangeIntValueStruct
 
     /**
      * @param int $fvalueRangeIntMax
-     * @return \Ircykk\AllegroApi\RangeIntValueStruct
+     * @return \bbcreation\AllegroApi\RangeIntValueStruct
      */
     public function setFvalueRangeIntMax($fvalueRangeIntMax)
     {

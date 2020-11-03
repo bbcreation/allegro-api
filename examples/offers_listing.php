@@ -4,7 +4,7 @@
  * Simple example how to fetch offers listing.
  */
 
-use Ircykk\AllegroApi\Client;
+use bbcreation\AllegroApi\Client;
 
 include_once __DIR__.'/credentials.php';
 include_once __DIR__.'/token.php';

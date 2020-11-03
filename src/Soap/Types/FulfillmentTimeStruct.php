@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class FulfillmentTimeStruct
 {
@@ -35,7 +35,7 @@ class FulfillmentTimeStruct
 
     /**
      * @param int $fulfillmentTimeFrom
-     * @return \Ircykk\AllegroApi\FulfillmentTimeStruct
+     * @return \bbcreation\AllegroApi\FulfillmentTimeStruct
      */
     public function setFulfillmentTimeFrom($fulfillmentTimeFrom)
     {
@@ -53,7 +53,7 @@ class FulfillmentTimeStruct
 
     /**
      * @param int $fulfillmentTimeTo
-     * @return \Ircykk\AllegroApi\FulfillmentTimeStruct
+     * @return \bbcreation\AllegroApi\FulfillmentTimeStruct
      */
     public function setFulfillmentTimeTo($fulfillmentTimeTo)
     {

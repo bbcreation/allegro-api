@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class FutureItemStruct
 {
@@ -117,7 +117,7 @@ class FutureItemStruct
 
     /**
      * @param int $itemId
-     * @return \Ircykk\AllegroApi\FutureItemStruct
+     * @return \bbcreation\AllegroApi\FutureItemStruct
      */
     public function setItemId($itemId)
     {
@@ -135,7 +135,7 @@ class FutureItemStruct
 
     /**
      * @param string $itemTitle
-     * @return \Ircykk\AllegroApi\FutureItemStruct
+     * @return \bbcreation\AllegroApi\FutureItemStruct
      */
     public function setItemTitle($itemTitle)
     {
@@ -153,7 +153,7 @@ class FutureItemStruct
 
     /**
      * @param string $itemThumbnailUrl
-     * @return \Ircykk\AllegroApi\FutureItemStruct
+     * @return \bbcreation\AllegroApi\FutureItemStruct
      */
     public function setItemThumbnailUrl($itemThumbnailUrl)
     {
@@ -171,7 +171,7 @@ class FutureItemStruct
 
     /**
      * @param ArrayOfItempricestruct $itemPrice
-     * @return \Ircykk\AllegroApi\FutureItemStruct
+     * @return \bbcreation\AllegroApi\FutureItemStruct
      */
     public function setItemPrice($itemPrice)
     {
@@ -189,7 +189,7 @@ class FutureItemStruct
 
     /**
      * @param int $itemStartQuantity
-     * @return \Ircykk\AllegroApi\FutureItemStruct
+     * @return \bbcreation\AllegroApi\FutureItemStruct
      */
     public function setItemStartQuantity($itemStartQuantity)
     {
@@ -207,7 +207,7 @@ class FutureItemStruct
 
     /**
      * @param int $itemQuantityType
-     * @return \Ircykk\AllegroApi\FutureItemStruct
+     * @return \bbcreation\AllegroApi\FutureItemStruct
      */
     public function setItemQuantityType($itemQuantityType)
     {
@@ -225,7 +225,7 @@ class FutureItemStruct
 
     /**
      * @param int $itemStartTime
-     * @return \Ircykk\AllegroApi\FutureItemStruct
+     * @return \bbcreation\AllegroApi\FutureItemStruct
      */
     public function setItemStartTime($itemStartTime)
     {
@@ -243,7 +243,7 @@ class FutureItemStruct
 
     /**
      * @param int $itemCategoryId
-     * @return \Ircykk\AllegroApi\FutureItemStruct
+     * @return \bbcreation\AllegroApi\FutureItemStruct
      */
     public function setItemCategoryId($itemCategoryId)
     {
@@ -261,7 +261,7 @@ class FutureItemStruct
 
     /**
      * @param string $itemNote
-     * @return \Ircykk\AllegroApi\FutureItemStruct
+     * @return \bbcreation\AllegroApi\FutureItemStruct
      */
     public function setItemNote($itemNote)
     {
@@ -279,7 +279,7 @@ class FutureItemStruct
 
     /**
      * @param int $itemSpecialInfo
-     * @return \Ircykk\AllegroApi\FutureItemStruct
+     * @return \bbcreation\AllegroApi\FutureItemStruct
      */
     public function setItemSpecialInfo($itemSpecialInfo)
     {
@@ -297,7 +297,7 @@ class FutureItemStruct
 
     /**
      * @param int $itemShopInfo
-     * @return \Ircykk\AllegroApi\FutureItemStruct
+     * @return \bbcreation\AllegroApi\FutureItemStruct
      */
     public function setItemShopInfo($itemShopInfo)
     {
@@ -315,7 +315,7 @@ class FutureItemStruct
 
     /**
      * @param int $itemProductInfo
-     * @return \Ircykk\AllegroApi\FutureItemStruct
+     * @return \bbcreation\AllegroApi\FutureItemStruct
      */
     public function setItemProductInfo($itemProductInfo)
     {
@@ -333,7 +333,7 @@ class FutureItemStruct
 
     /**
      * @param int $itemPayuInfo
-     * @return \Ircykk\AllegroApi\FutureItemStruct
+     * @return \bbcreation\AllegroApi\FutureItemStruct
      */
     public function setItemPayuInfo($itemPayuInfo)
     {
@@ -351,7 +351,7 @@ class FutureItemStruct
 
     /**
      * @param int $itemStatus
-     * @return \Ircykk\AllegroApi\FutureItemStruct
+     * @return \bbcreation\AllegroApi\FutureItemStruct
      */
     public function setItemStatus($itemStatus)
     {

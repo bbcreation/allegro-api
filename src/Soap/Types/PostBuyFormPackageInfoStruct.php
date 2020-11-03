@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class PostBuyFormPackageInfoStruct
 {
@@ -36,7 +36,7 @@ class PostBuyFormPackageInfoStruct
 
     /**
      * @param ArrayOfString $packageIdsAdded
-     * @return \Ircykk\AllegroApi\PostBuyFormPackageInfoStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormPackageInfoStruct
      */
     public function setPackageIdsAdded($packageIdsAdded)
     {
@@ -54,7 +54,7 @@ class PostBuyFormPackageInfoStruct
 
     /**
      * @param ArrayOfString $packageIdsNotAddedIncorrectOperatorId
-     * @return \Ircykk\AllegroApi\PostBuyFormPackageInfoStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormPackageInfoStruct
      */
     public function setPackageIdsNotAddedIncorrectOperatorId($packageIdsNotAddedIncorrectOperatorId)
     {
@@ -72,7 +72,7 @@ class PostBuyFormPackageInfoStruct
 
     /**
      * @param ArrayOfString $packageIdsNotAddedIncorrectPackageId
-     * @return \Ircykk\AllegroApi\PostBuyFormPackageInfoStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormPackageInfoStruct
      */
     public function setPackageIdsNotAddedIncorrectPackageId($packageIdsNotAddedIncorrectPackageId)
     {

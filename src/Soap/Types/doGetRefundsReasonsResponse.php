@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetRefundsReasonsResponse
 {
@@ -35,7 +35,7 @@ class doGetRefundsReasonsResponse
 
     /**
      * @param int $reasonsCount
-     * @return \Ircykk\AllegroApi\doGetRefundsReasonsResponse
+     * @return \bbcreation\AllegroApi\doGetRefundsReasonsResponse
      */
     public function setReasonsCount($reasonsCount)
     {
@@ -53,7 +53,7 @@ class doGetRefundsReasonsResponse
 
     /**
      * @param ArrayOfReasoninfotype $reasonsList
-     * @return \Ircykk\AllegroApi\doGetRefundsReasonsResponse
+     * @return \bbcreation\AllegroApi\doGetRefundsReasonsResponse
      */
     public function setReasonsList($reasonsList)
     {

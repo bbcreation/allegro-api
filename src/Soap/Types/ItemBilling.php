@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ItemBilling
 {
@@ -35,7 +35,7 @@ class ItemBilling
 
     /**
      * @param string $biName
-     * @return \Ircykk\AllegroApi\ItemBilling
+     * @return \bbcreation\AllegroApi\ItemBilling
      */
     public function setBiName($biName)
     {
@@ -53,7 +53,7 @@ class ItemBilling
 
     /**
      * @param string $biValue
-     * @return \Ircykk\AllegroApi\ItemBilling
+     * @return \bbcreation\AllegroApi\ItemBilling
      */
     public function setBiValue($biValue)
     {

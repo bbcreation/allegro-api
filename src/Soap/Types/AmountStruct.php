@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class AmountStruct
 {
@@ -35,7 +35,7 @@ class AmountStruct
 
     /**
      * @param float $amountValue
-     * @return \Ircykk\AllegroApi\AmountStruct
+     * @return \bbcreation\AllegroApi\AmountStruct
      */
     public function setAmountValue($amountValue)
     {
@@ -53,7 +53,7 @@ class AmountStruct
 
     /**
      * @param string $amountCurrencySign
-     * @return \Ircykk\AllegroApi\AmountStruct
+     * @return \bbcreation\AllegroApi\AmountStruct
      */
     public function setAmountCurrencySign($amountCurrencySign)
     {

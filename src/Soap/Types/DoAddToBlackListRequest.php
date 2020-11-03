@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoAddToBlackListRequest
 {
@@ -35,7 +35,7 @@ class DoAddToBlackListRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoAddToBlackListRequest
+     * @return \bbcreation\AllegroApi\DoAddToBlackListRequest
      */
     public function setSessionHandle($sessionHandle)
     {
@@ -53,7 +53,7 @@ class DoAddToBlackListRequest
 
     /**
      * @param ArrayOfUserblackliststruct $usersBlackListArray
-     * @return \Ircykk\AllegroApi\DoAddToBlackListRequest
+     * @return \bbcreation\AllegroApi\DoAddToBlackListRequest
      */
     public function setUsersBlackListArray($usersBlackListArray)
     {

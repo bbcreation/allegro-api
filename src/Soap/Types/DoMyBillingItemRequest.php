@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoMyBillingItemRequest
 {
@@ -42,7 +42,7 @@ class DoMyBillingItemRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoMyBillingItemRequest
+     * @return \bbcreation\AllegroApi\DoMyBillingItemRequest
      */
     public function setSessionHandle($sessionHandle)
     {
@@ -60,7 +60,7 @@ class DoMyBillingItemRequest
 
     /**
      * @param int $itemId
-     * @return \Ircykk\AllegroApi\DoMyBillingItemRequest
+     * @return \bbcreation\AllegroApi\DoMyBillingItemRequest
      */
     public function setItemId($itemId)
     {
@@ -78,7 +78,7 @@ class DoMyBillingItemRequest
 
     /**
      * @param string $option
-     * @return \Ircykk\AllegroApi\DoMyBillingItemRequest
+     * @return \bbcreation\AllegroApi\DoMyBillingItemRequest
      */
     public function setOption($option)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoChangeItemFieldsRequest
 {
@@ -84,7 +84,7 @@ class DoChangeItemFieldsRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoChangeItemFieldsRequest
+     * @return \bbcreation\AllegroApi\DoChangeItemFieldsRequest
      */
     public function setSessionId($sessionId)
     {
@@ -102,7 +102,7 @@ class DoChangeItemFieldsRequest
 
     /**
      * @param int $itemId
-     * @return \Ircykk\AllegroApi\DoChangeItemFieldsRequest
+     * @return \bbcreation\AllegroApi\DoChangeItemFieldsRequest
      */
     public function setItemId($itemId)
     {
@@ -120,7 +120,7 @@ class DoChangeItemFieldsRequest
 
     /**
      * @param ArrayOfFieldsvalue $fieldsToModify
-     * @return \Ircykk\AllegroApi\DoChangeItemFieldsRequest
+     * @return \bbcreation\AllegroApi\DoChangeItemFieldsRequest
      */
     public function setFieldsToModify($fieldsToModify)
     {
@@ -138,7 +138,7 @@ class DoChangeItemFieldsRequest
 
     /**
      * @param ArrayOfInt $fieldsToRemove
-     * @return \Ircykk\AllegroApi\DoChangeItemFieldsRequest
+     * @return \bbcreation\AllegroApi\DoChangeItemFieldsRequest
      */
     public function setFieldsToRemove($fieldsToRemove)
     {
@@ -156,7 +156,7 @@ class DoChangeItemFieldsRequest
 
     /**
      * @param int $previewOnly
-     * @return \Ircykk\AllegroApi\DoChangeItemFieldsRequest
+     * @return \bbcreation\AllegroApi\DoChangeItemFieldsRequest
      */
     public function setPreviewOnly($previewOnly)
     {
@@ -174,7 +174,7 @@ class DoChangeItemFieldsRequest
 
     /**
      * @param ArrayOfVariantstruct $variants
-     * @return \Ircykk\AllegroApi\DoChangeItemFieldsRequest
+     * @return \bbcreation\AllegroApi\DoChangeItemFieldsRequest
      */
     public function setVariants($variants)
     {
@@ -192,7 +192,7 @@ class DoChangeItemFieldsRequest
 
     /**
      * @param ArrayOfTagnamestruct $tags
-     * @return \Ircykk\AllegroApi\DoChangeItemFieldsRequest
+     * @return \bbcreation\AllegroApi\DoChangeItemFieldsRequest
      */
     public function setTags($tags)
     {
@@ -210,7 +210,7 @@ class DoChangeItemFieldsRequest
 
     /**
      * @param AfterSalesServiceConditionsStruct $afterSalesServiceConditions
-     * @return \Ircykk\AllegroApi\DoChangeItemFieldsRequest
+     * @return \bbcreation\AllegroApi\DoChangeItemFieldsRequest
      */
     public function setAfterSalesServiceConditions($afterSalesServiceConditions)
     {
@@ -228,7 +228,7 @@ class DoChangeItemFieldsRequest
 
     /**
      * @param string $additionalServicesGroup
-     * @return \Ircykk\AllegroApi\DoChangeItemFieldsRequest
+     * @return \bbcreation\AllegroApi\DoChangeItemFieldsRequest
      */
     public function setAdditionalServicesGroup($additionalServicesGroup)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi\Rest;
+namespace bbcreation\AllegroApi\Rest;
 
 use Http\Discovery\StreamFactoryDiscovery;
 use Http\Message\StreamFactory;
@@ -9,7 +9,7 @@ use Psr\Http\Message\ResponseInterface;
 /**
  * Class ResponseErrorHandler.
  *
- * @package Ircykk\AllegroApi\Rest
+ * @package bbcreation\AllegroApi\Rest
  */
 class ResponseErrorHandler
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ShowUserFeedbacks
 {
@@ -56,7 +56,7 @@ class ShowUserFeedbacks
 
     /**
      * @param int $userFLastWeek
-     * @return \Ircykk\AllegroApi\ShowUserFeedbacks
+     * @return \bbcreation\AllegroApi\ShowUserFeedbacks
      */
     public function setUserFLastWeek($userFLastWeek)
     {
@@ -74,7 +74,7 @@ class ShowUserFeedbacks
 
     /**
      * @param int $userFLastMonth
-     * @return \Ircykk\AllegroApi\ShowUserFeedbacks
+     * @return \bbcreation\AllegroApi\ShowUserFeedbacks
      */
     public function setUserFLastMonth($userFLastMonth)
     {
@@ -92,7 +92,7 @@ class ShowUserFeedbacks
 
     /**
      * @param int $userFAll
-     * @return \Ircykk\AllegroApi\ShowUserFeedbacks
+     * @return \bbcreation\AllegroApi\ShowUserFeedbacks
      */
     public function setUserFAll($userFAll)
     {
@@ -110,7 +110,7 @@ class ShowUserFeedbacks
 
     /**
      * @param int $userFSoldItems
-     * @return \Ircykk\AllegroApi\ShowUserFeedbacks
+     * @return \bbcreation\AllegroApi\ShowUserFeedbacks
      */
     public function setUserFSoldItems($userFSoldItems)
     {
@@ -128,7 +128,7 @@ class ShowUserFeedbacks
 
     /**
      * @param int $userFBuyItems
-     * @return \Ircykk\AllegroApi\ShowUserFeedbacks
+     * @return \bbcreation\AllegroApi\ShowUserFeedbacks
      */
     public function setUserFBuyItems($userFBuyItems)
     {

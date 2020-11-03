@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetMySellItemsResponse
 {
@@ -35,7 +35,7 @@ class doGetMySellItemsResponse
 
     /**
      * @param int $sellItemsCounter
-     * @return \Ircykk\AllegroApi\doGetMySellItemsResponse
+     * @return \bbcreation\AllegroApi\doGetMySellItemsResponse
      */
     public function setSellItemsCounter($sellItemsCounter)
     {
@@ -53,7 +53,7 @@ class doGetMySellItemsResponse
 
     /**
      * @param ArrayOfSellitemstruct $sellItemsList
-     * @return \Ircykk\AllegroApi\doGetMySellItemsResponse
+     * @return \bbcreation\AllegroApi\doGetMySellItemsResponse
      */
     public function setSellItemsList($sellItemsList)
     {

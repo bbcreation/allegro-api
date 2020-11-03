@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class FilterPriceStruct
 {
@@ -31,7 +31,7 @@ class FilterPriceStruct
 
     /**
      * @param float $filterPriceFrom
-     * @return \Ircykk\AllegroApi\FilterPriceStruct
+     * @return \bbcreation\AllegroApi\FilterPriceStruct
      */
     public function setFilterPriceFrom($filterPriceFrom)
     {
@@ -49,7 +49,7 @@ class FilterPriceStruct
 
     /**
      * @param float $filterPriceTo
-     * @return \Ircykk\AllegroApi\FilterPriceStruct
+     * @return \bbcreation\AllegroApi\FilterPriceStruct
      */
     public function setFilterPriceTo($filterPriceTo)
     {

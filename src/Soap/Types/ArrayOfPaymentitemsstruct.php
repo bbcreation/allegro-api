@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfPaymentitemsstruct implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfPaymentitemsstruct implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param PaymentItemsStruct[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfPaymentitemsstruct
+     * @return \bbcreation\AllegroApi\ArrayOfPaymentitemsstruct
      */
     public function setItem(array $item = null)
     {

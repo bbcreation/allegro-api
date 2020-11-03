@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetItemFieldsRequest
 {
@@ -35,7 +35,7 @@ class DoGetItemFieldsRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoGetItemFieldsRequest
+     * @return \bbcreation\AllegroApi\DoGetItemFieldsRequest
      */
     public function setSessionId($sessionId)
     {
@@ -53,7 +53,7 @@ class DoGetItemFieldsRequest
 
     /**
      * @param int $itemId
-     * @return \Ircykk\AllegroApi\DoGetItemFieldsRequest
+     * @return \bbcreation\AllegroApi\DoGetItemFieldsRequest
      */
     public function setItemId($itemId)
     {

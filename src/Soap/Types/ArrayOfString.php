@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfString implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfString implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param string[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfString
+     * @return \bbcreation\AllegroApi\ArrayOfString
      */
     public function setItem(array $item = null)
     {

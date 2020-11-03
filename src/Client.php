@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 use Exception;
 use Http\Client\Common\HttpMethodsClient;
@@ -9,15 +9,15 @@ use Http\Client\Exception as ClientException;
 use Http\Client\HttpClient;
 use Http\Discovery\UriFactoryDiscovery;
 use Http\Message\RequestFactory;
-use Ircykk\AllegroApi\HttpClient\HttpClientBuilder;
+use bbcreation\AllegroApi\HttpClient\HttpClientBuilder;
 use Psr\Cache\CacheItemPoolInterface;
 use Psr\Http\Message\RequestInterface;
-use Ircykk\AllegroApi\Auth\AuthInterface;
-use Ircykk\AllegroApi\Auth\OAuth2;
-use Ircykk\AllegroApi\HttpClient\Plugin\TokenAuthentication;
-use Ircykk\AllegroApi\Rest;
-use Ircykk\AllegroApi\Exception\InvalidArgumentException;
-use Ircykk\AllegroApi\Rest\Response\ResponseFormatterInterface;
+use bbcreation\AllegroApi\Auth\AuthInterface;
+use bbcreation\AllegroApi\Auth\OAuth2;
+use bbcreation\AllegroApi\HttpClient\Plugin\TokenAuthentication;
+use bbcreation\AllegroApi\Rest;
+use bbcreation\AllegroApi\Exception\InvalidArgumentException;
+use bbcreation\AllegroApi\Rest\Response\ResponseFormatterInterface;
 use Psr\Http\Message\ResponseInterface;
 
 /**
@@ -31,7 +31,7 @@ use Psr\Http\Message\ResponseInterface;
  * @method Rest\Offers offers()
  * @method Rest\Order order()
  *
- * @package Ircykk\AllegroApi
+ * @package bbcreation\AllegroApi
  */
 class Client extends HttpMethodsClient
 {

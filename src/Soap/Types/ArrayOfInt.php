@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfInt implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfInt implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param int[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfInt
+     * @return \bbcreation\AllegroApi\ArrayOfInt
      */
     public function setItem(array $item = null)
     {

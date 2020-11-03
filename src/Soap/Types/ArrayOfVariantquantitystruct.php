@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfVariantquantitystruct implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfVariantquantitystruct implements \ArrayAccess, \Iterator, \Countabl
 
     /**
      * @param VariantQuantityStruct[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfVariantquantitystruct
+     * @return \bbcreation\AllegroApi\ArrayOfVariantquantitystruct
      */
     public function setItem(array $item = null)
     {

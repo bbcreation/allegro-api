@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class TransactionPayByLinkStruct
 {
@@ -40,7 +40,7 @@ class TransactionPayByLinkStruct
 
     /**
      * @param string $actionHttpMethod
-     * @return \Ircykk\AllegroApi\TransactionPayByLinkStruct
+     * @return \bbcreation\AllegroApi\TransactionPayByLinkStruct
      */
     public function setActionHttpMethod($actionHttpMethod)
     {
@@ -58,7 +58,7 @@ class TransactionPayByLinkStruct
 
     /**
      * @param string $actionUrl
-     * @return \Ircykk\AllegroApi\TransactionPayByLinkStruct
+     * @return \bbcreation\AllegroApi\TransactionPayByLinkStruct
      */
     public function setActionUrl($actionUrl)
     {
@@ -76,7 +76,7 @@ class TransactionPayByLinkStruct
 
     /**
      * @param ArrayOfActiondatastruct $actionData
-     * @return \Ircykk\AllegroApi\TransactionPayByLinkStruct
+     * @return \bbcreation\AllegroApi\TransactionPayByLinkStruct
      */
     public function setActionData($actionData)
     {

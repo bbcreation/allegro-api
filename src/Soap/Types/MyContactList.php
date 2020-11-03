@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class MyContactList
 {
@@ -119,7 +119,7 @@ class MyContactList
 
     /**
      * @param int $contactUserId
-     * @return \Ircykk\AllegroApi\MyContactList
+     * @return \bbcreation\AllegroApi\MyContactList
      */
     public function setContactUserId($contactUserId)
     {
@@ -137,7 +137,7 @@ class MyContactList
 
     /**
      * @param string $contactNick
-     * @return \Ircykk\AllegroApi\MyContactList
+     * @return \bbcreation\AllegroApi\MyContactList
      */
     public function setContactNick($contactNick)
     {
@@ -155,7 +155,7 @@ class MyContactList
 
     /**
      * @param string $contactFirstName
-     * @return \Ircykk\AllegroApi\MyContactList
+     * @return \bbcreation\AllegroApi\MyContactList
      */
     public function setContactFirstName($contactFirstName)
     {
@@ -173,7 +173,7 @@ class MyContactList
 
     /**
      * @param string $contactLastName
-     * @return \Ircykk\AllegroApi\MyContactList
+     * @return \bbcreation\AllegroApi\MyContactList
      */
     public function setContactLastName($contactLastName)
     {
@@ -191,7 +191,7 @@ class MyContactList
 
     /**
      * @param string $contactCompany
-     * @return \Ircykk\AllegroApi\MyContactList
+     * @return \bbcreation\AllegroApi\MyContactList
      */
     public function setContactCompany($contactCompany)
     {
@@ -209,7 +209,7 @@ class MyContactList
 
     /**
      * @param string $contactEmail
-     * @return \Ircykk\AllegroApi\MyContactList
+     * @return \bbcreation\AllegroApi\MyContactList
      */
     public function setContactEmail($contactEmail)
     {
@@ -227,7 +227,7 @@ class MyContactList
 
     /**
      * @param string $contactStreet
-     * @return \Ircykk\AllegroApi\MyContactList
+     * @return \bbcreation\AllegroApi\MyContactList
      */
     public function setContactStreet($contactStreet)
     {
@@ -245,7 +245,7 @@ class MyContactList
 
     /**
      * @param string $contactPostcode
-     * @return \Ircykk\AllegroApi\MyContactList
+     * @return \bbcreation\AllegroApi\MyContactList
      */
     public function setContactPostcode($contactPostcode)
     {
@@ -263,7 +263,7 @@ class MyContactList
 
     /**
      * @param string $contactCity
-     * @return \Ircykk\AllegroApi\MyContactList
+     * @return \bbcreation\AllegroApi\MyContactList
      */
     public function setContactCity($contactCity)
     {
@@ -281,7 +281,7 @@ class MyContactList
 
     /**
      * @param string $contactCountry
-     * @return \Ircykk\AllegroApi\MyContactList
+     * @return \bbcreation\AllegroApi\MyContactList
      */
     public function setContactCountry($contactCountry)
     {
@@ -299,7 +299,7 @@ class MyContactList
 
     /**
      * @param string $contactPhone
-     * @return \Ircykk\AllegroApi\MyContactList
+     * @return \bbcreation\AllegroApi\MyContactList
      */
     public function setContactPhone($contactPhone)
     {
@@ -317,7 +317,7 @@ class MyContactList
 
     /**
      * @param string $contactPhone2
-     * @return \Ircykk\AllegroApi\MyContactList
+     * @return \bbcreation\AllegroApi\MyContactList
      */
     public function setContactPhone2($contactPhone2)
     {
@@ -335,7 +335,7 @@ class MyContactList
 
     /**
      * @param string $contactRating
-     * @return \Ircykk\AllegroApi\MyContactList
+     * @return \bbcreation\AllegroApi\MyContactList
      */
     public function setContactRating($contactRating)
     {
@@ -353,7 +353,7 @@ class MyContactList
 
     /**
      * @param string $contactBlocked
-     * @return \Ircykk\AllegroApi\MyContactList
+     * @return \bbcreation\AllegroApi\MyContactList
      */
     public function setContactBlocked($contactBlocked)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetPostBuyFormsDataForSellersRequest
 {
@@ -35,7 +35,7 @@ class DoGetPostBuyFormsDataForSellersRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoGetPostBuyFormsDataForSellersRequest
+     * @return \bbcreation\AllegroApi\DoGetPostBuyFormsDataForSellersRequest
      */
     public function setSessionId($sessionId)
     {
@@ -53,7 +53,7 @@ class DoGetPostBuyFormsDataForSellersRequest
 
     /**
      * @param ArrayOfLong $transactionsIdsArray
-     * @return \Ircykk\AllegroApi\DoGetPostBuyFormsDataForSellersRequest
+     * @return \bbcreation\AllegroApi\DoGetPostBuyFormsDataForSellersRequest
      */
     public function setTransactionsIdsArray($transactionsIdsArray)
     {

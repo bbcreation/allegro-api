@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ItemImageList
 {
@@ -35,7 +35,7 @@ class ItemImageList
 
     /**
      * @param int $imageType
-     * @return \Ircykk\AllegroApi\ItemImageList
+     * @return \bbcreation\AllegroApi\ItemImageList
      */
     public function setImageType($imageType)
     {
@@ -53,7 +53,7 @@ class ItemImageList
 
     /**
      * @param string $imageUrl
-     * @return \Ircykk\AllegroApi\ItemImageList
+     * @return \bbcreation\AllegroApi\ItemImageList
      */
     public function setImageUrl($imageUrl)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetSessionHandleForWidgetResponse
 {
@@ -35,7 +35,7 @@ class doGetSessionHandleForWidgetResponse
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\doGetSessionHandleForWidgetResponse
+     * @return \bbcreation\AllegroApi\doGetSessionHandleForWidgetResponse
      */
     public function setSessionHandle($sessionHandle)
     {
@@ -53,7 +53,7 @@ class doGetSessionHandleForWidgetResponse
 
     /**
      * @param int $serverTime
-     * @return \Ircykk\AllegroApi\doGetSessionHandleForWidgetResponse
+     * @return \bbcreation\AllegroApi\doGetSessionHandleForWidgetResponse
      */
     public function setServerTime($serverTime)
     {

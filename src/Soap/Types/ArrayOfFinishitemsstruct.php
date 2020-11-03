@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfFinishitemsstruct implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfFinishitemsstruct implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param FinishItemsStruct[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfFinishitemsstruct
+     * @return \bbcreation\AllegroApi\ArrayOfFinishitemsstruct
      */
     public function setItem(array $item = null)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfPostbuyformforbuyersdatastruct implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfPostbuyformforbuyersdatastruct implements \ArrayAccess, \Iterator, 
 
     /**
      * @param PostBuyFormForBuyersDataStruct[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfPostbuyformforbuyersdatastruct
+     * @return \bbcreation\AllegroApi\ArrayOfPostbuyformforbuyersdatastruct
      */
     public function setItem(array $item = null)
     {

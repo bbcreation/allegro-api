@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class FinishFailureStruct
 {
@@ -42,7 +42,7 @@ class FinishFailureStruct
 
     /**
      * @param int $finishItemId
-     * @return \Ircykk\AllegroApi\FinishFailureStruct
+     * @return \bbcreation\AllegroApi\FinishFailureStruct
      */
     public function setFinishItemId($finishItemId)
     {
@@ -60,7 +60,7 @@ class FinishFailureStruct
 
     /**
      * @param string $finishErrorCode
-     * @return \Ircykk\AllegroApi\FinishFailureStruct
+     * @return \bbcreation\AllegroApi\FinishFailureStruct
      */
     public function setFinishErrorCode($finishErrorCode)
     {
@@ -78,7 +78,7 @@ class FinishFailureStruct
 
     /**
      * @param string $finishErrorMessage
-     * @return \Ircykk\AllegroApi\FinishFailureStruct
+     * @return \bbcreation\AllegroApi\FinishFailureStruct
      */
     public function setFinishErrorMessage($finishErrorMessage)
     {

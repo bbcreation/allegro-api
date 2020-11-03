@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoAddPackageInfoToPostBuyFormRequest
 {
@@ -42,7 +42,7 @@ class DoAddPackageInfoToPostBuyFormRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoAddPackageInfoToPostBuyFormRequest
+     * @return \bbcreation\AllegroApi\DoAddPackageInfoToPostBuyFormRequest
      */
     public function setSessionId($sessionId)
     {
@@ -60,7 +60,7 @@ class DoAddPackageInfoToPostBuyFormRequest
 
     /**
      * @param int $transactionId
-     * @return \Ircykk\AllegroApi\DoAddPackageInfoToPostBuyFormRequest
+     * @return \bbcreation\AllegroApi\DoAddPackageInfoToPostBuyFormRequest
      */
     public function setTransactionId($transactionId)
     {
@@ -78,7 +78,7 @@ class DoAddPackageInfoToPostBuyFormRequest
 
     /**
      * @param ArrayOfPackageinfostruct $packageInfo
-     * @return \Ircykk\AllegroApi\DoAddPackageInfoToPostBuyFormRequest
+     * @return \bbcreation\AllegroApi\DoAddPackageInfoToPostBuyFormRequest
      */
     public function setPackageInfo($packageInfo)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoCancelRefundWarningRequest
 {
@@ -35,7 +35,7 @@ class DoCancelRefundWarningRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoCancelRefundWarningRequest
+     * @return \bbcreation\AllegroApi\DoCancelRefundWarningRequest
      */
     public function setSessionId($sessionId)
     {
@@ -53,7 +53,7 @@ class DoCancelRefundWarningRequest
 
     /**
      * @param int $refundId
-     * @return \Ircykk\AllegroApi\DoCancelRefundWarningRequest
+     * @return \bbcreation\AllegroApi\DoCancelRefundWarningRequest
      */
     public function setRefundId($refundId)
     {

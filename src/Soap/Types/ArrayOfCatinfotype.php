@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfCatinfotype implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfCatinfotype implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param CatInfoType[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfCatinfotype
+     * @return \bbcreation\AllegroApi\ArrayOfCatinfotype
      */
     public function setItem(array $item = null)
     {

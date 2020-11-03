@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfSellratingaveragestruct implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfSellratingaveragestruct implements \ArrayAccess, \Iterator, \Counta
 
     /**
      * @param SellRatingAverageStruct[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfSellratingaveragestruct
+     * @return \bbcreation\AllegroApi\ArrayOfSellratingaveragestruct
      */
     public function setItem(array $item = null)
     {

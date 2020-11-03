@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doCancelRefundFormResponse
 {
@@ -28,7 +28,7 @@ class doCancelRefundFormResponse
 
     /**
      * @param boolean $cancellationResult
-     * @return \Ircykk\AllegroApi\doCancelRefundFormResponse
+     * @return \bbcreation\AllegroApi\doCancelRefundFormResponse
      */
     public function setCancellationResult($cancellationResult)
     {

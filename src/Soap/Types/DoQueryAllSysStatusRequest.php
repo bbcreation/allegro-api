@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoQueryAllSysStatusRequest
 {
@@ -35,7 +35,7 @@ class DoQueryAllSysStatusRequest
 
     /**
      * @param int $countryId
-     * @return \Ircykk\AllegroApi\DoQueryAllSysStatusRequest
+     * @return \bbcreation\AllegroApi\DoQueryAllSysStatusRequest
      */
     public function setCountryId($countryId)
     {
@@ -53,7 +53,7 @@ class DoQueryAllSysStatusRequest
 
     /**
      * @param string $webapiKey
-     * @return \Ircykk\AllegroApi\DoQueryAllSysStatusRequest
+     * @return \bbcreation\AllegroApi\DoQueryAllSysStatusRequest
      */
     public function setWebapiKey($webapiKey)
     {

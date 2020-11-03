@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class CompanySecondAddressStruct
 {
@@ -70,7 +70,7 @@ class CompanySecondAddressStruct
 
     /**
      * @param string $companyWorkerFirstName
-     * @return \Ircykk\AllegroApi\CompanySecondAddressStruct
+     * @return \bbcreation\AllegroApi\CompanySecondAddressStruct
      */
     public function setCompanyWorkerFirstName($companyWorkerFirstName)
     {
@@ -88,7 +88,7 @@ class CompanySecondAddressStruct
 
     /**
      * @param string $companyWorkerLastName
-     * @return \Ircykk\AllegroApi\CompanySecondAddressStruct
+     * @return \bbcreation\AllegroApi\CompanySecondAddressStruct
      */
     public function setCompanyWorkerLastName($companyWorkerLastName)
     {
@@ -106,7 +106,7 @@ class CompanySecondAddressStruct
 
     /**
      * @param string $companyAddress
-     * @return \Ircykk\AllegroApi\CompanySecondAddressStruct
+     * @return \bbcreation\AllegroApi\CompanySecondAddressStruct
      */
     public function setCompanyAddress($companyAddress)
     {
@@ -124,7 +124,7 @@ class CompanySecondAddressStruct
 
     /**
      * @param string $companyPostcode
-     * @return \Ircykk\AllegroApi\CompanySecondAddressStruct
+     * @return \bbcreation\AllegroApi\CompanySecondAddressStruct
      */
     public function setCompanyPostcode($companyPostcode)
     {
@@ -142,7 +142,7 @@ class CompanySecondAddressStruct
 
     /**
      * @param string $companyCity
-     * @return \Ircykk\AllegroApi\CompanySecondAddressStruct
+     * @return \bbcreation\AllegroApi\CompanySecondAddressStruct
      */
     public function setCompanyCity($companyCity)
     {
@@ -160,7 +160,7 @@ class CompanySecondAddressStruct
 
     /**
      * @param int $companyCountryId
-     * @return \Ircykk\AllegroApi\CompanySecondAddressStruct
+     * @return \bbcreation\AllegroApi\CompanySecondAddressStruct
      */
     public function setCompanyCountryId($companyCountryId)
     {
@@ -178,7 +178,7 @@ class CompanySecondAddressStruct
 
     /**
      * @param int $companyStateId
-     * @return \Ircykk\AllegroApi\CompanySecondAddressStruct
+     * @return \bbcreation\AllegroApi\CompanySecondAddressStruct
      */
     public function setCompanyStateId($companyStateId)
     {

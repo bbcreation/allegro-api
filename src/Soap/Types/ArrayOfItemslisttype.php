@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfItemslisttype implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfItemslisttype implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param ItemsListType[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfItemslisttype
+     * @return \bbcreation\AllegroApi\ArrayOfItemslisttype
      */
     public function setItem(array $item = null)
     {

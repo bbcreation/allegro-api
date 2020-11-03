@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class UserDataStruct
 {
@@ -175,7 +175,7 @@ class UserDataStruct
 
     /**
      * @param int $userId
-     * @return \Ircykk\AllegroApi\UserDataStruct
+     * @return \bbcreation\AllegroApi\UserDataStruct
      */
     public function setUserId($userId)
     {
@@ -193,7 +193,7 @@ class UserDataStruct
 
     /**
      * @param string $userLogin
-     * @return \Ircykk\AllegroApi\UserDataStruct
+     * @return \bbcreation\AllegroApi\UserDataStruct
      */
     public function setUserLogin($userLogin)
     {
@@ -211,7 +211,7 @@ class UserDataStruct
 
     /**
      * @param int $userRating
-     * @return \Ircykk\AllegroApi\UserDataStruct
+     * @return \bbcreation\AllegroApi\UserDataStruct
      */
     public function setUserRating($userRating)
     {
@@ -229,7 +229,7 @@ class UserDataStruct
 
     /**
      * @param string $userFirstName
-     * @return \Ircykk\AllegroApi\UserDataStruct
+     * @return \bbcreation\AllegroApi\UserDataStruct
      */
     public function setUserFirstName($userFirstName)
     {
@@ -247,7 +247,7 @@ class UserDataStruct
 
     /**
      * @param string $userLastName
-     * @return \Ircykk\AllegroApi\UserDataStruct
+     * @return \bbcreation\AllegroApi\UserDataStruct
      */
     public function setUserLastName($userLastName)
     {
@@ -265,7 +265,7 @@ class UserDataStruct
 
     /**
      * @param string $userMaidenName
-     * @return \Ircykk\AllegroApi\UserDataStruct
+     * @return \bbcreation\AllegroApi\UserDataStruct
      */
     public function setUserMaidenName($userMaidenName)
     {
@@ -283,7 +283,7 @@ class UserDataStruct
 
     /**
      * @param string $userCompany
-     * @return \Ircykk\AllegroApi\UserDataStruct
+     * @return \bbcreation\AllegroApi\UserDataStruct
      */
     public function setUserCompany($userCompany)
     {
@@ -301,7 +301,7 @@ class UserDataStruct
 
     /**
      * @param int $userCountryId
-     * @return \Ircykk\AllegroApi\UserDataStruct
+     * @return \bbcreation\AllegroApi\UserDataStruct
      */
     public function setUserCountryId($userCountryId)
     {
@@ -319,7 +319,7 @@ class UserDataStruct
 
     /**
      * @param int $userStateId
-     * @return \Ircykk\AllegroApi\UserDataStruct
+     * @return \bbcreation\AllegroApi\UserDataStruct
      */
     public function setUserStateId($userStateId)
     {
@@ -337,7 +337,7 @@ class UserDataStruct
 
     /**
      * @param string $userPostcode
-     * @return \Ircykk\AllegroApi\UserDataStruct
+     * @return \bbcreation\AllegroApi\UserDataStruct
      */
     public function setUserPostcode($userPostcode)
     {
@@ -355,7 +355,7 @@ class UserDataStruct
 
     /**
      * @param string $userCity
-     * @return \Ircykk\AllegroApi\UserDataStruct
+     * @return \bbcreation\AllegroApi\UserDataStruct
      */
     public function setUserCity($userCity)
     {
@@ -373,7 +373,7 @@ class UserDataStruct
 
     /**
      * @param string $userAddress
-     * @return \Ircykk\AllegroApi\UserDataStruct
+     * @return \bbcreation\AllegroApi\UserDataStruct
      */
     public function setUserAddress($userAddress)
     {
@@ -391,7 +391,7 @@ class UserDataStruct
 
     /**
      * @param string $userEmail
-     * @return \Ircykk\AllegroApi\UserDataStruct
+     * @return \bbcreation\AllegroApi\UserDataStruct
      */
     public function setUserEmail($userEmail)
     {
@@ -409,7 +409,7 @@ class UserDataStruct
 
     /**
      * @param string $userPhone
-     * @return \Ircykk\AllegroApi\UserDataStruct
+     * @return \bbcreation\AllegroApi\UserDataStruct
      */
     public function setUserPhone($userPhone)
     {
@@ -427,7 +427,7 @@ class UserDataStruct
 
     /**
      * @param string $userPhone2
-     * @return \Ircykk\AllegroApi\UserDataStruct
+     * @return \bbcreation\AllegroApi\UserDataStruct
      */
     public function setUserPhone2($userPhone2)
     {
@@ -445,7 +445,7 @@ class UserDataStruct
 
     /**
      * @param int $userSsStatus
-     * @return \Ircykk\AllegroApi\UserDataStruct
+     * @return \bbcreation\AllegroApi\UserDataStruct
      */
     public function setUserSsStatus($userSsStatus)
     {
@@ -463,7 +463,7 @@ class UserDataStruct
 
     /**
      * @param int $siteCountryId
-     * @return \Ircykk\AllegroApi\UserDataStruct
+     * @return \bbcreation\AllegroApi\UserDataStruct
      */
     public function setSiteCountryId($siteCountryId)
     {
@@ -481,7 +481,7 @@ class UserDataStruct
 
     /**
      * @param int $userJuniorStatus
-     * @return \Ircykk\AllegroApi\UserDataStruct
+     * @return \bbcreation\AllegroApi\UserDataStruct
      */
     public function setUserJuniorStatus($userJuniorStatus)
     {
@@ -499,7 +499,7 @@ class UserDataStruct
 
     /**
      * @param int $userBirthDate
-     * @return \Ircykk\AllegroApi\UserDataStruct
+     * @return \bbcreation\AllegroApi\UserDataStruct
      */
     public function setUserBirthDate($userBirthDate)
     {
@@ -517,7 +517,7 @@ class UserDataStruct
 
     /**
      * @param int $userHasShop
-     * @return \Ircykk\AllegroApi\UserDataStruct
+     * @return \bbcreation\AllegroApi\UserDataStruct
      */
     public function setUserHasShop($userHasShop)
     {
@@ -535,7 +535,7 @@ class UserDataStruct
 
     /**
      * @param int $userCompanyIcon
-     * @return \Ircykk\AllegroApi\UserDataStruct
+     * @return \bbcreation\AllegroApi\UserDataStruct
      */
     public function setUserCompanyIcon($userCompanyIcon)
     {
@@ -553,7 +553,7 @@ class UserDataStruct
 
     /**
      * @param int $userIsAllegroStandard
-     * @return \Ircykk\AllegroApi\UserDataStruct
+     * @return \bbcreation\AllegroApi\UserDataStruct
      */
     public function setUserIsAllegroStandard($userIsAllegroStandard)
     {

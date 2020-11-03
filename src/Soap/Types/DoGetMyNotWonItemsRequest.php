@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetMyNotWonItemsRequest
 {
@@ -70,7 +70,7 @@ class DoGetMyNotWonItemsRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoGetMyNotWonItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyNotWonItemsRequest
      */
     public function setSessionId($sessionId)
     {
@@ -88,7 +88,7 @@ class DoGetMyNotWonItemsRequest
 
     /**
      * @param SortOptionsStruct $sortOptions
-     * @return \Ircykk\AllegroApi\DoGetMyNotWonItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyNotWonItemsRequest
      */
     public function setSortOptions($sortOptions)
     {
@@ -106,7 +106,7 @@ class DoGetMyNotWonItemsRequest
 
     /**
      * @param string $searchValue
-     * @return \Ircykk\AllegroApi\DoGetMyNotWonItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyNotWonItemsRequest
      */
     public function setSearchValue($searchValue)
     {
@@ -124,7 +124,7 @@ class DoGetMyNotWonItemsRequest
 
     /**
      * @param int $categoryId
-     * @return \Ircykk\AllegroApi\DoGetMyNotWonItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyNotWonItemsRequest
      */
     public function setCategoryId($categoryId)
     {
@@ -142,7 +142,7 @@ class DoGetMyNotWonItemsRequest
 
     /**
      * @param ArrayOfLong $itemIds
-     * @return \Ircykk\AllegroApi\DoGetMyNotWonItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyNotWonItemsRequest
      */
     public function setItemIds($itemIds)
     {
@@ -160,7 +160,7 @@ class DoGetMyNotWonItemsRequest
 
     /**
      * @param int $pageSize
-     * @return \Ircykk\AllegroApi\DoGetMyNotWonItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyNotWonItemsRequest
      */
     public function setPageSize($pageSize)
     {
@@ -178,7 +178,7 @@ class DoGetMyNotWonItemsRequest
 
     /**
      * @param int $pageNumber
-     * @return \Ircykk\AllegroApi\DoGetMyNotWonItemsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyNotWonItemsRequest
      */
     public function setPageNumber($pageNumber)
     {

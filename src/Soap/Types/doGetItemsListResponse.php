@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetItemsListResponse
 {
@@ -63,7 +63,7 @@ class doGetItemsListResponse
 
     /**
      * @param int $itemsCount
-     * @return \Ircykk\AllegroApi\doGetItemsListResponse
+     * @return \bbcreation\AllegroApi\doGetItemsListResponse
      */
     public function setItemsCount($itemsCount)
     {
@@ -81,7 +81,7 @@ class doGetItemsListResponse
 
     /**
      * @param int $itemsFeaturedCount
-     * @return \Ircykk\AllegroApi\doGetItemsListResponse
+     * @return \bbcreation\AllegroApi\doGetItemsListResponse
      */
     public function setItemsFeaturedCount($itemsFeaturedCount)
     {
@@ -99,7 +99,7 @@ class doGetItemsListResponse
 
     /**
      * @param ArrayOfItemslisttype $itemsList
-     * @return \Ircykk\AllegroApi\doGetItemsListResponse
+     * @return \bbcreation\AllegroApi\doGetItemsListResponse
      */
     public function setItemsList($itemsList)
     {
@@ -117,7 +117,7 @@ class doGetItemsListResponse
 
     /**
      * @param CategoriesListType $categoriesList
-     * @return \Ircykk\AllegroApi\doGetItemsListResponse
+     * @return \bbcreation\AllegroApi\doGetItemsListResponse
      */
     public function setCategoriesList($categoriesList)
     {
@@ -135,7 +135,7 @@ class doGetItemsListResponse
 
     /**
      * @param ArrayOfFilterslisttype $filtersList
-     * @return \Ircykk\AllegroApi\doGetItemsListResponse
+     * @return \bbcreation\AllegroApi\doGetItemsListResponse
      */
     public function setFiltersList($filtersList)
     {
@@ -153,7 +153,7 @@ class doGetItemsListResponse
 
     /**
      * @param ArrayOfString $filtersRejected
-     * @return \Ircykk\AllegroApi\doGetItemsListResponse
+     * @return \bbcreation\AllegroApi\doGetItemsListResponse
      */
     public function setFiltersRejected($filtersRejected)
     {

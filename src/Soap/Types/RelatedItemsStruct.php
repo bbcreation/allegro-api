@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class RelatedItemsStruct
 {
@@ -33,7 +33,7 @@ class RelatedItemsStruct
 
     /**
      * @param ArrayOfRelateditemstruct $relatedItemsInfo
-     * @return \Ircykk\AllegroApi\RelatedItemsStruct
+     * @return \bbcreation\AllegroApi\RelatedItemsStruct
      */
     public function setRelatedItemsInfo($relatedItemsInfo)
     {
@@ -51,7 +51,7 @@ class RelatedItemsStruct
 
     /**
      * @param float $relatedItemsAmount
-     * @return \Ircykk\AllegroApi\RelatedItemsStruct
+     * @return \bbcreation\AllegroApi\RelatedItemsStruct
      */
     public function setRelatedItemsAmount($relatedItemsAmount)
     {

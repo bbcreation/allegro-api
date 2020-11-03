@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class SellRatingAverageStruct
 {
@@ -35,7 +35,7 @@ class SellRatingAverageStruct
 
     /**
      * @param string $sellRatingGroupTitle
-     * @return \Ircykk\AllegroApi\SellRatingAverageStruct
+     * @return \bbcreation\AllegroApi\SellRatingAverageStruct
      */
     public function setSellRatingGroupTitle($sellRatingGroupTitle)
     {
@@ -53,7 +53,7 @@ class SellRatingAverageStruct
 
     /**
      * @param float $sellRatingGroupAverage
-     * @return \Ircykk\AllegroApi\SellRatingAverageStruct
+     * @return \bbcreation\AllegroApi\SellRatingAverageStruct
      */
     public function setSellRatingGroupAverage($sellRatingGroupAverage)
     {

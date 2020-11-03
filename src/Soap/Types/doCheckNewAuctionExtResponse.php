@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doCheckNewAuctionExtResponse
 {
@@ -42,7 +42,7 @@ class doCheckNewAuctionExtResponse
 
     /**
      * @param string $itemPrice
-     * @return \Ircykk\AllegroApi\doCheckNewAuctionExtResponse
+     * @return \bbcreation\AllegroApi\doCheckNewAuctionExtResponse
      */
     public function setItemPrice($itemPrice)
     {
@@ -60,7 +60,7 @@ class doCheckNewAuctionExtResponse
 
     /**
      * @param string $itemPriceDesc
-     * @return \Ircykk\AllegroApi\doCheckNewAuctionExtResponse
+     * @return \bbcreation\AllegroApi\doCheckNewAuctionExtResponse
      */
     public function setItemPriceDesc($itemPriceDesc)
     {
@@ -78,7 +78,7 @@ class doCheckNewAuctionExtResponse
 
     /**
      * @param int $itemIsAllegroStandard
-     * @return \Ircykk\AllegroApi\doCheckNewAuctionExtResponse
+     * @return \bbcreation\AllegroApi\doCheckNewAuctionExtResponse
      */
     public function setItemIsAllegroStandard($itemIsAllegroStandard)
     {

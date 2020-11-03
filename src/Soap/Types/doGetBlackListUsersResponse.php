@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetBlackListUsersResponse
 {
@@ -28,7 +28,7 @@ class doGetBlackListUsersResponse
 
     /**
      * @param ArrayOfBlackliststruct $blackListUsers
-     * @return \Ircykk\AllegroApi\doGetBlackListUsersResponse
+     * @return \bbcreation\AllegroApi\doGetBlackListUsersResponse
      */
     public function setBlackListUsers($blackListUsers)
     {

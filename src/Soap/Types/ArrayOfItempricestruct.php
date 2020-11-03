@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfItempricestruct implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfItempricestruct implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param ItemPriceStruct[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfItempricestruct
+     * @return \bbcreation\AllegroApi\ArrayOfItempricestruct
      */
     public function setItem(array $item = null)
     {

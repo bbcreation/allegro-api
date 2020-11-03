@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoCancelTransactionRequest
 {
@@ -35,7 +35,7 @@ class DoCancelTransactionRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoCancelTransactionRequest
+     * @return \bbcreation\AllegroApi\DoCancelTransactionRequest
      */
     public function setSessionId($sessionId)
     {
@@ -53,7 +53,7 @@ class DoCancelTransactionRequest
 
     /**
      * @param int $transactionId
-     * @return \Ircykk\AllegroApi\DoCancelTransactionRequest
+     * @return \bbcreation\AllegroApi\DoCancelTransactionRequest
      */
     public function setTransactionId($transactionId)
     {

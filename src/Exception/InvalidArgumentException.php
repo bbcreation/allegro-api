@@ -1,11 +1,11 @@
 <?php
 
-namespace Ircykk\AllegroApi\Exception;
+namespace bbcreation\AllegroApi\Exception;
 
 /**
  * Class InvalidArgumentException.
  *
- * @package Ircykk\AllegroApi\Exception
+ * @package bbcreation\AllegroApi\Exception
  */
 class InvalidArgumentException extends \InvalidArgumentException
 {

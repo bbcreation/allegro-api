@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetItemsImagesResponse
 {
@@ -28,7 +28,7 @@ class doGetItemsImagesResponse
 
     /**
      * @param ArrayOfItemimagesstruct $get_items_images_result
-     * @return \Ircykk\AllegroApi\doGetItemsImagesResponse
+     * @return \bbcreation\AllegroApi\doGetItemsImagesResponse
      */
     public function setGet_items_images_result($get_items_images_result)
     {

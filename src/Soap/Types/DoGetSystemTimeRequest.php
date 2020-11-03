@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetSystemTimeRequest
 {
@@ -35,7 +35,7 @@ class DoGetSystemTimeRequest
 
     /**
      * @param int $countryId
-     * @return \Ircykk\AllegroApi\DoGetSystemTimeRequest
+     * @return \bbcreation\AllegroApi\DoGetSystemTimeRequest
      */
     public function setCountryId($countryId)
     {
@@ -53,7 +53,7 @@ class DoGetSystemTimeRequest
 
     /**
      * @param string $webapiKey
-     * @return \Ircykk\AllegroApi\DoGetSystemTimeRequest
+     * @return \bbcreation\AllegroApi\DoGetSystemTimeRequest
      */
     public function setWebapiKey($webapiKey)
     {

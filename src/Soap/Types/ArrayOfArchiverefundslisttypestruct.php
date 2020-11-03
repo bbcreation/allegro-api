@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfArchiverefundslisttypestruct implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfArchiverefundslisttypestruct implements \ArrayAccess, \Iterator, \C
 
     /**
      * @param ArchiveRefundsListTypeStruct[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfArchiverefundslisttypestruct
+     * @return \bbcreation\AllegroApi\ArrayOfArchiverefundslisttypestruct
      */
     public function setItem(array $item = null)
     {

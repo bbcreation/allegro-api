@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfSysstatustype implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfSysstatustype implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param SysStatusType[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfSysstatustype
+     * @return \bbcreation\AllegroApi\ArrayOfSysstatustype
      */
     public function setItem(array $item = null)
     {

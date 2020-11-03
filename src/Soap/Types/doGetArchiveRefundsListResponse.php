@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetArchiveRefundsListResponse
 {
@@ -35,7 +35,7 @@ class doGetArchiveRefundsListResponse
 
     /**
      * @param int $refundsCount
-     * @return \Ircykk\AllegroApi\doGetArchiveRefundsListResponse
+     * @return \bbcreation\AllegroApi\doGetArchiveRefundsListResponse
      */
     public function setRefundsCount($refundsCount)
     {
@@ -53,7 +53,7 @@ class doGetArchiveRefundsListResponse
 
     /**
      * @param ArrayOfArchiverefundslisttypestruct $refundsList
-     * @return \Ircykk\AllegroApi\doGetArchiveRefundsListResponse
+     * @return \bbcreation\AllegroApi\doGetArchiveRefundsListResponse
      */
     public function setRefundsList($refundsList)
     {

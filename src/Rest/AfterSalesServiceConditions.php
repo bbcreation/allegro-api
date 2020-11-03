@@ -1,13 +1,13 @@
 <?php
 
-namespace Ircykk\AllegroApi\Rest;
+namespace bbcreation\AllegroApi\Rest;
 
 /**
  * Class AfterSalesServiceConditions.
  *
  * @link https://developer.allegro.pl/documentation/#/after-sales-service-conditions
  *
- * @package Ircykk\AllegroApi\Rest
+ * @package bbcreation\AllegroApi\Rest
  */
 class AfterSalesServiceConditions extends AbstractRestResource
 {

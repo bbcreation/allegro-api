@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetUserIDResponse
 {
@@ -28,7 +28,7 @@ class doGetUserIDResponse
 
     /**
      * @param int $userId
-     * @return \Ircykk\AllegroApi\doGetUserIDResponse
+     * @return \bbcreation\AllegroApi\doGetUserIDResponse
      */
     public function setUserId($userId)
     {

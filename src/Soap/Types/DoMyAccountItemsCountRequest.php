@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoMyAccountItemsCountRequest
 {
@@ -42,7 +42,7 @@ class DoMyAccountItemsCountRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoMyAccountItemsCountRequest
+     * @return \bbcreation\AllegroApi\DoMyAccountItemsCountRequest
      */
     public function setSessionHandle($sessionHandle)
     {
@@ -60,7 +60,7 @@ class DoMyAccountItemsCountRequest
 
     /**
      * @param string $accountType
-     * @return \Ircykk\AllegroApi\DoMyAccountItemsCountRequest
+     * @return \bbcreation\AllegroApi\DoMyAccountItemsCountRequest
      */
     public function setAccountType($accountType)
     {
@@ -78,7 +78,7 @@ class DoMyAccountItemsCountRequest
 
     /**
      * @param ArrayOfLong $itemsArray
-     * @return \Ircykk\AllegroApi\DoMyAccountItemsCountRequest
+     * @return \bbcreation\AllegroApi\DoMyAccountItemsCountRequest
      */
     public function setItemsArray($itemsArray)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ProductParametersGroupStruct
 {
@@ -33,7 +33,7 @@ class ProductParametersGroupStruct
 
     /**
      * @param string $productParametersGroupName
-     * @return \Ircykk\AllegroApi\ProductParametersGroupStruct
+     * @return \bbcreation\AllegroApi\ProductParametersGroupStruct
      */
     public function setProductParametersGroupName($productParametersGroupName)
     {
@@ -51,7 +51,7 @@ class ProductParametersGroupStruct
 
     /**
      * @param ArrayOfProductparametersstruct $productParametersList
-     * @return \Ircykk\AllegroApi\ProductParametersGroupStruct
+     * @return \bbcreation\AllegroApi\ProductParametersGroupStruct
      */
     public function setProductParametersList($productParametersList)
     {

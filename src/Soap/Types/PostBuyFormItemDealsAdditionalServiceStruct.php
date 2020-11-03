@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class PostBuyFormItemDealsAdditionalServiceStruct
 {
@@ -49,7 +49,7 @@ class PostBuyFormItemDealsAdditionalServiceStruct
 
     /**
      * @param string $additionalServiceDefinitionId
-     * @return \Ircykk\AllegroApi\PostBuyFormItemDealsAdditionalServiceStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormItemDealsAdditionalServiceStruct
      */
     public function setAdditionalServiceDefinitionId($additionalServiceDefinitionId)
     {
@@ -67,7 +67,7 @@ class PostBuyFormItemDealsAdditionalServiceStruct
 
     /**
      * @param string $additionalServiceName
-     * @return \Ircykk\AllegroApi\PostBuyFormItemDealsAdditionalServiceStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormItemDealsAdditionalServiceStruct
      */
     public function setAdditionalServiceName($additionalServiceName)
     {
@@ -85,7 +85,7 @@ class PostBuyFormItemDealsAdditionalServiceStruct
 
     /**
      * @param int $additionalServiceQuantity
-     * @return \Ircykk\AllegroApi\PostBuyFormItemDealsAdditionalServiceStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormItemDealsAdditionalServiceStruct
      */
     public function setAdditionalServiceQuantity($additionalServiceQuantity)
     {
@@ -103,7 +103,7 @@ class PostBuyFormItemDealsAdditionalServiceStruct
 
     /**
      * @param float $additionalServicePrice
-     * @return \Ircykk\AllegroApi\PostBuyFormItemDealsAdditionalServiceStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormItemDealsAdditionalServiceStruct
      */
     public function setAdditionalServicePrice($additionalServicePrice)
     {

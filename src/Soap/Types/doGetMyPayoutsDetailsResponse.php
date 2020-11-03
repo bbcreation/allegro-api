@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetMyPayoutsDetailsResponse
 {
@@ -63,7 +63,7 @@ class doGetMyPayoutsDetailsResponse
 
     /**
      * @param int $paymentsCount
-     * @return \Ircykk\AllegroApi\doGetMyPayoutsDetailsResponse
+     * @return \bbcreation\AllegroApi\doGetMyPayoutsDetailsResponse
      */
     public function setPaymentsCount($paymentsCount)
     {
@@ -81,7 +81,7 @@ class doGetMyPayoutsDetailsResponse
 
     /**
      * @param ArrayOfPayoutpaymentsstruct $payments
-     * @return \Ircykk\AllegroApi\doGetMyPayoutsDetailsResponse
+     * @return \bbcreation\AllegroApi\doGetMyPayoutsDetailsResponse
      */
     public function setPayments($payments)
     {
@@ -99,7 +99,7 @@ class doGetMyPayoutsDetailsResponse
 
     /**
      * @param int $refundsFromCount
-     * @return \Ircykk\AllegroApi\doGetMyPayoutsDetailsResponse
+     * @return \bbcreation\AllegroApi\doGetMyPayoutsDetailsResponse
      */
     public function setRefundsFromCount($refundsFromCount)
     {
@@ -117,7 +117,7 @@ class doGetMyPayoutsDetailsResponse
 
     /**
      * @param ArrayOfPayoutrefundfromstruct $refundFrom
-     * @return \Ircykk\AllegroApi\doGetMyPayoutsDetailsResponse
+     * @return \bbcreation\AllegroApi\doGetMyPayoutsDetailsResponse
      */
     public function setRefundFrom($refundFrom)
     {
@@ -135,7 +135,7 @@ class doGetMyPayoutsDetailsResponse
 
     /**
      * @param int $refundsToCount
-     * @return \Ircykk\AllegroApi\doGetMyPayoutsDetailsResponse
+     * @return \bbcreation\AllegroApi\doGetMyPayoutsDetailsResponse
      */
     public function setRefundsToCount($refundsToCount)
     {
@@ -153,7 +153,7 @@ class doGetMyPayoutsDetailsResponse
 
     /**
      * @param ArrayOfPayoutrefundtostruct $refundTo
-     * @return \Ircykk\AllegroApi\doGetMyPayoutsDetailsResponse
+     * @return \bbcreation\AllegroApi\doGetMyPayoutsDetailsResponse
      */
     public function setRefundTo($refundTo)
     {

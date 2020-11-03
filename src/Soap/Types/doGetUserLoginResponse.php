@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetUserLoginResponse
 {
@@ -28,7 +28,7 @@ class doGetUserLoginResponse
 
     /**
      * @param string $userLogin
-     * @return \Ircykk\AllegroApi\doGetUserLoginResponse
+     * @return \bbcreation\AllegroApi\doGetUserLoginResponse
      */
     public function setUserLogin($userLogin)
     {

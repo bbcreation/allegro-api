@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class PayoutAutoFrequencyStruct
 {
@@ -42,7 +42,7 @@ class PayoutAutoFrequencyStruct
 
     /**
      * @param int $frequencyType
-     * @return \Ircykk\AllegroApi\PayoutAutoFrequencyStruct
+     * @return \bbcreation\AllegroApi\PayoutAutoFrequencyStruct
      */
     public function setFrequencyType($frequencyType)
     {
@@ -60,7 +60,7 @@ class PayoutAutoFrequencyStruct
 
     /**
      * @param int $frequencyWeekValue
-     * @return \Ircykk\AllegroApi\PayoutAutoFrequencyStruct
+     * @return \bbcreation\AllegroApi\PayoutAutoFrequencyStruct
      */
     public function setFrequencyWeekValue($frequencyWeekValue)
     {
@@ -78,7 +78,7 @@ class PayoutAutoFrequencyStruct
 
     /**
      * @param int $frequencyMonthValue
-     * @return \Ircykk\AllegroApi\PayoutAutoFrequencyStruct
+     * @return \bbcreation\AllegroApi\PayoutAutoFrequencyStruct
      */
     public function setFrequencyMonthValue($frequencyMonthValue)
     {

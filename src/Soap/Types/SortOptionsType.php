@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class SortOptionsType
 {
@@ -31,7 +31,7 @@ class SortOptionsType
 
     /**
      * @param string $sortType
-     * @return \Ircykk\AllegroApi\SortOptionsType
+     * @return \bbcreation\AllegroApi\SortOptionsType
      */
     public function setSortType($sortType)
     {
@@ -49,7 +49,7 @@ class SortOptionsType
 
     /**
      * @param string $sortOrder
-     * @return \Ircykk\AllegroApi\SortOptionsType
+     * @return \bbcreation\AllegroApi\SortOptionsType
      */
     public function setSortOrder($sortOrder)
     {

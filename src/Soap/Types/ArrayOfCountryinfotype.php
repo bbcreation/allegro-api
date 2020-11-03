@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfCountryinfotype implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfCountryinfotype implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param CountryInfoType[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfCountryinfotype
+     * @return \bbcreation\AllegroApi\ArrayOfCountryinfotype
      */
     public function setItem(array $item = null)
     {

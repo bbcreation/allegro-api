@@ -1,10 +1,10 @@
 <?php
 
-namespace Ircykk\Tests;
+namespace bbcreation\Tests;
 
-use Ircykk\AllegroApi\Client;
-use Ircykk\AllegroApi\Credentials;
-use Ircykk\AllegroApi\Rest;
+use bbcreation\AllegroApi\Client;
+use bbcreation\AllegroApi\Credentials;
+use bbcreation\AllegroApi\Rest;
 
 class ClientTest extends \PHPUnit\Framework\TestCase
 {

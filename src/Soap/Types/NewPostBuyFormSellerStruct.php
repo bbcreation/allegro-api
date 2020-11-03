@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class NewPostBuyFormSellerStruct
 {
@@ -55,7 +55,7 @@ class NewPostBuyFormSellerStruct
 
     /**
      * @param int $sellerId
-     * @return \Ircykk\AllegroApi\NewPostBuyFormSellerStruct
+     * @return \bbcreation\AllegroApi\NewPostBuyFormSellerStruct
      */
     public function setSellerId($sellerId)
     {
@@ -73,7 +73,7 @@ class NewPostBuyFormSellerStruct
 
     /**
      * @param ArrayOfLong $sellerItemIds
-     * @return \Ircykk\AllegroApi\NewPostBuyFormSellerStruct
+     * @return \bbcreation\AllegroApi\NewPostBuyFormSellerStruct
      */
     public function setSellerItemIds($sellerItemIds)
     {
@@ -91,7 +91,7 @@ class NewPostBuyFormSellerStruct
 
     /**
      * @param int $sellerShipmentId
-     * @return \Ircykk\AllegroApi\NewPostBuyFormSellerStruct
+     * @return \bbcreation\AllegroApi\NewPostBuyFormSellerStruct
      */
     public function setSellerShipmentId($sellerShipmentId)
     {
@@ -109,7 +109,7 @@ class NewPostBuyFormSellerStruct
 
     /**
      * @param int $sellerGdId
-     * @return \Ircykk\AllegroApi\NewPostBuyFormSellerStruct
+     * @return \bbcreation\AllegroApi\NewPostBuyFormSellerStruct
      */
     public function setSellerGdId($sellerGdId)
     {
@@ -127,7 +127,7 @@ class NewPostBuyFormSellerStruct
 
     /**
      * @param float $sellerShipmentAmount
-     * @return \Ircykk\AllegroApi\NewPostBuyFormSellerStruct
+     * @return \bbcreation\AllegroApi\NewPostBuyFormSellerStruct
      */
     public function setSellerShipmentAmount($sellerShipmentAmount)
     {
@@ -145,7 +145,7 @@ class NewPostBuyFormSellerStruct
 
     /**
      * @param string $sellerMessageTo
-     * @return \Ircykk\AllegroApi\NewPostBuyFormSellerStruct
+     * @return \bbcreation\AllegroApi\NewPostBuyFormSellerStruct
      */
     public function setSellerMessageTo($sellerMessageTo)
     {

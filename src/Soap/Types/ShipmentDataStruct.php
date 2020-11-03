@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ShipmentDataStruct
 {
@@ -49,7 +49,7 @@ class ShipmentDataStruct
 
     /**
      * @param int $shipmentId
-     * @return \Ircykk\AllegroApi\ShipmentDataStruct
+     * @return \bbcreation\AllegroApi\ShipmentDataStruct
      */
     public function setShipmentId($shipmentId)
     {
@@ -67,7 +67,7 @@ class ShipmentDataStruct
 
     /**
      * @param string $shipmentName
-     * @return \Ircykk\AllegroApi\ShipmentDataStruct
+     * @return \bbcreation\AllegroApi\ShipmentDataStruct
      */
     public function setShipmentName($shipmentName)
     {
@@ -85,7 +85,7 @@ class ShipmentDataStruct
 
     /**
      * @param int $shipmentType
-     * @return \Ircykk\AllegroApi\ShipmentDataStruct
+     * @return \bbcreation\AllegroApi\ShipmentDataStruct
      */
     public function setShipmentType($shipmentType)
     {
@@ -103,7 +103,7 @@ class ShipmentDataStruct
 
     /**
      * @param ShipmentTimeStruct $shipmentTime
-     * @return \Ircykk\AllegroApi\ShipmentDataStruct
+     * @return \bbcreation\AllegroApi\ShipmentDataStruct
      */
     public function setShipmentTime($shipmentTime)
     {

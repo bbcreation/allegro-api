@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class PaymentsInfoStruct
 {
@@ -56,7 +56,7 @@ class PaymentsInfoStruct
 
     /**
      * @param float $paymentsBalance
-     * @return \Ircykk\AllegroApi\PaymentsInfoStruct
+     * @return \bbcreation\AllegroApi\PaymentsInfoStruct
      */
     public function setPaymentsBalance($paymentsBalance)
     {
@@ -74,7 +74,7 @@ class PaymentsInfoStruct
 
     /**
      * @param string $paymentsBankAccount
-     * @return \Ircykk\AllegroApi\PaymentsInfoStruct
+     * @return \bbcreation\AllegroApi\PaymentsInfoStruct
      */
     public function setPaymentsBankAccount($paymentsBankAccount)
     {
@@ -92,7 +92,7 @@ class PaymentsInfoStruct
 
     /**
      * @param PaymentsUserDataStruct $paymentsUserData
-     * @return \Ircykk\AllegroApi\PaymentsInfoStruct
+     * @return \bbcreation\AllegroApi\PaymentsInfoStruct
      */
     public function setPaymentsUserData($paymentsUserData)
     {
@@ -110,7 +110,7 @@ class PaymentsInfoStruct
 
     /**
      * @param PaymentsPayoutStruct $paymentsPayout
-     * @return \Ircykk\AllegroApi\PaymentsInfoStruct
+     * @return \bbcreation\AllegroApi\PaymentsInfoStruct
      */
     public function setPaymentsPayout($paymentsPayout)
     {
@@ -128,7 +128,7 @@ class PaymentsInfoStruct
 
     /**
      * @param int $paymentsNotifications
-     * @return \Ircykk\AllegroApi\PaymentsInfoStruct
+     * @return \bbcreation\AllegroApi\PaymentsInfoStruct
      */
     public function setPaymentsNotifications($paymentsNotifications)
     {

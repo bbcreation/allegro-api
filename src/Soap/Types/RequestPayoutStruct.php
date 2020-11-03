@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class RequestPayoutStruct
 {
@@ -42,7 +42,7 @@ class RequestPayoutStruct
 
     /**
      * @param int $payoutId
-     * @return \Ircykk\AllegroApi\RequestPayoutStruct
+     * @return \bbcreation\AllegroApi\RequestPayoutStruct
      */
     public function setPayoutId($payoutId)
     {
@@ -60,7 +60,7 @@ class RequestPayoutStruct
 
     /**
      * @param float $payoutAmount
-     * @return \Ircykk\AllegroApi\RequestPayoutStruct
+     * @return \bbcreation\AllegroApi\RequestPayoutStruct
      */
     public function setPayoutAmount($payoutAmount)
     {
@@ -78,7 +78,7 @@ class RequestPayoutStruct
 
     /**
      * @param int $payoutTime
-     * @return \Ircykk\AllegroApi\RequestPayoutStruct
+     * @return \bbcreation\AllegroApi\RequestPayoutStruct
      */
     public function setPayoutTime($payoutTime)
     {

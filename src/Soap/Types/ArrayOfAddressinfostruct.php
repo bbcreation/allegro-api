@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfAddressinfostruct implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfAddressinfostruct implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param AddressInfoStruct[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfAddressinfostruct
+     * @return \bbcreation\AllegroApi\ArrayOfAddressinfostruct
      */
     public function setItem(array $item = null)
     {

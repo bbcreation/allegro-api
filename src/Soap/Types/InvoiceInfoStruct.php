@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class InvoiceInfoStruct
 {
@@ -40,7 +40,7 @@ class InvoiceInfoStruct
 
     /**
      * @param int $invoiceAddressType
-     * @return \Ircykk\AllegroApi\InvoiceInfoStruct
+     * @return \bbcreation\AllegroApi\InvoiceInfoStruct
      */
     public function setInvoiceAddressType($invoiceAddressType)
     {
@@ -58,7 +58,7 @@ class InvoiceInfoStruct
 
     /**
      * @param AddressUserDataStruct $invoiceAddressData
-     * @return \Ircykk\AllegroApi\InvoiceInfoStruct
+     * @return \bbcreation\AllegroApi\InvoiceInfoStruct
      */
     public function setInvoiceAddressData($invoiceAddressData)
     {
@@ -76,7 +76,7 @@ class InvoiceInfoStruct
 
     /**
      * @param string $invoiceNip
-     * @return \Ircykk\AllegroApi\InvoiceInfoStruct
+     * @return \bbcreation\AllegroApi\InvoiceInfoStruct
      */
     public function setInvoiceNip($invoiceNip)
     {

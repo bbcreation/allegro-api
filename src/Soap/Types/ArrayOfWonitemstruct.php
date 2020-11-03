@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfWonitemstruct implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfWonitemstruct implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param WonItemStruct[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfWonitemstruct
+     * @return \bbcreation\AllegroApi\ArrayOfWonitemstruct
      */
     public function setItem(array $item = null)
     {

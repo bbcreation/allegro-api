@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetMyPaymentsRefundsRequest
 {
@@ -56,7 +56,7 @@ class DoGetMyPaymentsRefundsRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoGetMyPaymentsRefundsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyPaymentsRefundsRequest
      */
     public function setSessionHandle($sessionHandle)
     {
@@ -74,7 +74,7 @@ class DoGetMyPaymentsRefundsRequest
 
     /**
      * @param int $sellerId
-     * @return \Ircykk\AllegroApi\DoGetMyPaymentsRefundsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyPaymentsRefundsRequest
      */
     public function setSellerId($sellerId)
     {
@@ -92,7 +92,7 @@ class DoGetMyPaymentsRefundsRequest
 
     /**
      * @param int $itemId
-     * @return \Ircykk\AllegroApi\DoGetMyPaymentsRefundsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyPaymentsRefundsRequest
      */
     public function setItemId($itemId)
     {
@@ -110,7 +110,7 @@ class DoGetMyPaymentsRefundsRequest
 
     /**
      * @param int $limit
-     * @return \Ircykk\AllegroApi\DoGetMyPaymentsRefundsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyPaymentsRefundsRequest
      */
     public function setLimit($limit)
     {
@@ -128,7 +128,7 @@ class DoGetMyPaymentsRefundsRequest
 
     /**
      * @param int $offset
-     * @return \Ircykk\AllegroApi\DoGetMyPaymentsRefundsRequest
+     * @return \bbcreation\AllegroApi\DoGetMyPaymentsRefundsRequest
      */
     public function setOffset($offset)
     {

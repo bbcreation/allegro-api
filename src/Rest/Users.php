@@ -1,13 +1,13 @@
 <?php
 
-namespace Ircykk\AllegroApi\Rest;
+namespace bbcreation\AllegroApi\Rest;
 
 /**
  * Class Users.
  *
  * @link https://developer.allegro.pl/documentation/#/users
  *
- * @package Ircykk\AllegroApi\Rest
+ * @package bbcreation\AllegroApi\Rest
  */
 class Users extends AbstractRestResource
 {

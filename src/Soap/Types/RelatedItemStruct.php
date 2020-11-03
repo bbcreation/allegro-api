@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class RelatedItemStruct
 {
@@ -96,7 +96,7 @@ class RelatedItemStruct
 
     /**
      * @param int $itemId
-     * @return \Ircykk\AllegroApi\RelatedItemStruct
+     * @return \bbcreation\AllegroApi\RelatedItemStruct
      */
     public function setItemId($itemId)
     {
@@ -114,7 +114,7 @@ class RelatedItemStruct
 
     /**
      * @param string $itemTitle
-     * @return \Ircykk\AllegroApi\RelatedItemStruct
+     * @return \bbcreation\AllegroApi\RelatedItemStruct
      */
     public function setItemTitle($itemTitle)
     {
@@ -132,7 +132,7 @@ class RelatedItemStruct
 
     /**
      * @param string $itemThumbnail
-     * @return \Ircykk\AllegroApi\RelatedItemStruct
+     * @return \bbcreation\AllegroApi\RelatedItemStruct
      */
     public function setItemThumbnail($itemThumbnail)
     {
@@ -150,7 +150,7 @@ class RelatedItemStruct
 
     /**
      * @param float $itemPrice
-     * @return \Ircykk\AllegroApi\RelatedItemStruct
+     * @return \bbcreation\AllegroApi\RelatedItemStruct
      */
     public function setItemPrice($itemPrice)
     {
@@ -168,7 +168,7 @@ class RelatedItemStruct
 
     /**
      * @param int $itemBoughtCount
-     * @return \Ircykk\AllegroApi\RelatedItemStruct
+     * @return \bbcreation\AllegroApi\RelatedItemStruct
      */
     public function setItemBoughtCount($itemBoughtCount)
     {
@@ -186,7 +186,7 @@ class RelatedItemStruct
 
     /**
      * @param float $itemAmount
-     * @return \Ircykk\AllegroApi\RelatedItemStruct
+     * @return \bbcreation\AllegroApi\RelatedItemStruct
      */
     public function setItemAmount($itemAmount)
     {
@@ -204,7 +204,7 @@ class RelatedItemStruct
 
     /**
      * @param int $itemPaymentType
-     * @return \Ircykk\AllegroApi\RelatedItemStruct
+     * @return \bbcreation\AllegroApi\RelatedItemStruct
      */
     public function setItemPaymentType($itemPaymentType)
     {
@@ -222,7 +222,7 @@ class RelatedItemStruct
 
     /**
      * @param int $itemSellerId
-     * @return \Ircykk\AllegroApi\RelatedItemStruct
+     * @return \bbcreation\AllegroApi\RelatedItemStruct
      */
     public function setItemSellerId($itemSellerId)
     {
@@ -240,7 +240,7 @@ class RelatedItemStruct
 
     /**
      * @param string $itemSellerName
-     * @return \Ircykk\AllegroApi\RelatedItemStruct
+     * @return \bbcreation\AllegroApi\RelatedItemStruct
      */
     public function setItemSellerName($itemSellerName)
     {
@@ -258,7 +258,7 @@ class RelatedItemStruct
 
     /**
      * @param int $itemInvoiceInfo
-     * @return \Ircykk\AllegroApi\RelatedItemStruct
+     * @return \bbcreation\AllegroApi\RelatedItemStruct
      */
     public function setItemInvoiceInfo($itemInvoiceInfo)
     {
@@ -276,7 +276,7 @@ class RelatedItemStruct
 
     /**
      * @param int $itemCategoryId
-     * @return \Ircykk\AllegroApi\RelatedItemStruct
+     * @return \bbcreation\AllegroApi\RelatedItemStruct
      */
     public function setItemCategoryId($itemCategoryId)
     {

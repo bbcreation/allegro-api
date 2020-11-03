@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfItemcatlist implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfItemcatlist implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param ItemCatList[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfItemcatlist
+     * @return \bbcreation\AllegroApi\ArrayOfItemcatlist
      */
     public function setItem(array $item = null)
     {

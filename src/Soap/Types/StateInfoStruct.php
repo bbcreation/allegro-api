@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class StateInfoStruct
 {
@@ -35,7 +35,7 @@ class StateInfoStruct
 
     /**
      * @param int $stateId
-     * @return \Ircykk\AllegroApi\StateInfoStruct
+     * @return \bbcreation\AllegroApi\StateInfoStruct
      */
     public function setStateId($stateId)
     {
@@ -53,7 +53,7 @@ class StateInfoStruct
 
     /**
      * @param string $stateName
-     * @return \Ircykk\AllegroApi\StateInfoStruct
+     * @return \bbcreation\AllegroApi\StateInfoStruct
      */
     public function setStateName($stateName)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ItemPaymentOptions
 {
@@ -70,7 +70,7 @@ class ItemPaymentOptions
 
     /**
      * @param int $payOptionTransfer
-     * @return \Ircykk\AllegroApi\ItemPaymentOptions
+     * @return \bbcreation\AllegroApi\ItemPaymentOptions
      */
     public function setPayOptionTransfer($payOptionTransfer)
     {
@@ -88,7 +88,7 @@ class ItemPaymentOptions
 
     /**
      * @param int $payOptionOnDelivery
-     * @return \Ircykk\AllegroApi\ItemPaymentOptions
+     * @return \bbcreation\AllegroApi\ItemPaymentOptions
      */
     public function setPayOptionOnDelivery($payOptionOnDelivery)
     {
@@ -106,7 +106,7 @@ class ItemPaymentOptions
 
     /**
      * @param int $payOptionAllegroPay
-     * @return \Ircykk\AllegroApi\ItemPaymentOptions
+     * @return \bbcreation\AllegroApi\ItemPaymentOptions
      */
     public function setPayOptionAllegroPay($payOptionAllegroPay)
     {
@@ -124,7 +124,7 @@ class ItemPaymentOptions
 
     /**
      * @param int $payOptionSeeDesc
-     * @return \Ircykk\AllegroApi\ItemPaymentOptions
+     * @return \bbcreation\AllegroApi\ItemPaymentOptions
      */
     public function setPayOptionSeeDesc($payOptionSeeDesc)
     {
@@ -142,7 +142,7 @@ class ItemPaymentOptions
 
     /**
      * @param int $payOptionPayu
-     * @return \Ircykk\AllegroApi\ItemPaymentOptions
+     * @return \bbcreation\AllegroApi\ItemPaymentOptions
      */
     public function setPayOptionPayu($payOptionPayu)
     {
@@ -160,7 +160,7 @@ class ItemPaymentOptions
 
     /**
      * @param int $payOptionEscrow
-     * @return \Ircykk\AllegroApi\ItemPaymentOptions
+     * @return \bbcreation\AllegroApi\ItemPaymentOptions
      */
     public function setPayOptionEscrow($payOptionEscrow)
     {
@@ -178,7 +178,7 @@ class ItemPaymentOptions
 
     /**
      * @param int $payOptionQiwi
-     * @return \Ircykk\AllegroApi\ItemPaymentOptions
+     * @return \bbcreation\AllegroApi\ItemPaymentOptions
      */
     public function setPayOptionQiwi($payOptionQiwi)
     {

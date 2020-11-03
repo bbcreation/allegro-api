@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class CompanyExtraDataStruct
 {
@@ -56,7 +56,7 @@ class CompanyExtraDataStruct
 
     /**
      * @param string $companyType
-     * @return \Ircykk\AllegroApi\CompanyExtraDataStruct
+     * @return \bbcreation\AllegroApi\CompanyExtraDataStruct
      */
     public function setCompanyType($companyType)
     {
@@ -74,7 +74,7 @@ class CompanyExtraDataStruct
 
     /**
      * @param string $companyNip
-     * @return \Ircykk\AllegroApi\CompanyExtraDataStruct
+     * @return \bbcreation\AllegroApi\CompanyExtraDataStruct
      */
     public function setCompanyNip($companyNip)
     {
@@ -92,7 +92,7 @@ class CompanyExtraDataStruct
 
     /**
      * @param string $companyRegon
-     * @return \Ircykk\AllegroApi\CompanyExtraDataStruct
+     * @return \bbcreation\AllegroApi\CompanyExtraDataStruct
      */
     public function setCompanyRegon($companyRegon)
     {
@@ -110,7 +110,7 @@ class CompanyExtraDataStruct
 
     /**
      * @param string $companyKrs
-     * @return \Ircykk\AllegroApi\CompanyExtraDataStruct
+     * @return \bbcreation\AllegroApi\CompanyExtraDataStruct
      */
     public function setCompanyKrs($companyKrs)
     {
@@ -128,7 +128,7 @@ class CompanyExtraDataStruct
 
     /**
      * @param string $companyActivitySort
-     * @return \Ircykk\AllegroApi\CompanyExtraDataStruct
+     * @return \bbcreation\AllegroApi\CompanyExtraDataStruct
      */
     public function setCompanyActivitySort($companyActivitySort)
     {

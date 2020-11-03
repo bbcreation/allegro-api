@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetCatsDataRequest
 {
@@ -49,7 +49,7 @@ class DoGetCatsDataRequest
 
     /**
      * @param int $countryId
-     * @return \Ircykk\AllegroApi\DoGetCatsDataRequest
+     * @return \bbcreation\AllegroApi\DoGetCatsDataRequest
      */
     public function setCountryId($countryId)
     {
@@ -67,7 +67,7 @@ class DoGetCatsDataRequest
 
     /**
      * @param int $localVersion
-     * @return \Ircykk\AllegroApi\DoGetCatsDataRequest
+     * @return \bbcreation\AllegroApi\DoGetCatsDataRequest
      */
     public function setLocalVersion($localVersion)
     {
@@ -85,7 +85,7 @@ class DoGetCatsDataRequest
 
     /**
      * @param string $webapiKey
-     * @return \Ircykk\AllegroApi\DoGetCatsDataRequest
+     * @return \bbcreation\AllegroApi\DoGetCatsDataRequest
      */
     public function setWebapiKey($webapiKey)
     {
@@ -103,7 +103,7 @@ class DoGetCatsDataRequest
 
     /**
      * @param boolean $onlyLeaf
-     * @return \Ircykk\AllegroApi\DoGetCatsDataRequest
+     * @return \bbcreation\AllegroApi\DoGetCatsDataRequest
      */
     public function setOnlyLeaf($onlyLeaf)
     {

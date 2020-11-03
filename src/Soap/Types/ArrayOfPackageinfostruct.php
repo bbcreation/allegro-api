@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfPackageinfostruct implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfPackageinfostruct implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param PackageInfoStruct[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfPackageinfostruct
+     * @return \bbcreation\AllegroApi\ArrayOfPackageinfostruct
      */
     public function setItem(array $item = null)
     {

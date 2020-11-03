@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class VariantStruct
 {
@@ -33,7 +33,7 @@ class VariantStruct
 
     /**
      * @param int $fid
-     * @return \Ircykk\AllegroApi\VariantStruct
+     * @return \bbcreation\AllegroApi\VariantStruct
      */
     public function setFid($fid)
     {
@@ -51,7 +51,7 @@ class VariantStruct
 
     /**
      * @param ArrayOfVariantquantitystruct $quantities
-     * @return \Ircykk\AllegroApi\VariantStruct
+     * @return \bbcreation\AllegroApi\VariantStruct
      */
     public function setQuantities($quantities)
     {

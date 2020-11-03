@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfSitejournal implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfSitejournal implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param SiteJournal[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfSitejournal
+     * @return \bbcreation\AllegroApi\ArrayOfSitejournal
      */
     public function setItem(array $item = null)
     {

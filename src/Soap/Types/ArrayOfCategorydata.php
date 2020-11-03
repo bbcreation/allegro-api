@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfCategorydata implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfCategorydata implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param CategoryData[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfCategorydata
+     * @return \bbcreation\AllegroApi\ArrayOfCategorydata
      */
     public function setItem(array $item = null)
     {

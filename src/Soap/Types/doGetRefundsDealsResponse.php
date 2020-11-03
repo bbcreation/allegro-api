@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetRefundsDealsResponse
 {
@@ -42,7 +42,7 @@ class doGetRefundsDealsResponse
 
     /**
      * @param int $dealsCount
-     * @return \Ircykk\AllegroApi\doGetRefundsDealsResponse
+     * @return \bbcreation\AllegroApi\doGetRefundsDealsResponse
      */
     public function setDealsCount($dealsCount)
     {
@@ -60,7 +60,7 @@ class doGetRefundsDealsResponse
 
     /**
      * @param ArrayOfRefundsdealslisttype $dealsList
-     * @return \Ircykk\AllegroApi\doGetRefundsDealsResponse
+     * @return \bbcreation\AllegroApi\doGetRefundsDealsResponse
      */
     public function setDealsList($dealsList)
     {
@@ -78,7 +78,7 @@ class doGetRefundsDealsResponse
 
     /**
      * @param ArrayOfFilterslisttype $filtersList
-     * @return \Ircykk\AllegroApi\doGetRefundsDealsResponse
+     * @return \bbcreation\AllegroApi\doGetRefundsDealsResponse
      */
     public function setFiltersList($filtersList)
     {

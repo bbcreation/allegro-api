@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class SellFormFieldsForCategoryStruct
 {
@@ -40,7 +40,7 @@ class SellFormFieldsForCategoryStruct
 
     /**
      * @param ArrayOfSellformtype $sellFormFieldsList
-     * @return \Ircykk\AllegroApi\SellFormFieldsForCategoryStruct
+     * @return \bbcreation\AllegroApi\SellFormFieldsForCategoryStruct
      */
     public function setSellFormFieldsList($sellFormFieldsList)
     {
@@ -58,7 +58,7 @@ class SellFormFieldsForCategoryStruct
 
     /**
      * @param int $sellFormFieldsVersionKey
-     * @return \Ircykk\AllegroApi\SellFormFieldsForCategoryStruct
+     * @return \bbcreation\AllegroApi\SellFormFieldsForCategoryStruct
      */
     public function setSellFormFieldsVersionKey($sellFormFieldsVersionKey)
     {
@@ -76,7 +76,7 @@ class SellFormFieldsForCategoryStruct
 
     /**
      * @param string $sellFormFieldsComponentValue
-     * @return \Ircykk\AllegroApi\SellFormFieldsForCategoryStruct
+     * @return \bbcreation\AllegroApi\SellFormFieldsForCategoryStruct
      */
     public function setSellFormFieldsComponentValue($sellFormFieldsComponentValue)
     {

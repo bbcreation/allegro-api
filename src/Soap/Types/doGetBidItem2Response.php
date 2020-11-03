@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetBidItem2Response
 {
@@ -28,7 +28,7 @@ class doGetBidItem2Response
 
     /**
      * @param ArrayOfBidliststruct2 $biditemList
-     * @return \Ircykk\AllegroApi\doGetBidItem2Response
+     * @return \bbcreation\AllegroApi\doGetBidItem2Response
      */
     public function setBiditemList($biditemList)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ParameterInfoType
 {
@@ -47,7 +47,7 @@ class ParameterInfoType
 
     /**
      * @param string $parameterName
-     * @return \Ircykk\AllegroApi\ParameterInfoType
+     * @return \bbcreation\AllegroApi\ParameterInfoType
      */
     public function setParameterName($parameterName)
     {
@@ -65,7 +65,7 @@ class ParameterInfoType
 
     /**
      * @param ArrayOfString $parameterValue
-     * @return \Ircykk\AllegroApi\ParameterInfoType
+     * @return \bbcreation\AllegroApi\ParameterInfoType
      */
     public function setParameterValue($parameterValue)
     {
@@ -83,7 +83,7 @@ class ParameterInfoType
 
     /**
      * @param string $parameterUnit
-     * @return \Ircykk\AllegroApi\ParameterInfoType
+     * @return \bbcreation\AllegroApi\ParameterInfoType
      */
     public function setParameterUnit($parameterUnit)
     {
@@ -101,7 +101,7 @@ class ParameterInfoType
 
     /**
      * @param boolean $parameterIsRange
-     * @return \Ircykk\AllegroApi\ParameterInfoType
+     * @return \bbcreation\AllegroApi\ParameterInfoType
      */
     public function setParameterIsRange($parameterIsRange)
     {

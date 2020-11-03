@@ -14,7 +14,7 @@ $generator->generate(
         'inputFile' => 'https://webapi.allegro.pl/service.php?wsdl',
         'outputDir' => __DIR__.'/../src/Soap/Types',
         'constructorParamsDefaultToNull' => true,
-        'namespaceName' => 'Ircykk\AllegroApi'
+        'namespaceName' => 'bbcreation\AllegroApi'
     ))
 );
 */

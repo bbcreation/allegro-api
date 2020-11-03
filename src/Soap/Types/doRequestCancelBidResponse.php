@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doRequestCancelBidResponse
 {
@@ -28,7 +28,7 @@ class doRequestCancelBidResponse
 
     /**
      * @param int $requestValue
-     * @return \Ircykk\AllegroApi\doRequestCancelBidResponse
+     * @return \bbcreation\AllegroApi\doRequestCancelBidResponse
      */
     public function setRequestValue($requestValue)
     {

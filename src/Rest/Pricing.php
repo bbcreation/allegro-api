@@ -1,15 +1,15 @@
 <?php
 
-namespace Ircykk\AllegroApi\Rest;
+namespace bbcreation\AllegroApi\Rest;
 
-use Ircykk\AllegroApi\Exception\InvalidArgumentException;
+use bbcreation\AllegroApi\Exception\InvalidArgumentException;
 
 /**
  * Class Pricing.
  *
  * @link https://developer.allegro.pl/documentation/#/pricing
  *
- * @package Ircykk\AllegroApi\Rest
+ * @package bbcreation\AllegroApi\Rest
  */
 class Pricing extends AbstractRestResource
 {

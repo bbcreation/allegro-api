@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DealsStruct
 {
@@ -56,7 +56,7 @@ class DealsStruct
 
     /**
      * @param int $dealId
-     * @return \Ircykk\AllegroApi\DealsStruct
+     * @return \bbcreation\AllegroApi\DealsStruct
      */
     public function setDealId($dealId)
     {
@@ -74,7 +74,7 @@ class DealsStruct
 
     /**
      * @param int $dealDate
-     * @return \Ircykk\AllegroApi\DealsStruct
+     * @return \bbcreation\AllegroApi\DealsStruct
      */
     public function setDealDate($dealDate)
     {
@@ -92,7 +92,7 @@ class DealsStruct
 
     /**
      * @param int $dealQuantity
-     * @return \Ircykk\AllegroApi\DealsStruct
+     * @return \bbcreation\AllegroApi\DealsStruct
      */
     public function setDealQuantity($dealQuantity)
     {
@@ -110,7 +110,7 @@ class DealsStruct
 
     /**
      * @param float $dealAmountOriginal
-     * @return \Ircykk\AllegroApi\DealsStruct
+     * @return \bbcreation\AllegroApi\DealsStruct
      */
     public function setDealAmountOriginal($dealAmountOriginal)
     {
@@ -128,7 +128,7 @@ class DealsStruct
 
     /**
      * @param float $dealAmountDiscounted
-     * @return \Ircykk\AllegroApi\DealsStruct
+     * @return \bbcreation\AllegroApi\DealsStruct
      */
     public function setDealAmountDiscounted($dealAmountDiscounted)
     {

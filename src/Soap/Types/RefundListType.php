@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class RefundListType
 {
@@ -84,7 +84,7 @@ class RefundListType
 
     /**
      * @param int $dealId
-     * @return \Ircykk\AllegroApi\RefundListType
+     * @return \bbcreation\AllegroApi\RefundListType
      */
     public function setDealId($dealId)
     {
@@ -110,7 +110,7 @@ class RefundListType
 
     /**
      * @param \DateTime $dealDate
-     * @return \Ircykk\AllegroApi\RefundListType
+     * @return \bbcreation\AllegroApi\RefundListType
      */
     public function setDealDate(\DateTime $dealDate)
     {
@@ -128,7 +128,7 @@ class RefundListType
 
     /**
      * @param int $buyerId
-     * @return \Ircykk\AllegroApi\RefundListType
+     * @return \bbcreation\AllegroApi\RefundListType
      */
     public function setBuyerId($buyerId)
     {
@@ -146,7 +146,7 @@ class RefundListType
 
     /**
      * @param string $buyerLogin
-     * @return \Ircykk\AllegroApi\RefundListType
+     * @return \bbcreation\AllegroApi\RefundListType
      */
     public function setBuyerLogin($buyerLogin)
     {
@@ -164,7 +164,7 @@ class RefundListType
 
     /**
      * @param int $itemId
-     * @return \Ircykk\AllegroApi\RefundListType
+     * @return \bbcreation\AllegroApi\RefundListType
      */
     public function setItemId($itemId)
     {
@@ -182,7 +182,7 @@ class RefundListType
 
     /**
      * @param string $itemTitle
-     * @return \Ircykk\AllegroApi\RefundListType
+     * @return \bbcreation\AllegroApi\RefundListType
      */
     public function setItemTitle($itemTitle)
     {
@@ -200,7 +200,7 @@ class RefundListType
 
     /**
      * @param int $bidsCount
-     * @return \Ircykk\AllegroApi\RefundListType
+     * @return \bbcreation\AllegroApi\RefundListType
      */
     public function setBidsCount($bidsCount)
     {
@@ -218,7 +218,7 @@ class RefundListType
 
     /**
      * @param string $quantityType
-     * @return \Ircykk\AllegroApi\RefundListType
+     * @return \bbcreation\AllegroApi\RefundListType
      */
     public function setQuantityType($quantityType)
     {
@@ -236,7 +236,7 @@ class RefundListType
 
     /**
      * @param RefundDetailsType $refundDetails
-     * @return \Ircykk\AllegroApi\RefundListType
+     * @return \bbcreation\AllegroApi\RefundListType
      */
     public function setRefundDetails($refundDetails)
     {

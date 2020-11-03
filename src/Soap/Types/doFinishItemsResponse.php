@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doFinishItemsResponse
 {
@@ -35,7 +35,7 @@ class doFinishItemsResponse
 
     /**
      * @param ArrayOfLong $finishItemsSucceed
-     * @return \Ircykk\AllegroApi\doFinishItemsResponse
+     * @return \bbcreation\AllegroApi\doFinishItemsResponse
      */
     public function setFinishItemsSucceed($finishItemsSucceed)
     {
@@ -53,7 +53,7 @@ class doFinishItemsResponse
 
     /**
      * @param ArrayOfFinishfailurestruct $finishItemsFailed
-     * @return \Ircykk\AllegroApi\doFinishItemsResponse
+     * @return \bbcreation\AllegroApi\doFinishItemsResponse
      */
     public function setFinishItemsFailed($finishItemsFailed)
     {

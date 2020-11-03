@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doMyBillingItemResponse
 {
@@ -35,7 +35,7 @@ class doMyBillingItemResponse
 
     /**
      * @param ArrayOfItembilling $entryFees
-     * @return \Ircykk\AllegroApi\doMyBillingItemResponse
+     * @return \bbcreation\AllegroApi\doMyBillingItemResponse
      */
     public function setEntryFees($entryFees)
     {
@@ -53,7 +53,7 @@ class doMyBillingItemResponse
 
     /**
      * @param ArrayOfItembilling $endingFees
-     * @return \Ircykk\AllegroApi\doMyBillingItemResponse
+     * @return \bbcreation\AllegroApi\doMyBillingItemResponse
      */
     public function setEndingFees($endingFees)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class UserSentToDataStruct
 {
@@ -77,7 +77,7 @@ class UserSentToDataStruct
 
     /**
      * @param int $userId
-     * @return \Ircykk\AllegroApi\UserSentToDataStruct
+     * @return \bbcreation\AllegroApi\UserSentToDataStruct
      */
     public function setUserId($userId)
     {
@@ -95,7 +95,7 @@ class UserSentToDataStruct
 
     /**
      * @param string $userFirstName
-     * @return \Ircykk\AllegroApi\UserSentToDataStruct
+     * @return \bbcreation\AllegroApi\UserSentToDataStruct
      */
     public function setUserFirstName($userFirstName)
     {
@@ -113,7 +113,7 @@ class UserSentToDataStruct
 
     /**
      * @param string $userLastName
-     * @return \Ircykk\AllegroApi\UserSentToDataStruct
+     * @return \bbcreation\AllegroApi\UserSentToDataStruct
      */
     public function setUserLastName($userLastName)
     {
@@ -131,7 +131,7 @@ class UserSentToDataStruct
 
     /**
      * @param string $userCompany
-     * @return \Ircykk\AllegroApi\UserSentToDataStruct
+     * @return \bbcreation\AllegroApi\UserSentToDataStruct
      */
     public function setUserCompany($userCompany)
     {
@@ -149,7 +149,7 @@ class UserSentToDataStruct
 
     /**
      * @param int $userCountryId
-     * @return \Ircykk\AllegroApi\UserSentToDataStruct
+     * @return \bbcreation\AllegroApi\UserSentToDataStruct
      */
     public function setUserCountryId($userCountryId)
     {
@@ -167,7 +167,7 @@ class UserSentToDataStruct
 
     /**
      * @param string $userPostcode
-     * @return \Ircykk\AllegroApi\UserSentToDataStruct
+     * @return \bbcreation\AllegroApi\UserSentToDataStruct
      */
     public function setUserPostcode($userPostcode)
     {
@@ -185,7 +185,7 @@ class UserSentToDataStruct
 
     /**
      * @param string $userCity
-     * @return \Ircykk\AllegroApi\UserSentToDataStruct
+     * @return \bbcreation\AllegroApi\UserSentToDataStruct
      */
     public function setUserCity($userCity)
     {
@@ -203,7 +203,7 @@ class UserSentToDataStruct
 
     /**
      * @param string $userAddress
-     * @return \Ircykk\AllegroApi\UserSentToDataStruct
+     * @return \bbcreation\AllegroApi\UserSentToDataStruct
      */
     public function setUserAddress($userAddress)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doQuerySysStatusResponse
 {
@@ -35,7 +35,7 @@ class doQuerySysStatusResponse
 
     /**
      * @param string $info
-     * @return \Ircykk\AllegroApi\doQuerySysStatusResponse
+     * @return \bbcreation\AllegroApi\doQuerySysStatusResponse
      */
     public function setInfo($info)
     {
@@ -53,7 +53,7 @@ class doQuerySysStatusResponse
 
     /**
      * @param int $verKey
-     * @return \Ircykk\AllegroApi\doQuerySysStatusResponse
+     * @return \bbcreation\AllegroApi\doQuerySysStatusResponse
      */
     public function setVerKey($verKey)
     {

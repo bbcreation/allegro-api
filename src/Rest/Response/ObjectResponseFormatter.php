@@ -1,13 +1,13 @@
 <?php
 
-namespace Ircykk\AllegroApi\Rest\Response;
+namespace bbcreation\AllegroApi\Rest\Response;
 
 use Psr\Http\Message\ResponseInterface;
 
 /**
  * Class ObjectResponseFormatter.
  *
- * @package Ircykk\AllegroApi\Rest
+ * @package bbcreation\AllegroApi\Rest
  */
 class ObjectResponseFormatter implements ResponseFormatterInterface
 {

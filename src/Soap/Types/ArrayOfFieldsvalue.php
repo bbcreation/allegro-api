@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfFieldsvalue implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfFieldsvalue implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param FieldsValue[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfFieldsvalue
+     * @return \bbcreation\AllegroApi\ArrayOfFieldsvalue
      */
     public function setItem(array $item = null)
     {

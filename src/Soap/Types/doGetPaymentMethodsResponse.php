@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doGetPaymentMethodsResponse
 {
@@ -28,7 +28,7 @@ class doGetPaymentMethodsResponse
 
     /**
      * @param ArrayOfPaymentmethodstruct $paymentMethods
-     * @return \Ircykk\AllegroApi\doGetPaymentMethodsResponse
+     * @return \bbcreation\AllegroApi\doGetPaymentMethodsResponse
      */
     public function setPaymentMethods($paymentMethods)
     {

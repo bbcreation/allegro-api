@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoCheckNewAuctionExtRequest
 {
@@ -56,7 +56,7 @@ class DoCheckNewAuctionExtRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoCheckNewAuctionExtRequest
+     * @return \bbcreation\AllegroApi\DoCheckNewAuctionExtRequest
      */
     public function setSessionHandle($sessionHandle)
     {
@@ -74,7 +74,7 @@ class DoCheckNewAuctionExtRequest
 
     /**
      * @param ArrayOfFieldsvalue $fields
-     * @return \Ircykk\AllegroApi\DoCheckNewAuctionExtRequest
+     * @return \bbcreation\AllegroApi\DoCheckNewAuctionExtRequest
      */
     public function setFields($fields)
     {
@@ -92,7 +92,7 @@ class DoCheckNewAuctionExtRequest
 
     /**
      * @param ArrayOfVariantstruct $variants
-     * @return \Ircykk\AllegroApi\DoCheckNewAuctionExtRequest
+     * @return \bbcreation\AllegroApi\DoCheckNewAuctionExtRequest
      */
     public function setVariants($variants)
     {
@@ -110,7 +110,7 @@ class DoCheckNewAuctionExtRequest
 
     /**
      * @param ArrayOfTagnamestruct $tags
-     * @return \Ircykk\AllegroApi\DoCheckNewAuctionExtRequest
+     * @return \bbcreation\AllegroApi\DoCheckNewAuctionExtRequest
      */
     public function setTags($tags)
     {
@@ -128,7 +128,7 @@ class DoCheckNewAuctionExtRequest
 
     /**
      * @param AfterSalesServiceConditionsStruct $afterSalesServiceConditions
-     * @return \Ircykk\AllegroApi\DoCheckNewAuctionExtRequest
+     * @return \bbcreation\AllegroApi\DoCheckNewAuctionExtRequest
      */
     public function setAfterSalesServiceConditions($afterSalesServiceConditions)
     {

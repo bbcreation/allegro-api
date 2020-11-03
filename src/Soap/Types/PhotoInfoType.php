@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class PhotoInfoType
 {
@@ -42,7 +42,7 @@ class PhotoInfoType
 
     /**
      * @param string $photoSize
-     * @return \Ircykk\AllegroApi\PhotoInfoType
+     * @return \bbcreation\AllegroApi\PhotoInfoType
      */
     public function setPhotoSize($photoSize)
     {
@@ -60,7 +60,7 @@ class PhotoInfoType
 
     /**
      * @param string $photoUrl
-     * @return \Ircykk\AllegroApi\PhotoInfoType
+     * @return \bbcreation\AllegroApi\PhotoInfoType
      */
     public function setPhotoUrl($photoUrl)
     {
@@ -78,7 +78,7 @@ class PhotoInfoType
 
     /**
      * @param boolean $photoIsMain
-     * @return \Ircykk\AllegroApi\PhotoInfoType
+     * @return \bbcreation\AllegroApi\PhotoInfoType
      */
     public function setPhotoIsMain($photoIsMain)
     {

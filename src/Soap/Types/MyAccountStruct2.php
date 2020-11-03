@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class MyAccountStruct2
 {
@@ -26,7 +26,7 @@ class MyAccountStruct2
 
     /**
      * @param ArrayOfString $myAccountArray
-     * @return \Ircykk\AllegroApi\MyAccountStruct2
+     * @return \bbcreation\AllegroApi\MyAccountStruct2
      */
     public function setMyAccountArray($myAccountArray)
     {

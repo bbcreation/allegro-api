@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetFreeDeliveryAmountRequest
 {
@@ -42,7 +42,7 @@ class DoGetFreeDeliveryAmountRequest
 
     /**
      * @param int $userId
-     * @return \Ircykk\AllegroApi\DoGetFreeDeliveryAmountRequest
+     * @return \bbcreation\AllegroApi\DoGetFreeDeliveryAmountRequest
      */
     public function setUserId($userId)
     {
@@ -60,7 +60,7 @@ class DoGetFreeDeliveryAmountRequest
 
     /**
      * @param int $countryId
-     * @return \Ircykk\AllegroApi\DoGetFreeDeliveryAmountRequest
+     * @return \bbcreation\AllegroApi\DoGetFreeDeliveryAmountRequest
      */
     public function setCountryId($countryId)
     {
@@ -78,7 +78,7 @@ class DoGetFreeDeliveryAmountRequest
 
     /**
      * @param string $webapiKey
-     * @return \Ircykk\AllegroApi\DoGetFreeDeliveryAmountRequest
+     * @return \bbcreation\AllegroApi\DoGetFreeDeliveryAmountRequest
      */
     public function setWebapiKey($webapiKey)
     {

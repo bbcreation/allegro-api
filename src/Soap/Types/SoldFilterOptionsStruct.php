@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class SoldFilterOptionsStruct
 {
@@ -46,7 +46,7 @@ class SoldFilterOptionsStruct
 
     /**
      * @param int $filterFormat
-     * @return \Ircykk\AllegroApi\SoldFilterOptionsStruct
+     * @return \bbcreation\AllegroApi\SoldFilterOptionsStruct
      */
     public function setFilterFormat($filterFormat)
     {
@@ -64,7 +64,7 @@ class SoldFilterOptionsStruct
 
     /**
      * @param int $filterFromEnd
-     * @return \Ircykk\AllegroApi\SoldFilterOptionsStruct
+     * @return \bbcreation\AllegroApi\SoldFilterOptionsStruct
      */
     public function setFilterFromEnd($filterFromEnd)
     {
@@ -82,7 +82,7 @@ class SoldFilterOptionsStruct
 
     /**
      * @param int $filterAutoListing
-     * @return \Ircykk\AllegroApi\SoldFilterOptionsStruct
+     * @return \bbcreation\AllegroApi\SoldFilterOptionsStruct
      */
     public function setFilterAutoListing($filterAutoListing)
     {
@@ -100,7 +100,7 @@ class SoldFilterOptionsStruct
 
     /**
      * @param FilterPriceStruct $filterPrice
-     * @return \Ircykk\AllegroApi\SoldFilterOptionsStruct
+     * @return \bbcreation\AllegroApi\SoldFilterOptionsStruct
      */
     public function setFilterPrice($filterPrice)
     {
@@ -118,7 +118,7 @@ class SoldFilterOptionsStruct
 
     /**
      * @param int $filterDurationType
-     * @return \Ircykk\AllegroApi\SoldFilterOptionsStruct
+     * @return \bbcreation\AllegroApi\SoldFilterOptionsStruct
      */
     public function setFilterDurationType($filterDurationType)
     {

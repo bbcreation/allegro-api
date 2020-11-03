@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class AdvertInfoType
 {
@@ -35,7 +35,7 @@ class AdvertInfoType
 
     /**
      * @param string $serviceId
-     * @return \Ircykk\AllegroApi\AdvertInfoType
+     * @return \bbcreation\AllegroApi\AdvertInfoType
      */
     public function setServiceId($serviceId)
     {
@@ -53,7 +53,7 @@ class AdvertInfoType
 
     /**
      * @param string $advertId
-     * @return \Ircykk\AllegroApi\AdvertInfoType
+     * @return \bbcreation\AllegroApi\AdvertInfoType
      */
     public function setAdvertId($advertId)
     {

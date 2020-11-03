@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ShipmentTimeStruct
 {
@@ -35,7 +35,7 @@ class ShipmentTimeStruct
 
     /**
      * @param int $shipmentTimeFrom
-     * @return \Ircykk\AllegroApi\ShipmentTimeStruct
+     * @return \bbcreation\AllegroApi\ShipmentTimeStruct
      */
     public function setShipmentTimeFrom($shipmentTimeFrom)
     {
@@ -53,7 +53,7 @@ class ShipmentTimeStruct
 
     /**
      * @param int $shipmentTimeTo
-     * @return \Ircykk\AllegroApi\ShipmentTimeStruct
+     * @return \bbcreation\AllegroApi\ShipmentTimeStruct
      */
     public function setShipmentTimeTo($shipmentTimeTo)
     {

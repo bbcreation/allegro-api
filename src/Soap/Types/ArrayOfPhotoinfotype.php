@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfPhotoinfotype implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfPhotoinfotype implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param PhotoInfoType[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfPhotoinfotype
+     * @return \bbcreation\AllegroApi\ArrayOfPhotoinfotype
      */
     public function setItem(array $item = null)
     {

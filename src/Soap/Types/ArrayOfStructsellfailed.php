@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfStructsellfailed implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfStructsellfailed implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param StructSellFailed[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfStructsellfailed
+     * @return \bbcreation\AllegroApi\ArrayOfStructsellfailed
      */
     public function setItem(array $item = null)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class RangeFloatValueStruct
 {
@@ -31,7 +31,7 @@ class RangeFloatValueStruct
 
     /**
      * @param float $fvalueRangeFloatMin
-     * @return \Ircykk\AllegroApi\RangeFloatValueStruct
+     * @return \bbcreation\AllegroApi\RangeFloatValueStruct
      */
     public function setFvalueRangeFloatMin($fvalueRangeFloatMin)
     {
@@ -49,7 +49,7 @@ class RangeFloatValueStruct
 
     /**
      * @param float $fvalueRangeFloatMax
-     * @return \Ircykk\AllegroApi\RangeFloatValueStruct
+     * @return \bbcreation\AllegroApi\RangeFloatValueStruct
      */
     public function setFvalueRangeFloatMax($fvalueRangeFloatMax)
     {

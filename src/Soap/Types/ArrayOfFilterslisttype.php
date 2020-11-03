@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfFilterslisttype implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfFilterslisttype implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param FiltersListType[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfFilterslisttype
+     * @return \bbcreation\AllegroApi\ArrayOfFilterslisttype
      */
     public function setItem(array $item = null)
     {

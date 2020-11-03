@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetUserLoginRequest
 {
@@ -42,7 +42,7 @@ class DoGetUserLoginRequest
 
     /**
      * @param int $countryId
-     * @return \Ircykk\AllegroApi\DoGetUserLoginRequest
+     * @return \bbcreation\AllegroApi\DoGetUserLoginRequest
      */
     public function setCountryId($countryId)
     {
@@ -60,7 +60,7 @@ class DoGetUserLoginRequest
 
     /**
      * @param int $userId
-     * @return \Ircykk\AllegroApi\DoGetUserLoginRequest
+     * @return \bbcreation\AllegroApi\DoGetUserLoginRequest
      */
     public function setUserId($userId)
     {
@@ -78,7 +78,7 @@ class DoGetUserLoginRequest
 
     /**
      * @param string $webapiKey
-     * @return \Ircykk\AllegroApi\DoGetUserLoginRequest
+     * @return \bbcreation\AllegroApi\DoGetUserLoginRequest
      */
     public function setWebapiKey($webapiKey)
     {

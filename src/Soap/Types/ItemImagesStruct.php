@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ItemImagesStruct
 {
@@ -33,7 +33,7 @@ class ItemImagesStruct
 
     /**
      * @param int $itemId
-     * @return \Ircykk\AllegroApi\ItemImagesStruct
+     * @return \bbcreation\AllegroApi\ItemImagesStruct
      */
     public function setItemId($itemId)
     {
@@ -51,7 +51,7 @@ class ItemImagesStruct
 
     /**
      * @param ArrayOfItemimagelist $itemImages
-     * @return \Ircykk\AllegroApi\ItemImagesStruct
+     * @return \bbcreation\AllegroApi\ItemImagesStruct
      */
     public function setItemImages($itemImages)
     {

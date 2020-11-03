@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi\HttpClient\Plugin;
+namespace bbcreation\AllegroApi\HttpClient\Plugin;
 
 use Http\Client\Common\Plugin;
 use Psr\Http\Message\RequestInterface;
@@ -8,7 +8,7 @@ use Psr\Http\Message\RequestInterface;
 /**
  * Adds token based authentication.
  *
- * @package Ircykk\AllegroApi\HttpClient\Plugin
+ * @package bbcreation\AllegroApi\HttpClient\Plugin
  */
 class TokenAuthentication implements Plugin
 {

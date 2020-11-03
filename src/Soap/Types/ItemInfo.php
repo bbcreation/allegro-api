@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ItemInfo
 {
@@ -320,7 +320,7 @@ class ItemInfo
 
     /**
      * @param int $itId
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItId($itId)
     {
@@ -338,7 +338,7 @@ class ItemInfo
 
     /**
      * @param int $itCountry
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItCountry($itCountry)
     {
@@ -356,7 +356,7 @@ class ItemInfo
 
     /**
      * @param string $itName
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItName($itName)
     {
@@ -374,7 +374,7 @@ class ItemInfo
 
     /**
      * @param float $itPrice
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItPrice($itPrice)
     {
@@ -392,7 +392,7 @@ class ItemInfo
 
     /**
      * @param int $itBidCount
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItBidCount($itBidCount)
     {
@@ -410,7 +410,7 @@ class ItemInfo
 
     /**
      * @param int $itEndingTime
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItEndingTime($itEndingTime)
     {
@@ -428,7 +428,7 @@ class ItemInfo
 
     /**
      * @param int $itSellerId
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItSellerId($itSellerId)
     {
@@ -446,7 +446,7 @@ class ItemInfo
 
     /**
      * @param string $itSellerLogin
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItSellerLogin($itSellerLogin)
     {
@@ -464,7 +464,7 @@ class ItemInfo
 
     /**
      * @param int $itSellerRating
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItSellerRating($itSellerRating)
     {
@@ -482,7 +482,7 @@ class ItemInfo
 
     /**
      * @param int $itStartingTime
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItStartingTime($itStartingTime)
     {
@@ -500,7 +500,7 @@ class ItemInfo
 
     /**
      * @param float $itStartingPrice
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItStartingPrice($itStartingPrice)
     {
@@ -518,7 +518,7 @@ class ItemInfo
 
     /**
      * @param int $itQuantity
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItQuantity($itQuantity)
     {
@@ -536,7 +536,7 @@ class ItemInfo
 
     /**
      * @param int $itFotoCount
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItFotoCount($itFotoCount)
     {
@@ -554,7 +554,7 @@ class ItemInfo
 
     /**
      * @param float $itReservePrice
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItReservePrice($itReservePrice)
     {
@@ -572,7 +572,7 @@ class ItemInfo
 
     /**
      * @param string $itLocation
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItLocation($itLocation)
     {
@@ -590,7 +590,7 @@ class ItemInfo
 
     /**
      * @param float $itBuyNowPrice
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItBuyNowPrice($itBuyNowPrice)
     {
@@ -608,7 +608,7 @@ class ItemInfo
 
     /**
      * @param int $itBuyNowActive
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItBuyNowActive($itBuyNowActive)
     {
@@ -626,7 +626,7 @@ class ItemInfo
 
     /**
      * @param float $itAdvertisementPrice
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItAdvertisementPrice($itAdvertisementPrice)
     {
@@ -644,7 +644,7 @@ class ItemInfo
 
     /**
      * @param int $itAdvertisementActive
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItAdvertisementActive($itAdvertisementActive)
     {
@@ -662,7 +662,7 @@ class ItemInfo
 
     /**
      * @param int $itHighBidder
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItHighBidder($itHighBidder)
     {
@@ -680,7 +680,7 @@ class ItemInfo
 
     /**
      * @param string $itHighBidderLogin
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItHighBidderLogin($itHighBidderLogin)
     {
@@ -698,7 +698,7 @@ class ItemInfo
 
     /**
      * @param string $itDescription
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItDescription($itDescription)
     {
@@ -716,7 +716,7 @@ class ItemInfo
 
     /**
      * @param string $itStandardizedDescription
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItStandardizedDescription($itStandardizedDescription)
     {
@@ -734,7 +734,7 @@ class ItemInfo
 
     /**
      * @param int $itOptions
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItOptions($itOptions)
     {
@@ -752,7 +752,7 @@ class ItemInfo
 
     /**
      * @param int $itState
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItState($itState)
     {
@@ -770,7 +770,7 @@ class ItemInfo
 
     /**
      * @param int $itIsEco
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItIsEco($itIsEco)
     {
@@ -788,7 +788,7 @@ class ItemInfo
 
     /**
      * @param int $itHitCount
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItHitCount($itHitCount)
     {
@@ -806,7 +806,7 @@ class ItemInfo
 
     /**
      * @param string $itPostcode
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItPostcode($itPostcode)
     {
@@ -824,7 +824,7 @@ class ItemInfo
 
     /**
      * @param int $itVatInvoice
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItVatInvoice($itVatInvoice)
     {
@@ -842,7 +842,7 @@ class ItemInfo
 
     /**
      * @param int $itVatMarginInvoice
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItVatMarginInvoice($itVatMarginInvoice)
     {
@@ -860,7 +860,7 @@ class ItemInfo
 
     /**
      * @param int $itWithoutVatInvoice
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItWithoutVatInvoice($itWithoutVatInvoice)
     {
@@ -878,7 +878,7 @@ class ItemInfo
 
     /**
      * @param string $itBankAccount1
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItBankAccount1($itBankAccount1)
     {
@@ -896,7 +896,7 @@ class ItemInfo
 
     /**
      * @param string $itBankAccount2
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItBankAccount2($itBankAccount2)
     {
@@ -914,7 +914,7 @@ class ItemInfo
 
     /**
      * @param int $itStartingQuantity
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItStartingQuantity($itStartingQuantity)
     {
@@ -932,7 +932,7 @@ class ItemInfo
 
     /**
      * @param int $itIsForGuests
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItIsForGuests($itIsForGuests)
     {
@@ -950,7 +950,7 @@ class ItemInfo
 
     /**
      * @param int $itHasProduct
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItHasProduct($itHasProduct)
     {
@@ -968,7 +968,7 @@ class ItemInfo
 
     /**
      * @param int $itOrderFulfillmentTime
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItOrderFulfillmentTime($itOrderFulfillmentTime)
     {
@@ -986,7 +986,7 @@ class ItemInfo
 
     /**
      * @param int $itEndingInfo
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItEndingInfo($itEndingInfo)
     {
@@ -1004,7 +1004,7 @@ class ItemInfo
 
     /**
      * @param int $itIsAllegroStandard
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItIsAllegroStandard($itIsAllegroStandard)
     {
@@ -1022,7 +1022,7 @@ class ItemInfo
 
     /**
      * @param int $itIsNewUsed
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItIsNewUsed($itIsNewUsed)
     {
@@ -1040,7 +1040,7 @@ class ItemInfo
 
     /**
      * @param int $itIsBrandZone
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItIsBrandZone($itIsBrandZone)
     {
@@ -1058,7 +1058,7 @@ class ItemInfo
 
     /**
      * @param DurationInfoStruct $itDurationInfo
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItDurationInfo($itDurationInfo)
     {
@@ -1076,7 +1076,7 @@ class ItemInfo
 
     /**
      * @param int $itIsFulfillmentTimeActive
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItIsFulfillmentTimeActive($itIsFulfillmentTimeActive)
     {
@@ -1094,7 +1094,7 @@ class ItemInfo
 
     /**
      * @param string $itEan
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItEan($itEan)
     {
@@ -1112,7 +1112,7 @@ class ItemInfo
 
     /**
      * @param string $itContact
-     * @return \Ircykk\AllegroApi\ItemInfo
+     * @return \bbcreation\AllegroApi\ItemInfo
      */
     public function setItContact($itContact)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doAddToBlackListResponse
 {
@@ -28,7 +28,7 @@ class doAddToBlackListResponse
 
     /**
      * @param ArrayOfUserblacklistaddresultstruct $userBlackListResultsArr
-     * @return \Ircykk\AllegroApi\doAddToBlackListResponse
+     * @return \bbcreation\AllegroApi\doAddToBlackListResponse
      */
     public function setUserBlackListResultsArr($userBlackListResultsArr)
     {

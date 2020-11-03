@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoSendRefundFormRequest
 {
@@ -49,7 +49,7 @@ class DoSendRefundFormRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoSendRefundFormRequest
+     * @return \bbcreation\AllegroApi\DoSendRefundFormRequest
      */
     public function setSessionId($sessionId)
     {
@@ -67,7 +67,7 @@ class DoSendRefundFormRequest
 
     /**
      * @param int $dealId
-     * @return \Ircykk\AllegroApi\DoSendRefundFormRequest
+     * @return \bbcreation\AllegroApi\DoSendRefundFormRequest
      */
     public function setDealId($dealId)
     {
@@ -85,7 +85,7 @@ class DoSendRefundFormRequest
 
     /**
      * @param int $reasonId
-     * @return \Ircykk\AllegroApi\DoSendRefundFormRequest
+     * @return \bbcreation\AllegroApi\DoSendRefundFormRequest
      */
     public function setReasonId($reasonId)
     {
@@ -103,7 +103,7 @@ class DoSendRefundFormRequest
 
     /**
      * @param int $refundQuantity
-     * @return \Ircykk\AllegroApi\DoSendRefundFormRequest
+     * @return \bbcreation\AllegroApi\DoSendRefundFormRequest
      */
     public function setRefundQuantity($refundQuantity)
     {

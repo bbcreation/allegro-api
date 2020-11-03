@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class PostBuyFormForBuyersDataStruct
 {
@@ -115,7 +115,7 @@ class PostBuyFormForBuyersDataStruct
 
     /**
      * @param int $postBuyFormId
-     * @return \Ircykk\AllegroApi\PostBuyFormForBuyersDataStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormForBuyersDataStruct
      */
     public function setPostBuyFormId($postBuyFormId)
     {
@@ -133,7 +133,7 @@ class PostBuyFormForBuyersDataStruct
 
     /**
      * @param int $postBuyFormBuyerId
-     * @return \Ircykk\AllegroApi\PostBuyFormForBuyersDataStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormForBuyersDataStruct
      */
     public function setPostBuyFormBuyerId($postBuyFormBuyerId)
     {
@@ -151,7 +151,7 @@ class PostBuyFormForBuyersDataStruct
 
     /**
      * @param ArrayOfPostbuyformsellersstruct $postBuyFormSellers
-     * @return \Ircykk\AllegroApi\PostBuyFormForBuyersDataStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormForBuyersDataStruct
      */
     public function setPostBuyFormSellers($postBuyFormSellers)
     {
@@ -169,7 +169,7 @@ class PostBuyFormForBuyersDataStruct
 
     /**
      * @param float $postBuyFormTotalAmount
-     * @return \Ircykk\AllegroApi\PostBuyFormForBuyersDataStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormForBuyersDataStruct
      */
     public function setPostBuyFormTotalAmount($postBuyFormTotalAmount)
     {
@@ -187,7 +187,7 @@ class PostBuyFormForBuyersDataStruct
 
     /**
      * @param int $postBuyFormInvoiceOption
-     * @return \Ircykk\AllegroApi\PostBuyFormForBuyersDataStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormForBuyersDataStruct
      */
     public function setPostBuyFormInvoiceOption($postBuyFormInvoiceOption)
     {
@@ -205,7 +205,7 @@ class PostBuyFormForBuyersDataStruct
 
     /**
      * @param PostBuyFormAddressStruct $postBuyFormInvoiceData
-     * @return \Ircykk\AllegroApi\PostBuyFormForBuyersDataStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormForBuyersDataStruct
      */
     public function setPostBuyFormInvoiceData($postBuyFormInvoiceData)
     {
@@ -223,7 +223,7 @@ class PostBuyFormForBuyersDataStruct
 
     /**
      * @param PostBuyFormAddressStruct $postBuyFormShipmentAddress
-     * @return \Ircykk\AllegroApi\PostBuyFormForBuyersDataStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormForBuyersDataStruct
      */
     public function setPostBuyFormShipmentAddress($postBuyFormShipmentAddress)
     {
@@ -241,7 +241,7 @@ class PostBuyFormForBuyersDataStruct
 
     /**
      * @param string $postBuyFormPayType
-     * @return \Ircykk\AllegroApi\PostBuyFormForBuyersDataStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormForBuyersDataStruct
      */
     public function setPostBuyFormPayType($postBuyFormPayType)
     {
@@ -259,7 +259,7 @@ class PostBuyFormForBuyersDataStruct
 
     /**
      * @param int $postBuyFormPayId
-     * @return \Ircykk\AllegroApi\PostBuyFormForBuyersDataStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormForBuyersDataStruct
      */
     public function setPostBuyFormPayId($postBuyFormPayId)
     {
@@ -277,7 +277,7 @@ class PostBuyFormForBuyersDataStruct
 
     /**
      * @param string $postBuyFormPayStatus
-     * @return \Ircykk\AllegroApi\PostBuyFormForBuyersDataStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormForBuyersDataStruct
      */
     public function setPostBuyFormPayStatus($postBuyFormPayStatus)
     {
@@ -295,7 +295,7 @@ class PostBuyFormForBuyersDataStruct
 
     /**
      * @param string $postBuyFormDateInit
-     * @return \Ircykk\AllegroApi\PostBuyFormForBuyersDataStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormForBuyersDataStruct
      */
     public function setPostBuyFormDateInit($postBuyFormDateInit)
     {
@@ -313,7 +313,7 @@ class PostBuyFormForBuyersDataStruct
 
     /**
      * @param string $postBuyFormDateRecv
-     * @return \Ircykk\AllegroApi\PostBuyFormForBuyersDataStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormForBuyersDataStruct
      */
     public function setPostBuyFormDateRecv($postBuyFormDateRecv)
     {
@@ -331,7 +331,7 @@ class PostBuyFormForBuyersDataStruct
 
     /**
      * @param string $postBuyFormDateCancel
-     * @return \Ircykk\AllegroApi\PostBuyFormForBuyersDataStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormForBuyersDataStruct
      */
     public function setPostBuyFormDateCancel($postBuyFormDateCancel)
     {
@@ -349,7 +349,7 @@ class PostBuyFormForBuyersDataStruct
 
     /**
      * @param float $postBuyFormPaymentAmount
-     * @return \Ircykk\AllegroApi\PostBuyFormForBuyersDataStruct
+     * @return \bbcreation\AllegroApi\PostBuyFormForBuyersDataStruct
      */
     public function setPostBuyFormPaymentAmount($postBuyFormPaymentAmount)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ItemDescriptionStruct
 {
@@ -28,7 +28,7 @@ class ItemDescriptionStruct
 
     /**
      * @param string $descriptionResult
-     * @return \Ircykk\AllegroApi\ItemDescriptionStruct
+     * @return \bbcreation\AllegroApi\ItemDescriptionStruct
      */
     public function setDescriptionResult($descriptionResult)
     {

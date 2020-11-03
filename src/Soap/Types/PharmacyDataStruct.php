@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class PharmacyDataStruct
 {
@@ -105,7 +105,7 @@ class PharmacyDataStruct
 
     /**
      * @param string $pharmacyOpeningDate
-     * @return \Ircykk\AllegroApi\PharmacyDataStruct
+     * @return \bbcreation\AllegroApi\PharmacyDataStruct
      */
     public function setPharmacyOpeningDate($pharmacyOpeningDate)
     {
@@ -123,7 +123,7 @@ class PharmacyDataStruct
 
     /**
      * @param string $pharmacyExpirationDate
-     * @return \Ircykk\AllegroApi\PharmacyDataStruct
+     * @return \bbcreation\AllegroApi\PharmacyDataStruct
      */
     public function setPharmacyExpirationDate($pharmacyExpirationDate)
     {
@@ -141,7 +141,7 @@ class PharmacyDataStruct
 
     /**
      * @param string $pharmacyName
-     * @return \Ircykk\AllegroApi\PharmacyDataStruct
+     * @return \bbcreation\AllegroApi\PharmacyDataStruct
      */
     public function setPharmacyName($pharmacyName)
     {
@@ -159,7 +159,7 @@ class PharmacyDataStruct
 
     /**
      * @param string $pharmacyPharmacistFullName
-     * @return \Ircykk\AllegroApi\PharmacyDataStruct
+     * @return \bbcreation\AllegroApi\PharmacyDataStruct
      */
     public function setPharmacyPharmacistFullName($pharmacyPharmacistFullName)
     {
@@ -177,7 +177,7 @@ class PharmacyDataStruct
 
     /**
      * @param string $pharmacyAddress
-     * @return \Ircykk\AllegroApi\PharmacyDataStruct
+     * @return \bbcreation\AllegroApi\PharmacyDataStruct
      */
     public function setPharmacyAddress($pharmacyAddress)
     {
@@ -195,7 +195,7 @@ class PharmacyDataStruct
 
     /**
      * @param string $pharmacyPostcode
-     * @return \Ircykk\AllegroApi\PharmacyDataStruct
+     * @return \bbcreation\AllegroApi\PharmacyDataStruct
      */
     public function setPharmacyPostcode($pharmacyPostcode)
     {
@@ -213,7 +213,7 @@ class PharmacyDataStruct
 
     /**
      * @param string $pharmacyCity
-     * @return \Ircykk\AllegroApi\PharmacyDataStruct
+     * @return \bbcreation\AllegroApi\PharmacyDataStruct
      */
     public function setPharmacyCity($pharmacyCity)
     {
@@ -231,7 +231,7 @@ class PharmacyDataStruct
 
     /**
      * @param string $pharmacyCommune
-     * @return \Ircykk\AllegroApi\PharmacyDataStruct
+     * @return \bbcreation\AllegroApi\PharmacyDataStruct
      */
     public function setPharmacyCommune($pharmacyCommune)
     {
@@ -249,7 +249,7 @@ class PharmacyDataStruct
 
     /**
      * @param int $pharmacyCountryId
-     * @return \Ircykk\AllegroApi\PharmacyDataStruct
+     * @return \bbcreation\AllegroApi\PharmacyDataStruct
      */
     public function setPharmacyCountryId($pharmacyCountryId)
     {
@@ -267,7 +267,7 @@ class PharmacyDataStruct
 
     /**
      * @param int $pharmacyStateId
-     * @return \Ircykk\AllegroApi\PharmacyDataStruct
+     * @return \bbcreation\AllegroApi\PharmacyDataStruct
      */
     public function setPharmacyStateId($pharmacyStateId)
     {
@@ -285,7 +285,7 @@ class PharmacyDataStruct
 
     /**
      * @param string $pharmacyPermitNumber
-     * @return \Ircykk\AllegroApi\PharmacyDataStruct
+     * @return \bbcreation\AllegroApi\PharmacyDataStruct
      */
     public function setPharmacyPermitNumber($pharmacyPermitNumber)
     {
@@ -303,7 +303,7 @@ class PharmacyDataStruct
 
     /**
      * @param string $pharmacyPermitInfo
-     * @return \Ircykk\AllegroApi\PharmacyDataStruct
+     * @return \bbcreation\AllegroApi\PharmacyDataStruct
      */
     public function setPharmacyPermitInfo($pharmacyPermitInfo)
     {

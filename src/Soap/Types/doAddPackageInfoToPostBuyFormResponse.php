@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doAddPackageInfoToPostBuyFormResponse
 {
@@ -28,7 +28,7 @@ class doAddPackageInfoToPostBuyFormResponse
 
     /**
      * @param PostBuyFormPackageInfoStruct $postBuyFormPackageInfo
-     * @return \Ircykk\AllegroApi\doAddPackageInfoToPostBuyFormResponse
+     * @return \bbcreation\AllegroApi\doAddPackageInfoToPostBuyFormResponse
      */
     public function setPostBuyFormPackageInfo($postBuyFormPackageInfo)
     {

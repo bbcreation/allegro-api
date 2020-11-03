@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class SiteJournalInfo
 {
@@ -35,7 +35,7 @@ class SiteJournalInfo
 
     /**
      * @param int $itemsNumber
-     * @return \Ircykk\AllegroApi\SiteJournalInfo
+     * @return \bbcreation\AllegroApi\SiteJournalInfo
      */
     public function setItemsNumber($itemsNumber)
     {
@@ -53,7 +53,7 @@ class SiteJournalInfo
 
     /**
      * @param int $lastItemDate
-     * @return \Ircykk\AllegroApi\SiteJournalInfo
+     * @return \bbcreation\AllegroApi\SiteJournalInfo
      */
     public function setLastItemDate($lastItemDate)
     {

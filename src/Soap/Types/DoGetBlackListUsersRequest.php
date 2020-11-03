@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetBlackListUsersRequest
 {
@@ -28,7 +28,7 @@ class DoGetBlackListUsersRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoGetBlackListUsersRequest
+     * @return \bbcreation\AllegroApi\DoGetBlackListUsersRequest
      */
     public function setSessionHandle($sessionHandle)
     {

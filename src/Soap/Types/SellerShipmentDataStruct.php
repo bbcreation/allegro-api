@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class SellerShipmentDataStruct
 {
@@ -47,7 +47,7 @@ class SellerShipmentDataStruct
 
     /**
      * @param int $sellerId
-     * @return \Ircykk\AllegroApi\SellerShipmentDataStruct
+     * @return \bbcreation\AllegroApi\SellerShipmentDataStruct
      */
     public function setSellerId($sellerId)
     {
@@ -65,7 +65,7 @@ class SellerShipmentDataStruct
 
     /**
      * @param SellerPaymentInfoStruct $sellerPaymentInfo
-     * @return \Ircykk\AllegroApi\SellerShipmentDataStruct
+     * @return \bbcreation\AllegroApi\SellerShipmentDataStruct
      */
     public function setSellerPaymentInfo($sellerPaymentInfo)
     {
@@ -83,7 +83,7 @@ class SellerShipmentDataStruct
 
     /**
      * @param int $sellerOtherShipmentIsActive
-     * @return \Ircykk\AllegroApi\SellerShipmentDataStruct
+     * @return \bbcreation\AllegroApi\SellerShipmentDataStruct
      */
     public function setSellerOtherShipmentIsActive($sellerOtherShipmentIsActive)
     {
@@ -101,7 +101,7 @@ class SellerShipmentDataStruct
 
     /**
      * @param ArrayOfShipmentpaymentinfostruct $generalDeliveryPaymentInfo
-     * @return \Ircykk\AllegroApi\SellerShipmentDataStruct
+     * @return \bbcreation\AllegroApi\SellerShipmentDataStruct
      */
     public function setGeneralDeliveryPaymentInfo($generalDeliveryPaymentInfo)
     {

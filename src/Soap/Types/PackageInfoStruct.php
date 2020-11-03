@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class PackageInfoStruct
 {
@@ -40,7 +40,7 @@ class PackageInfoStruct
 
     /**
      * @param int $operatorId
-     * @return \Ircykk\AllegroApi\PackageInfoStruct
+     * @return \bbcreation\AllegroApi\PackageInfoStruct
      */
     public function setOperatorId($operatorId)
     {
@@ -58,7 +58,7 @@ class PackageInfoStruct
 
     /**
      * @param string $packageId
-     * @return \Ircykk\AllegroApi\PackageInfoStruct
+     * @return \bbcreation\AllegroApi\PackageInfoStruct
      */
     public function setPackageId($packageId)
     {
@@ -76,7 +76,7 @@ class PackageInfoStruct
 
     /**
      * @param string $operatorName
-     * @return \Ircykk\AllegroApi\PackageInfoStruct
+     * @return \bbcreation\AllegroApi\PackageInfoStruct
      */
     public function setOperatorName($operatorName)
     {

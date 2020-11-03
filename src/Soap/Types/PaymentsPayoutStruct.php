@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class PaymentsPayoutStruct
 {
@@ -35,7 +35,7 @@ class PaymentsPayoutStruct
 
     /**
      * @param int $payoutType
-     * @return \Ircykk\AllegroApi\PaymentsPayoutStruct
+     * @return \bbcreation\AllegroApi\PaymentsPayoutStruct
      */
     public function setPayoutType($payoutType)
     {
@@ -53,7 +53,7 @@ class PaymentsPayoutStruct
 
     /**
      * @param PayoutAutoSettingsStruct $payoutAutoSettings
-     * @return \Ircykk\AllegroApi\PaymentsPayoutStruct
+     * @return \bbcreation\AllegroApi\PaymentsPayoutStruct
      */
     public function setPayoutAutoSettings($payoutAutoSettings)
     {

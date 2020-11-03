@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ArrayOfNotwonitemstruct implements \ArrayAccess, \Iterator, \Countable
 {
@@ -26,7 +26,7 @@ class ArrayOfNotwonitemstruct implements \ArrayAccess, \Iterator, \Countable
 
     /**
      * @param NotWonItemStruct[] $item
-     * @return \Ircykk\AllegroApi\ArrayOfNotwonitemstruct
+     * @return \bbcreation\AllegroApi\ArrayOfNotwonitemstruct
      */
     public function setItem(array $item = null)
     {

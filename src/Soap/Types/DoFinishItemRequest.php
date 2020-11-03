@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoFinishItemRequest
 {
@@ -49,7 +49,7 @@ class DoFinishItemRequest
 
     /**
      * @param string $sessionHandle
-     * @return \Ircykk\AllegroApi\DoFinishItemRequest
+     * @return \bbcreation\AllegroApi\DoFinishItemRequest
      */
     public function setSessionHandle($sessionHandle)
     {
@@ -67,7 +67,7 @@ class DoFinishItemRequest
 
     /**
      * @param int $finishItemId
-     * @return \Ircykk\AllegroApi\DoFinishItemRequest
+     * @return \bbcreation\AllegroApi\DoFinishItemRequest
      */
     public function setFinishItemId($finishItemId)
     {
@@ -85,7 +85,7 @@ class DoFinishItemRequest
 
     /**
      * @param int $finishCancelAllBids
-     * @return \Ircykk\AllegroApi\DoFinishItemRequest
+     * @return \bbcreation\AllegroApi\DoFinishItemRequest
      */
     public function setFinishCancelAllBids($finishCancelAllBids)
     {
@@ -103,7 +103,7 @@ class DoFinishItemRequest
 
     /**
      * @param string $finishCancelReason
-     * @return \Ircykk\AllegroApi\DoFinishItemRequest
+     * @return \bbcreation\AllegroApi\DoFinishItemRequest
      */
     public function setFinishCancelReason($finishCancelReason)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetPaymentMethodsRequest
 {
@@ -35,7 +35,7 @@ class DoGetPaymentMethodsRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoGetPaymentMethodsRequest
+     * @return \bbcreation\AllegroApi\DoGetPaymentMethodsRequest
      */
     public function setSessionId($sessionId)
     {
@@ -53,7 +53,7 @@ class DoGetPaymentMethodsRequest
 
     /**
      * @param ArrayOfLong $itemIds
-     * @return \Ircykk\AllegroApi\DoGetPaymentMethodsRequest
+     * @return \bbcreation\AllegroApi\DoGetPaymentMethodsRequest
      */
     public function setItemIds($itemIds)
     {

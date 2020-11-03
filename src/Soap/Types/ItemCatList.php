@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ItemCatList
 {
@@ -42,7 +42,7 @@ class ItemCatList
 
     /**
      * @param int $catLevel
-     * @return \Ircykk\AllegroApi\ItemCatList
+     * @return \bbcreation\AllegroApi\ItemCatList
      */
     public function setCatLevel($catLevel)
     {
@@ -60,7 +60,7 @@ class ItemCatList
 
     /**
      * @param int $catId
-     * @return \Ircykk\AllegroApi\ItemCatList
+     * @return \bbcreation\AllegroApi\ItemCatList
      */
     public function setCatId($catId)
     {
@@ -78,7 +78,7 @@ class ItemCatList
 
     /**
      * @param string $catName
-     * @return \Ircykk\AllegroApi\ItemCatList
+     * @return \bbcreation\AllegroApi\ItemCatList
      */
     public function setCatName($catName)
     {

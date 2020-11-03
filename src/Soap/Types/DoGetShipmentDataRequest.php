@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetShipmentDataRequest
 {
@@ -35,7 +35,7 @@ class DoGetShipmentDataRequest
 
     /**
      * @param int $countryId
-     * @return \Ircykk\AllegroApi\DoGetShipmentDataRequest
+     * @return \bbcreation\AllegroApi\DoGetShipmentDataRequest
      */
     public function setCountryId($countryId)
     {
@@ -53,7 +53,7 @@ class DoGetShipmentDataRequest
 
     /**
      * @param string $webapiKey
-     * @return \Ircykk\AllegroApi\DoGetShipmentDataRequest
+     * @return \bbcreation\AllegroApi\DoGetShipmentDataRequest
      */
     public function setWebapiKey($webapiKey)
     {

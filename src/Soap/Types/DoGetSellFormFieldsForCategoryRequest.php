@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoGetSellFormFieldsForCategoryRequest
 {
@@ -42,7 +42,7 @@ class DoGetSellFormFieldsForCategoryRequest
 
     /**
      * @param string $webapiKey
-     * @return \Ircykk\AllegroApi\DoGetSellFormFieldsForCategoryRequest
+     * @return \bbcreation\AllegroApi\DoGetSellFormFieldsForCategoryRequest
      */
     public function setWebapiKey($webapiKey)
     {
@@ -60,7 +60,7 @@ class DoGetSellFormFieldsForCategoryRequest
 
     /**
      * @param int $countryId
-     * @return \Ircykk\AllegroApi\DoGetSellFormFieldsForCategoryRequest
+     * @return \bbcreation\AllegroApi\DoGetSellFormFieldsForCategoryRequest
      */
     public function setCountryId($countryId)
     {
@@ -78,7 +78,7 @@ class DoGetSellFormFieldsForCategoryRequest
 
     /**
      * @param int $categoryId
-     * @return \Ircykk\AllegroApi\DoGetSellFormFieldsForCategoryRequest
+     * @return \bbcreation\AllegroApi\DoGetSellFormFieldsForCategoryRequest
      */
     public function setCategoryId($categoryId)
     {

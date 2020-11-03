@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class ShipmentPriceTypeStruct
 {
@@ -35,7 +35,7 @@ class ShipmentPriceTypeStruct
 
     /**
      * @param int $shipmentPriceTypeId
-     * @return \Ircykk\AllegroApi\ShipmentPriceTypeStruct
+     * @return \bbcreation\AllegroApi\ShipmentPriceTypeStruct
      */
     public function setShipmentPriceTypeId($shipmentPriceTypeId)
     {
@@ -53,7 +53,7 @@ class ShipmentPriceTypeStruct
 
     /**
      * @param string $shipmentPriceTypeName
-     * @return \Ircykk\AllegroApi\ShipmentPriceTypeStruct
+     * @return \bbcreation\AllegroApi\ShipmentPriceTypeStruct
      */
     public function setShipmentPriceTypeName($shipmentPriceTypeName)
     {

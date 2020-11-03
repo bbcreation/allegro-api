@@ -1,16 +1,16 @@
 <?php
 
-namespace Ircykk\AllegroApi\Rest\Sale\Categories;
+namespace bbcreation\AllegroApi\Rest\Sale\Categories;
 
 use Http\Client\Exception;
-use Ircykk\AllegroApi\Rest\AbstractRestResource;
+use bbcreation\AllegroApi\Rest\AbstractRestResource;
 
 /**
  * Class Parameters.
  *
  * @link https://developer.allegro.pl/documentation/#/offer-management
  *
- * @package Ircykk\AllegroApi\Rest\Sale
+ * @package bbcreation\AllegroApi\Rest\Sale
  */
 class Parameters extends AbstractRestResource
 {

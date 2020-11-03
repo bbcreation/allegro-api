@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class DoRequestPayoutRequest
 {
@@ -28,7 +28,7 @@ class DoRequestPayoutRequest
 
     /**
      * @param string $sessionId
-     * @return \Ircykk\AllegroApi\DoRequestPayoutRequest
+     * @return \bbcreation\AllegroApi\DoRequestPayoutRequest
      */
     public function setSessionId($sessionId)
     {

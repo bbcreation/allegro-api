@@ -1,6 +1,6 @@
 <?php
 
-namespace Ircykk\AllegroApi;
+namespace bbcreation\AllegroApi;
 
 class doChangePriceItemResponse
 {
@@ -35,7 +35,7 @@ class doChangePriceItemResponse
 
     /**
      * @param string $itemInfo
-     * @return \Ircykk\AllegroApi\doChangePriceItemResponse
+     * @return \bbcreation\AllegroApi\doChangePriceItemResponse
      */
     public function setItemInfo($itemInfo)
     {
@@ -53,7 +53,7 @@ class doChangePriceItemResponse
 
     /**
      * @param int $itemId
-     * @return \Ircykk\AllegroApi\doChangePriceItemResponse
+     * @return \bbcreation\AllegroApi\doChangePriceItemResponse
      */
     public function setItemId($itemId)
     {
