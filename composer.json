@@ -1,6 +1,6 @@
 {
-    "name": "ircykk/allegro-api",
-    "description": "Allegro API client",
+    "name": "bbcreation/allegro-api",
+    "description": "Fork Allegro API client from ircykk - add support to Laravel 6",
     "keywords": ["allegro api", "rest", "soap", "sandbox"],
     "type": "library",
     "require": {
